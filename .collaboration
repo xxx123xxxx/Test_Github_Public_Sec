@@ -198,13 +198,13 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "PCPage/页面3",
+    "ModuleName": "PCPage/buildintable",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\NancyYang",
       "Email": "Nancy.yang@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T17:12:20.9030728+08:00",
+    "LockDateTime": "2021-10-09T17:12:32.8476463+08:00",
     "ModuleType": 1
   }
 ]
