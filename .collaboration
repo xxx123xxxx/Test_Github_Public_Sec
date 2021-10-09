@@ -214,12 +214,6 @@
   },
   {
     "ModuleName": "PageReport/报表1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:10:39.8988739+08:00",
     "ModuleType": 17
   },
   {
@@ -228,12 +222,6 @@
   },
   {
     "ModuleName": "PageReport/报表2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:17:20.3319007+08:00",
     "ModuleType": 17
   },
   {
@@ -248,12 +236,6 @@
   },
   {
     "ModuleName": "PCPage/页面3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:19:14.761045+08:00",
     "ModuleType": 1
   }
 ]
