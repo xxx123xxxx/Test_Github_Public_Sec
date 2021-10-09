@@ -169,5 +169,15 @@
   {
     "ModuleName": "PCPage/页面2",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TableView/视图24",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:40:56.5430253+08:00",
+    "ModuleType": 23
   }
 ]
