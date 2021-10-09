@@ -165,5 +165,15 @@
   {
     "ModuleName": "PageReport/报表2",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "PCPage/页面2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:40:35.0852912+08:00",
+    "ModuleType": 1
   }
 ]
