@@ -147,5 +147,16 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "Table/offset_count_buildin1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T11:02:29.1555107+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
