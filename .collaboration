@@ -243,16 +243,6 @@
   },
   {
     "ModuleName": "PageReport/aaa",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:01:03.8030515+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\Cindy\\aaa.json",
-      "Reports\\Cindy\\aaa.rdlx"
-    ]
+    "ModuleType": 17
   }
 ]
