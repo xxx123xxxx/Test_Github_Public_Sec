@@ -222,6 +222,16 @@
   },
   {
     "ModuleName": "PageReport/页面报表_排列 (2)",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:19:12.6320043+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\内建\\页面报表_排列 (2).json",
+      "Reports\\内建\\页面报表_排列 (2).rdlx"
+    ]
   }
 ]
