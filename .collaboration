@@ -180,7 +180,16 @@
   },
   {
     "ModuleName": "ServerCommand/buildintable",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T17:23:09.2444449+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\nancy\\buildintable.json"
+    ]
   },
   {
     "ModuleName": "Pages/nancy",
