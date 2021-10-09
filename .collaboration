@@ -198,22 +198,10 @@
   },
   {
     "ModuleName": "Reports/Mysql",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:56.4433267+08:00",
     "ModuleType": 19
   },
   {
     "ModuleName": "PageReport/页面报表_mysql",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:59:16.4514657+08:00",
     "ModuleType": 17
   }
 ]
