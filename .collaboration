@@ -217,20 +217,6 @@
     "ModuleType": 17
   },
   {
-    "ModuleName": "RdlReport/报表1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:38:38.2861841+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\报表1.json",
-      "Reports\\报表1.rdlx"
-    ]
-  },
-  {
     "ModuleName": "MobilePage/页面3",
     "ModuleType": 2
   },
