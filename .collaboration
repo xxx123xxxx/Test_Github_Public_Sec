@@ -279,5 +279,15 @@
     },
     "LockDateTime": "2021-10-09T14:13:04.5401851+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PageReport/页面报表_排列 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:17:26.5968997+08:00",
+    "ModuleType": 17
   }
 ]
