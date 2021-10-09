@@ -196,15 +196,5 @@
     "ModuleName": "Table/student",
     "ModuleType": 7,
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "ServerCommand/服务端命令1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:19:35.3781497+08:00",
-    "ModuleType": 15
   }
 ]
