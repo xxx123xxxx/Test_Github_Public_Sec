@@ -226,12 +226,6 @@
   },
   {
     "ModuleName": "RdlReport/rdl报表_排列",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T14:21:01.3477034+08:00",
     "ModuleType": 18
   }
 ]
