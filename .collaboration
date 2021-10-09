@@ -159,16 +159,6 @@
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
-    "ModuleType": 22
-  },
-  {
     "ModuleName": "Tables/mysql",
     "State": 3,
     "LockedBy": {
