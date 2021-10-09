@@ -218,11 +218,31 @@
   },
   {
     "ModuleName": "RdlReport/报表1",
-    "ModuleType": 18
+    "State": 2,
+    "LockedBy": {
+      "UserName": "XA-DD3-FS12CN\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-09T17:36:53.9926613+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\报表1.json",
+      "Reports\\报表1.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/报表2",
-    "ModuleType": 17
+    "State": 2,
+    "LockedBy": {
+      "UserName": "XA-DD3-FS12CN\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-09T17:36:53.9926613+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\报表2.json",
+      "Reports\\报表2.rdlx"
+    ]
   },
   {
     "ModuleName": "MobilePage/页面3",
