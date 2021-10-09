@@ -1,0 +1,27 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "1B77D134-B2AA-4867-AD46-053B8AD0D7E6",
+      "Params": {},
+      "SqlStatement": "update student\r\nset \"文本\"=\"aaa\" where ID=1",
+      "TestingParameters": {},
+      "ID": "c89d47bccfd64afc8fb5514f9cbb18d9"
+    }
+  ],
+  "Name": "buildintable"
+}
