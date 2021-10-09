@@ -177,5 +177,25 @@
     },
     "LockDateTime": "2021-10-09T14:49:51.6785562+08:00",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "PCPage/RYTTHTY_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T15:04:34.5202372+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/RYTTHTY_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T15:04:34.5202372+08:00",
+    "ModuleType": 1
   }
 ]
