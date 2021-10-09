@@ -195,5 +195,15 @@
   {
     "ModuleName": "Tables/内建",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "Reports/Mysql",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T13:58:56.4433267+08:00",
+    "ModuleType": 19
   }
 ]
