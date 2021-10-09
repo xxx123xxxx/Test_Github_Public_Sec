@@ -155,7 +155,7 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
@@ -169,13 +169,13 @@
     "ModuleType": 22
   },
   {
-    "ModuleName": "Tables/导入文件夹1/mysql",
+    "ModuleName": "Tables/mysql",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -185,17 +185,17 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1/oracle",
+    "ModuleName": "Tables/oracle",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -205,17 +205,17 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1/sqlserver",
+    "ModuleName": "Tables/sqlserver",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -225,17 +225,17 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1/dameng",
+    "ModuleName": "Tables/dameng",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -245,17 +245,17 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1/postgresql",
+    "ModuleName": "Tables/postgresql",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -265,17 +265,17 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
-    "ModuleName": "Tables/导入文件夹1/tibero",
+    "ModuleName": "Tables/tibero",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
@@ -285,18 +285,18 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Tables/导入文件夹1/内建",
+    "ModuleName": "Tables/内建",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T13:57:58.5983376+08:00",
+    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   }
 ]
