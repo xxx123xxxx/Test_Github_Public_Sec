@@ -198,7 +198,17 @@
   },
   {
     "ModuleName": "Table/built_checkReport",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:12:22.0098139+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\内建\\built_checkReport.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
