@@ -1,16 +1,7 @@
 [
   {
     "ModuleName": "Table/_半覆盖_222",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T14:45:28.2787066+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\_半覆盖_222.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/视图24",
@@ -126,45 +117,15 @@
   },
   {
     "ModuleName": "PageReport/报表1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:08:58.0264009+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\报表1.json",
-      "Reports\\报表1.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "PageReport/报表2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:08:58.0264009+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\报表2.json",
-      "Reports\\报表2.rdlx"
-    ]
+    "ModuleType": 17
   },
   {
     "ModuleName": "ApplicationSetting",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:41:04.6207087+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "Theme",
@@ -192,57 +153,11 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:13:42.1341954+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:16:45.6010794+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": []
-  },
-  {
-    "ModuleName": "TableView/RYTTHTY",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T14:49:51.6785562+08:00",
-    "ModuleType": 23
-  },
-  {
-    "ModuleName": "PCPage/RYTTHTY_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:04:34.5202372+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/RYTTHTY_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:04:34.5202372+08:00",
-    "ModuleType": 1
+    "ModuleType": 26
   },
   {
     "ModuleName": "Reports/Cindy",
@@ -251,35 +166,5 @@
   {
     "ModuleName": "PageReport/aaa",
     "ModuleType": 17
-  },
-  {
-    "ModuleName": "Table/表16",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:39:19.3358529+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "PCPage/表16_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:43:01.4378137+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/表16_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:43:01.4378137+08:00",
-    "ModuleType": 1
   }
 ]
