@@ -105,17 +105,7 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T10:37:16.6229623+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "Theme",
@@ -127,29 +117,11 @@
   },
   {
     "ModuleName": "UserService",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T10:37:23.9691796+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T10:39:33.4777104+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",
@@ -177,16 +149,7 @@
   },
   {
     "ModuleName": "PCPage/表1_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T12:20:43.8624343+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\导入文件夹1\\表1_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/表1",
