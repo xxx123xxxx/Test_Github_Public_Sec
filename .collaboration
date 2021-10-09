@@ -234,5 +234,15 @@
   {
     "ModuleName": "PageReport/aaa",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "Table/表15",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T16:14:45.9085416+08:00",
+    "ModuleType": 7
   }
 ]
