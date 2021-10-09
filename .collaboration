@@ -221,5 +221,15 @@
     },
     "LockDateTime": "2021-10-09T16:10:39.8988739+08:00",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "RdlReport/报表1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "XA-DD3-FS12CN\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-09T16:10:48.1590378+08:00",
+    "ModuleType": 18
   }
 ]
