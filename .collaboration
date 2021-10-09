@@ -209,74 +209,7 @@
     "ModuleType": 18
   },
   {
-    "ModuleName": "Reports/内建",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:02:35.5948905+08:00",
-    "ModuleType": 19,
-    "ToRemoveFiles": []
-  },
-  {
-    "ModuleName": "PageReport/页面报表_排列",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:02:35.5948905+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\内建\\页面报表_排列.json",
-      "Reports\\内建\\页面报表_排列.rdlx"
-    ]
-  },
-  {
     "ModuleName": "PCPage/页面2",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PageReport/页面报表_排列 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:02:35.5948905+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\内建\\页面报表_排列 (2).json",
-      "Reports\\内建\\页面报表_排列 (2).rdlx"
-    ]
-  },
-  {
-    "ModuleName": "RdlReport/rdl报表_排列",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:02:35.5948905+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\内建\\rdl报表_排列.json",
-      "Reports\\内建\\rdl报表_排列.rdlx"
-    ]
-  },
-  {
-    "ModuleName": "PageReport/报表1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T16:02:35.5948905+08:00",
-    "ModuleType": 17,
-    "ToRemoveFiles": [
-      "Reports\\内建\\报表1.json",
-      "Reports\\内建\\报表1.rdlx"
-    ]
   }
 ]
