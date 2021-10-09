@@ -225,5 +225,15 @@
   {
     "ModuleName": "RdlReport/报表1",
     "ModuleType": 18
+  },
+  {
+    "ModuleName": "PageReport/报表2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T16:17:20.3319007+08:00",
+    "ModuleType": 17
   }
 ]
