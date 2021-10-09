@@ -146,7 +146,14 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:15:25.3667264+08:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/mysql_checkReport",
@@ -203,7 +210,7 @@
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T14:12:22.0098139+08:00",
+    "LockDateTime": "2021-10-09T14:15:25.3667264+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\内建\\built_checkReport.json",
