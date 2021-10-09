@@ -1,0 +1,63 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "这是活字格的内建页面，为了和你的应用程序匹配，你可以修改这个页面"
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//0JRBaSdRzIOKwhcaPDexCPGUKGR+M9smEg7AjgtXDaTwGxdTRBc/9Vpf5afRXdSPRHWRO4gWuQT7LoznG1RohLa5WF0b/cAcxozM9aiQSZ0mFYzn8W1yksooRex743Hckwf62oQ2sBcAlPk48KvrEzLf/XHJQ77M/u/OkjuzLRraNIm3/cbobO6y8fStPJFOO9eyBp7yWT6jtkMSRiUsVFCnOwJr0UeB5ti7Sx8Mhnyamslp5omykDdkgXWdMb6C5znZdY3mXOkqfH6+wrDhhHZYKkkyur9f4A5clXk4nST7VLpxD7ZL9qzlBMl8KhaHIT5wWftwkoDcn+wToczU4EJ5nKjmQC5w53tp6G4gUq5T2nOb2YjfWgUDGQqCkaSlRuFWhLn6xunJw3OBq5l69fAkh+9alMT6jHaUEz2J5lqLftxH3QMC0hA0rctAvQ8nstpECnNq0FJAUyWbzG6xGuMUcmEfHOGerUhsFaeuBCLmF17Ak7EqIXchDZ0KbAykt0WB6pA+yR3LwbPrd0X3x+9kK01EwV7o1mNAGC5iiCgAb0Y/KCkLtf7CrIDBiwG1kfm+cclTKZsBFQI1rLXDkaXu/jdmGUNdW+2JV4SsI8PeBf1Cuzuw/Y3gsvDONktrnEVSeXxqaAYZ2p+JYnjg2Qa/6ro1/syvDqSV6UAGy5b1ZgxSM9+5wj8Af2sPpGgDAFoMR/mKtYAkiWvLPPp1KCC0Ga9YW1GUfmYBLRz/WQaT3qt5x1OixZYjgGZb7kewr+XGmDnW/BEI9bXVoV/VmYqjBsPTa51/jEVZAYQl86tJtkJlj8/VaZdleQGg30tIapvYBlGdeW2bM8zRzQJkXOffzyDK4eUNispXiZm1JPTWbsjC91Oqs/ZLqpPTtSH3yxzuElSR3ur2tOK4ND5sFQ==|920
