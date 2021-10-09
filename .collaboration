@@ -218,7 +218,17 @@
   },
   {
     "ModuleName": "RdlReport/报表1",
-    "ModuleType": 18
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-FS12CN\\Administrator",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-09T16:23:05.9147567+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\报表1.json",
+      "Reports\\报表1.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/报表2",
