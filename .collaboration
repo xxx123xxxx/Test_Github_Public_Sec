@@ -1,7 +1,16 @@
 [
   {
     "ModuleName": "Table/_半覆盖_222",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T14:45:28.2787066+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\_半覆盖_222.json"
+    ]
   },
   {
     "ModuleName": "TableView/视图24",
