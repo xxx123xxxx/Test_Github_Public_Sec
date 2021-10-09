@@ -206,7 +206,17 @@
   },
   {
     "ModuleName": "RdlReport/RDL报表_mysql",
-    "ModuleType": 18
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T16:03:14.6538281+08:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\Mysql\\RDL报表_mysql.json",
+      "Reports\\Mysql\\RDL报表_mysql.rdlx"
+    ]
   },
   {
     "ModuleName": "PCPage/页面2",
