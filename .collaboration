@@ -147,7 +147,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T11:42:52.9110446+08:00",
+    "LockDateTime": "2021-10-09T11:52:45.3367934+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet"
@@ -164,7 +164,18 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T11:43:03.8406628+08:00",
+    "LockDateTime": "2021-10-09T11:52:45.3367934+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/会员信息",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T11:52:45.3367934+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
