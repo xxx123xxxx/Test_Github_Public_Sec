@@ -97,16 +97,7 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-FS12CN\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T17:32:17.1443325+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -227,17 +218,7 @@
   },
   {
     "ModuleName": "RdlReport/报表1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-FS12CN\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T16:23:05.9147567+08:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\报表1.json",
-      "Reports\\报表1.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "PageReport/报表2",
@@ -245,12 +226,6 @@
   },
   {
     "ModuleName": "MobilePage/页面3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "XA-DD3-FS12CN\\Administrator",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-09T16:18:45.354573+08:00",
     "ModuleType": 2
   },
   {
