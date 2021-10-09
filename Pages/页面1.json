@@ -5,16 +5,212 @@
   "Cols": {
     "Count": 60
   },
-  "StyleDatas": {
-    "Types": {
-      "Strs": [
-        "Body"
-      ]
+  "Values": {
+    "5,5": "addTableData",
+    "5,12": "deleteTableData",
+    "5,20": "updateTableData",
+    "5,28": "modifyTablesData",
+    "5,36": "getTableData"
+  },
+  "AttachInfos": {
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
     },
-    "SheetStyle": {
-      "FontFamily": 0
+    "5,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.addTableData(\"表1\", \r\n{\r\n    \"文本\":\"aaaa\",\r\n    \"整数\":111,\r\n    \"日期\": \"2020/12/12\",\r\n    \"时间\": \"10:00:00\",\r\n    \"是_否\":\"1\"\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n",
+            "ID": "ea9602063c5f475cb8cd6be49ab2f0fe"
+          }
+        ],
+        "Text": "addTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.deleteTableData(\"表1\", \r\n{\r\n    \"ID\":\"1\",  \r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n",
+            "ID": "0cd222b76d124d51bdf0db99de217b5f"
+          }
+        ],
+        "Text": "deleteTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.updateTableData(\"表1\", \r\n{\"ID\":\"1\"},\r\n{文本:\"bbb\",整数:\"2222\",日期:\"2001/12/12\",时间:\"12:00:00\",是_否:0\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n\r\n\r\n",
+            "ID": "2a2ba8d04293405cbd303647892130d2"
+          }
+        ],
+        "Text": "updateTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.modifyTablesData({\r\n    表1:{\r\n        addRows:[\r\n            {\r\n                文本:\"bbb\",\r\n                整数:1,\r\n                日期:\"2001/12/12\",\r\n                时间:\"12:00:00\",\r\n                是_否:0\r\n            },\r\n            {\r\n                文本:\"ccc\",\r\n                整数:3,\r\n                日期:\"2011/11/11\",\r\n                时间:\"16:00:00\",\r\n                是_否:0\r\n            }\r\n        ],\r\n        editRows:[\r\n            {\r\n                primaryKey:{\r\n                    ID:2\r\n                },\r\n                values:{\r\n                    文本:\"edit1\",\r\n                    整数:11,\r\n                    日期:\"2001/12/12\",\r\n                    时间:\"12:00:00\",\r\n                    是_否:0\r\n                }\r\n            },\r\n            {\r\n                primaryKey:{\r\n                    ID:3\r\n                },\r\n                values:{\r\n                    文本:\"edit2\",\r\n                    整数:14,\r\n                    日期:\"2001/12/12\",\r\n                    时间:\"15:00:00\",\r\n                    是_否:1\r\n                }\r\n            }\r\n        ],\r\n        deleteRows:[\r\n            {\r\n                ID:4\r\n            },\r\n            {\r\n                ID :5\r\n            }\r\n        ]\r\n    }\r\n\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n\r\n",
+            "ID": "c0d4d523bcec43b09521c4511e3cdb25"
+          }
+        ],
+        "Text": "modifyTablesData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,36": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.getTableData(\"表1\", {\"ID\":2}, \r\nfunction(data)\r\n{\r\n    Forguncy.Page.getCell(\"textbox\").setValue(data.文本);\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(errorMessage);\r\n});\r\n",
+            "ID": "1910513edf394397b4b825652c85b504"
+          }
+        ],
+        "Text": "getTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
     }
   },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 1,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 1,
+      "5,21": 0,
+      "5,22": 0,
+      "5,23": 0,
+      "5,24": 0,
+      "5,25": 0,
+      "5,26": 0,
+      "5,27": 0,
+      "5,28": 1,
+      "5,29": 0,
+      "5,30": 0,
+      "5,31": 0,
+      "5,32": 0,
+      "5,33": 0,
+      "5,34": 0,
+      "5,35": 0,
+      "5,36": 1,
+      "5,37": 0,
+      "5,38": 0,
+      "5,39": 0,
+      "5,40": 0,
+      "5,41": 0,
+      "5,42": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 0,
+      "6,13": 0,
+      "6,14": 0,
+      "6,15": 0,
+      "6,16": 0,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "6,20": 0,
+      "6,21": 0,
+      "6,22": 0,
+      "6,23": 0,
+      "6,24": 0,
+      "6,25": 0,
+      "6,26": 0,
+      "6,27": 0,
+      "6,28": 0,
+      "6,29": 0,
+      "6,30": 0,
+      "6,31": 0,
+      "6,32": 0,
+      "6,33": 0,
+      "6,34": 0,
+      "6,35": 0,
+      "6,36": 0,
+      "6,37": 0,
+      "6,38": 0,
+      "6,39": 0,
+      "6,40": 0,
+      "6,41": 0,
+      "6,42": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,11,2,7",
+    "5,5,2,6",
+    "5,12,2,7",
+    "5,20,2,7",
+    "5,28,2,7",
+    "5,36,2,7"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "AuthorizeInfo": {
@@ -27,4 +223,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//d74iqvwjYmCSCpj/VEa4mgTef28VWhnY71ilrGL/SObE8nh6Kxro9aoWxXbarN74HgOz5HIhW+hNFvCpvVAJ+dQmAGQ8sf2p4NWqjYXaK/hSQB9mn3XfOYard7scYjbhUSIs4ZjNTswKZXqyqyV36JDgaqiPBaa+QBrovYq+wcl8W/dPa/CSFHrvvR4RLKm0vLoWfV8t8/6mhNLWgr+mXHuBwjGsaCmXnayKh16ymfPRUXxAqPLKRgfWlWcLPAFb488yeMV3wQ1odBi/sn5SFlva4bjS/THyyum24Jm3rfumurwsrm+h8U9MwlDSgJWAYvoOBDlDGE3mlzgwajsPplIOdjL3fIT5yBEr+dhchx0o0+7oEmqWtzWCzEwXkEr7cOgENrJMiXQj/pGjB0iCjiYbYPGDKWc3IJWkgjywH+KwgdH4Be0GM4IzLJEjjpmIEGKB9PbhWnZLQI2/2t9UzFc+xQfnoKnap5UQN9EO+XrD8yISHiIZRsCRvRGd+OplulWz4gj2i6MJRRYv85ZZ6Wt2fg1T7Y1cZZ7w7K2lLowq1BLfb0RtRYc0FImH+fmPn9xSeMN2hGfSJDaAF83dlwiIkW3njuuyzBtx24cJI+3AZ8RsppD8MkUvpriIS8+v9JqlW/X++rYWKDBeHbj/Bx+DsePpAu7XcNmSOif82RcP7qo/8t+FyI1yYnX47bhUphg3wTY6yfgSjRGtYiqBdbyXJnP/3uVi6FARYl3wB8hyPiqtGY8+gkGku/NZnRQ10C4ZEG6gzHQkBXjy7rWYiqzwOiNuCYHwHZ1JYe3rJyA/1R9K2OZ1Pr4TZPh1FS4M5GbV9SNJDSna8MI6yxj8B/+I4Uadnd1y++XXPts6NOzK01pBn38tiGT/Jk3VJplgkQyH1XGPKQU/+1/KtOcTUw==|920
+}//Pgu3RDiUZuOEpHE4CLTraAqnTaFQBJYXUqAsx4b+fTxd3knlX6bxU7OcdeiDh4pPLNz/1GQUKFD5qso1tvBH0PJujzjZFZkY2XHvt6pQj6zkvUv86kjz3X57nWBzMj5kcTiH6fEHfGZmCm4J/bUo3dGu61loomzNUCNGBj56Y7oZyQVd55Mju7692og0p3oAGdzMsPRYOhPIOvLvh+ty1qeUNHVCERt6AeBI+oAbwbbAXvy0EsxpdzFme4udh1rWoHQ1FHqiqhEAstAYwxwYj14P8AFByzWFQB1lIMPXtCRO5eGf9547S7CHXwzaFVjRHP6rqlcYagp19+8XfMRJnv9I61dfaEY8m0Rpw9qjyXWIslOFhK41IamWtuj1n/2/5Npq4cYFu7ryIKMHwhpZXlYsYY7P3nBTzSN3WZt1e3P+1UBqR7DeSpEGY6UX33dq/TqB0ZZ+NLyiAiMU96Csos3prRpDnzZ6zQvN6iHemMF59BtitxHmc/aOP4YVzy9g2G53pf8UPyAhvDQ2RJEMsHFdAL6T5A0uOCJroEUES6CmOde8x0o1KUbvK0uX9p0a/6AqvKpczP3g20LjDx+RRDgH6R6oRwD4wMAv7HD1J/x7Qrc69K5wPsZSe0Jwv9o/1mVGKvuSh0dsXF7RNN7+j6E9zXJCMHQCYsUHR5XgpIGboEQWGMp29OnVfTRr4IEpPuz0mF6+Rf7pE8jgRRLxShMzVclpXbC10S/E4wMWzCim06DFzGaAU/0R59CGPIm5QD4/mkCWdIwedoHKJA36yq/vLlh17fnh4bpIXThEYE9qsMidrzyen6KqRvhN12iktCmhvspibhTzYjrybA/gDZyGDdTwSTEaW7GHlbshDJnnSU/x9vVM7GKYV6PGYWLa6xNPk4L5mqQk/GvsTCUKzA==|920

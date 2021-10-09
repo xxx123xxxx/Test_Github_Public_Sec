@@ -1,0 +1,458 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 71
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "文本:",
+    "7,6": "整数:",
+    "7,33": "addTableData",
+    "7,40": "deleteTableData",
+    "7,48": "updateTableData",
+    "7,56": "modifyTablesData",
+    "7,64": "getTableData",
+    "9,6": "小数:",
+    "11,6": "日期:",
+    "13,6": "时间:",
+    "15,6": "是_否:",
+    "17,16": "取消"
+  },
+  "AttachInfos": {
+    "2,26": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数"
+      }
+    },
+    "7,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.addTableData(\"表1\", \r\n{\r\n    \"文本\":\"aaaa\",\r\n    \"整数\":111,\r\n    \"日期\": \"2020/12/12\",\r\n    \"时间\": \"10:00:00\",\r\n    \"是_否\":\"1\"\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n",
+            "ID": "0d0e23cdd21c4cf59e5799b3e24da6dd"
+          }
+        ],
+        "Text": "addTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,40": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.deleteTableData(\"表1\", \r\n{\r\n    \"ID\":\"1\",  \r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n",
+            "ID": "e490f77a8f6c474dbf2bd0734b310712"
+          }
+        ],
+        "Text": "deleteTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,48": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.updateTableData(\"表1\", \r\n{\"ID\":\"1\"},\r\n{文本:\"bbb\",整数:\"2222\",日期:\"2001/12/12\",时间:\"12:00:00\",是_否:0\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n\r\n\r\n",
+            "ID": "eeb15fd5b2b1407a8b7df27a7d34abed"
+          }
+        ],
+        "Text": "updateTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,56": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.modifyTablesData({\r\n    表1:{\r\n        addRows:[\r\n            {\r\n                文本:\"bbb\",\r\n                整数:1,\r\n                日期:\"2001/12/12\",\r\n                时间:\"12:00:00\",\r\n                是_否:0\r\n            },\r\n            {\r\n                文本:\"ccc\",\r\n                整数:3,\r\n                日期:\"2011/11/11\",\r\n                时间:\"16:00:00\",\r\n                是_否:0\r\n            }\r\n        ],\r\n        editRows:[\r\n            {\r\n                primaryKey:{\r\n                    ID:2\r\n                },\r\n                values:{\r\n                    文本:\"edit1\",\r\n                    整数:11,\r\n                    日期:\"2001/12/12\",\r\n                    时间:\"12:00:00\",\r\n                    是_否:0\r\n                }\r\n            },\r\n            {\r\n                primaryKey:{\r\n                    ID:3\r\n                },\r\n                values:{\r\n                    文本:\"edit2\",\r\n                    整数:14,\r\n                    日期:\"2001/12/12\",\r\n                    时间:\"15:00:00\",\r\n                    是_否:1\r\n                }\r\n            }\r\n        ],\r\n        deleteRows:[\r\n            {\r\n                ID:4\r\n            },\r\n            {\r\n                ID :5\r\n            }\r\n        ]\r\n    }\r\n\r\n}, \r\nfunction(data)\r\n{\r\n    alert(\"成功\");\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(\"失败:\"+errorMessage);\r\n});\r\n\r\n\r\n",
+            "ID": "70977af9b1be4d80af197b1fe453d1fb"
+          }
+        ],
+        "Text": "modifyTablesData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,64": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "Forguncy.getTableData(\"表1\", {\"ID\":2}, \r\nfunction(data)\r\n{\r\n    Forguncy.Page.getCell(\"textbox\").setValue(data.文本);\r\n}, \r\nfunction(errorMessage)\r\n{\r\n    alert(errorMessage);\r\n});\r\n",
+            "ID": "14211b5092534d8b85f4e2d755ae0e8d"
+          }
+        ],
+        "Text": "getTableData",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "小数"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "日期"
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "时间"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      },
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "是_否"
+      }
+    },
+    "17,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=表1_详情页面!K18"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "97e075a9-1d15-46da-8b68-3c6a25f8d27f"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "表1",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "81e3572d-d270-41e6-88c1-28dd4fe1830e"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=表1_详情页面!K18"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "71a96ebe-e0ff-4404-a4b4-06e770f25749"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "表1",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "6b53ebff-610a-41f6-b0d8-96a742ebd5e5"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "17,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "7,33": 2,
+      "7,34": 2,
+      "7,35": 2,
+      "7,36": 2,
+      "7,37": 2,
+      "7,38": 2,
+      "7,39": 2,
+      "7,40": 3,
+      "7,41": 2,
+      "7,42": 2,
+      "7,43": 2,
+      "7,44": 2,
+      "7,45": 2,
+      "7,46": 2,
+      "7,47": 2,
+      "7,48": 3,
+      "7,49": 2,
+      "7,50": 2,
+      "7,51": 2,
+      "7,52": 2,
+      "7,53": 2,
+      "7,54": 2,
+      "7,55": 2,
+      "7,56": 3,
+      "7,57": 2,
+      "7,58": 2,
+      "7,59": 2,
+      "7,60": 2,
+      "7,61": 2,
+      "7,62": 2,
+      "7,63": 2,
+      "7,64": 3,
+      "7,65": 2,
+      "7,66": 2,
+      "7,67": 2,
+      "7,68": 2,
+      "7,69": 2,
+      "7,70": 2,
+      "8,33": 2,
+      "8,34": 2,
+      "8,35": 2,
+      "8,36": 2,
+      "8,37": 2,
+      "8,38": 2,
+      "8,39": 2,
+      "8,40": 2,
+      "8,41": 2,
+      "8,42": 2,
+      "8,43": 2,
+      "8,44": 2,
+      "8,45": 2,
+      "8,46": 2,
+      "8,47": 2,
+      "8,48": 2,
+      "8,49": 2,
+      "8,50": 2,
+      "8,51": 2,
+      "8,52": 2,
+      "8,53": 2,
+      "8,54": 2,
+      "8,55": 2,
+      "8,56": 2,
+      "8,57": 2,
+      "8,58": 2,
+      "8,59": 2,
+      "8,60": 2,
+      "8,61": 2,
+      "8,62": 2,
+      "8,63": 2,
+      "8,64": 2,
+      "8,65": 2,
+      "8,66": 2,
+      "8,67": 2,
+      "8,68": 2,
+      "8,69": 2,
+      "8,70": 2,
+      "9,6": 0,
+      "11,6": 0,
+      "13,6": 0,
+      "15,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,26,2,6",
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "7,33,2,6",
+    "7,40,2,7",
+    "7,48,2,7",
+    "7,56,2,7",
+    "7,64,2,7",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,10,1,4",
+    "17,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//MDMWOZAQmp4bA5bxHItZ6HqgPTleKerxj1uOSg89mhQDzchqKo0z5Vse+QdQzEOqkA4k3VsDth3AyG6wKexhvRH43nyr/JfreQphOYpts5fHF1JBC5zzmx8g+wUMGTzSv4tJlYKUW6wYa7AWZ0gCjfAri9UFiCiPqGMHuddaUTwNY12LR92ta9GSsCu/sMHHwSKROcms1dKzxPnYfV8mQL9vLHM/xxs0kcCiSJxb4Ii5MPxYH0MDJ9zd0hX54GCA1ca5LAFdBiPnUuZ4RcZSQPUzWDFFfaxV7yGzTv0AIkRwPG4xH1SzXOO38N3d/lPFyME0ROoyizslzsRP6GLbH+SDcn+5e/nyFlyP1sb49F7wB5iadxf2Am8wqNVn67IpDBU0whmw/4PUhShPOorvc0G+/VziPCZ1bxtgMT10AziowH1ogZaQxkW0gz96U1V2YEBuZ0N7sBwFgaqmyfL6mx93w8VTMKhlxhAUhMLvVOssX3g2r2nL/3z8rLtTyMflGE+plJqPxi0E90pSVxZNAnX43vP/ArKM28Ou2BKY712x1JgEsulRVK6Vir6yo56WfiDa+beySri8zbr4xuo5jyDCS3/LRABN2R72qx6yJjgK3KhWCNWAGnOv1NAFoNhnyQ2E2LVtTvRkbQgyValhW/vGbw6bSPc7tL/ml4UJelXTs5xe4AxaMC00BO94cf3M3uFekSRrdEz3A8jbDX1LdQrVPY20o8ZkiDcMjicOQacy+8hEKNWlKobOPYlPPlexULmDkPpttEN1Vwz0AHzu1jToefSs5HmFvmbgU/fmI0wlPpHC+3GsA7OYLVPLX7GqGjGXxDY5D40a3EDTx2ID0fCu0vz+2BqETt2HxJacCUN3FVNM77/YjWmVEwZHv4viQdvryiqe47k5Mc3q9uWhzw==|920
