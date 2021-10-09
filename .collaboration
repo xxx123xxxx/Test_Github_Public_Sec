@@ -157,7 +157,14 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T17:17:33.3104981+08:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Reports/Cindy",
@@ -214,7 +221,7 @@
       "UserName": "GRAPECITY\\NancyYang",
       "Email": "Nancy.yang@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T17:13:41.7738756+08:00",
+    "LockDateTime": "2021-10-09T17:17:33.3104981+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
