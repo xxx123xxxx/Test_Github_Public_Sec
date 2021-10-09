@@ -269,22 +269,10 @@
   },
   {
     "ModuleName": "Reports/Cindy",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:41:23.1006719+08:00",
     "ModuleType": 19
   },
   {
     "ModuleName": "PageReport/aaa",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:41:38.243706+08:00",
     "ModuleType": 17
   }
 ]
