@@ -228,16 +228,6 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "Table/_table_2l",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T15:18:06.6340426+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Reports/Cindy",
     "ModuleType": 19
   },
