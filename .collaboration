@@ -261,5 +261,25 @@
     },
     "LockDateTime": "2021-10-09T16:39:19.3358529+08:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/表16_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T16:43:01.4378137+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/表16_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-09T16:43:01.4378137+08:00",
+    "ModuleType": 1
   }
 ]
