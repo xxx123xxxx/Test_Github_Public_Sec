@@ -133,16 +133,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:57:58.5963371+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -150,143 +141,59 @@
   },
   {
     "ModuleName": "Table/mysql_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/mysql",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/oracle_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/oracle",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/sqlserver_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/sqlserver",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/dameng_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/dameng",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/postgresql_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/postgresql",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/tibero_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/tibero",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Table/built_checkReport",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/内建",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T13:58:19.7740961+08:00",
     "ModuleType": 22
   }
 ]
