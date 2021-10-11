@@ -227,5 +227,15 @@
     "ToRemoveFiles": [
       "Pages\\Branty\\ResizeColumn.json"
     ]
+  },
+  {
+    "ModuleName": "ServerCommands/Branty",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:02:29.6364609+08:00",
+    "ModuleType": 20
   }
 ]
