@@ -235,5 +235,15 @@
   {
     "ModuleName": "PageReport/dameng_页面报表",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "PageReport/报表2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T15:53:55.7792596+08:00",
+    "ModuleType": 17
   }
 ]
