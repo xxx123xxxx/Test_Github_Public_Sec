@@ -188,5 +188,15 @@
     },
     "LockDateTime": "2021-10-09T12:10:59.6494812+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "ServerCommand/服务端命令1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T09:17:27.5587018+08:00",
+    "ModuleType": 15
   }
 ]
