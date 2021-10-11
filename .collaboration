@@ -8219,16 +8219,6 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "TableView/aaaaaaView",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T16:23:48.2170502+08:00",
-    "ModuleType": 23
-  },
-  {
     "ModuleName": "TableView/_TIMED_LOCKED_ACCOUNTS",
     "State": 3,
     "LockedBy": {
@@ -8370,26 +8360,6 @@
   },
   {
     "ModuleName": "TableView/_CURRENT_USER_STATUS",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T16:23:48.2170502+08:00",
-    "ModuleType": 23
-  },
-  {
-    "ModuleName": "TableView/_",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T16:23:48.2170502+08:00",
-    "ModuleType": 23
-  },
-  {
-    "ModuleName": "TableView/__1",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\ZoeyHe",
