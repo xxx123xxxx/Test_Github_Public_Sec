@@ -577,5 +577,15 @@
     },
     "LockDateTime": "2021-10-11T16:40:01.6583937+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Tables/oracle",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:54:30.9327001+08:00",
+    "ModuleType": 22
   }
 ]
