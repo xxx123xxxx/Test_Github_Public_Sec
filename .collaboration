@@ -165,7 +165,14 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T14:06:48.9928481+08:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/offset_count_buildin1",
@@ -174,7 +181,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:51:53.6360657+08:00",
+    "LockDateTime": "2021-10-11T14:06:48.9928481+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -185,7 +192,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:51:53.6360657+08:00",
+    "LockDateTime": "2021-10-11T14:06:48.9928481+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -236,7 +243,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:51:53.6360657+08:00",
+    "LockDateTime": "2021-10-11T14:06:48.9928481+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
