@@ -109,16 +109,7 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T17:25:17.0529102+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -201,17 +192,7 @@
   },
   {
     "ModuleName": "Table/student",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\student.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -244,23 +225,11 @@
   },
   {
     "ModuleName": "Table/订单表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
