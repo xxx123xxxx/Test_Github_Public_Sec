@@ -147,5 +147,15 @@
     "ModuleName": "Table/表1",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Reports/文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T15:57:44.2165514+08:00",
+    "ModuleType": 19
   }
 ]
