@@ -589,16 +589,6 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "TableView/测试发布视图PostgreSQL",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T15:57:19.3115203+08:00",
-    "ModuleType": 23
-  },
-  {
     "ModuleName": "TableView/汽车信息视图",
     "State": 3,
     "LockedBy": {
