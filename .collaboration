@@ -150,7 +150,17 @@
   },
   {
     "ModuleName": "PageReport/报表1 (2)",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:40:34.001026+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\666\\报表1 (2).json",
+      "Reports\\666\\报表1 (2).rdlx"
+    ]
   },
   {
     "ModuleName": "Reports/666",
