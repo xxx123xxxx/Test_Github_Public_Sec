@@ -3,7 +3,11 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fS14O12;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
-    <EConnectionString>SI+yCVnZlUvfMERvo2WhOga2TqkQsYRxjZG8i7obB0EXpn1HikNHXvJ5FU3KRsRsUBHnPIjT1wvuO65QwwYAl0wmszwEln4W6XkQprDN0qgBWlEZl5ruseo7uKFLKtRFed+h7d/QzClylsS5EzPbZt+vyFmUt2YbDP+eB7gqUo0=</EConnectionString>
     <ID>16871126-0091-4ee1-82c7-8565652b3ec8</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Host=xa-dd3-fgcp13d8;Username=postgres;Password=xA20200326;Database=brantytest</ConnectionString>
+    <DataBaseType>PostgreSQL</DataBaseType>
+    <ID>71793db1-374a-4d2f-94a2-18aa79ad906d</ID>
   </Item>
 </DataConnectionSet>
