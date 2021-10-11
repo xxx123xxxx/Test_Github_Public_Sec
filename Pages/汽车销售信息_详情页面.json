@@ -1,0 +1,345 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "车型:",
+    "7,6": "品牌:",
+    "9,6": "企业:",
+    "11,6": "系别:",
+    "13,6": "类别:",
+    "15,6": "_2015销量:",
+    "17,6": "_2014销量:",
+    "19,6": "_201512销量:",
+    "21,6": "_201412销量:",
+    "23,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "车型"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "品牌"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "企业"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "系别"
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "类别"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2015销量"
+      }
+    },
+    "17,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2014销量"
+      }
+    },
+    "19,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_201512销量"
+      }
+    },
+    "21,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_201412销量"
+      }
+    },
+    "23,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=汽车销售信息_详情页面!K24"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "03a6dbff-d1be-42b1-87a1-b1063e403c34"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "汽车销售信息",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "4a35c246-2e7c-4e3d-a9c8-a7c4c00d4007"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=汽车销售信息_详情页面!K24"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "bc9bb2d9-b4b4-40dd-917f-f7f717ae751c"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "汽车销售信息",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "aff7cbd4-568b-4b87-9000-aeef4211c9b7"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "23,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "7,14": 1,
+      "9,6": 0,
+      "9,14": 1,
+      "11,6": 0,
+      "11,14": 1,
+      "13,6": 0,
+      "13,14": 1,
+      "15,6": 0,
+      "17,6": 0,
+      "19,6": 0,
+      "21,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,14,1,6",
+    "19,14,1,6",
+    "21,14,1,6",
+    "23,10,1,4",
+    "23,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//6+Or4OAoL9XrNyeh4+fi2xFfMg/xpvoKKoOAs4uCAG/serQiXk1RDHf962VHA3rezl9uK4oLkVavuhLbjvS7Do2/OalwNl/p4Asl1MMdVMqoenGGrpv2PN6CZDkjq9pP1m1A7R2NPvR+au65LO1wOh4PXt7gxIPNS2liHpKg+CsOy0yJEnh3/wj2ysSUPa47m2srQvoPR7pZ2jiQD8vJMMO91/BXxq9mObbmVT9RQvJuLrNyA/Z1Upb5ktTa22tz7oeWy+PVsEHTNODN4/PscFwgHL+TnRixolrPzh3KG+ZdA0P4WobpLnQuUzxzM+C2NdJbyKbRLY2ZOsCkyzSDT7+6ZHLLz3xFq2bXFh3vS6PUIoF6llsTIMkncVdVStR1ebdl3C8vR5fYxMYP5dCskVRBDD1pi6Sj78GWnYMvNTsGBj3M83YIyNPzqp8/uJ/9RCjpfNBCCamDyIn3LqVqrdx5ST+eIzGUf+rkC3HfJRmnYsoiCdGjK2xs97bi4vR56OZUs11XsL0OcHRvbgUSw47JufKga/r+ae1zFGIAMzJ5FsV8RFzX0X2kEgxZ3N3vonLbNyimi4ICqN4vGaNdMIRWeH+Hjrfmsfc7z/GX51YETPKFj3m/ESdyVp8DDBIvzk65I7vQEqMAl24RqpqsJiohoBOuzSQY77BI07EdsqPlLXAobAn6+hDIc9GRxiNx6jMHAhebln+YhTqV6WC5tJI1SJVjm9yDJj02QLXKFkMc8y5v6tP6E6mTvSPmH+kmIfyHwnUlXeaM51sZsBNT48906cObXBaxan9lvkNJuOsvDfVTBtx7P3N9gTZEh3KEkJHli8wtRVn3pFLFHvxSI8UPZCO9uq5cQRMKEAwaxxQ+cmskZqDD9QnZ42nRxvC//Y4uYN2TtJP+eVLzjZMb+Q==|920

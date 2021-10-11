@@ -1,0 +1,76 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "显示行数"
+        },
+        {
+          "Name": "跳过行数",
+          "DataValidationInfo": {
+            "NumberType": 1,
+            "FirstParamValue": "10000",
+            "SecondParamValue": "28000"
+          }
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "xx",
+      "TableValue": {
+        "TableName": "会员信息",
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "会员信息",
+              "ColumnName": "会员编号"
+            },
+            "ColumnName": "会员编号"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "会员信息",
+              "ColumnName": "会员姓名"
+            },
+            "ColumnName": "会员姓名"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "会员信息",
+              "ColumnName": "会员性别"
+            },
+            "ColumnName": "会员性别"
+          }
+        ],
+        "TopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=显示行数"
+        },
+        "OffsetCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=跳过行数"
+        }
+      },
+      "ID": "88f75ac8291f40588ea54d189746c25e"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "Message": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=xx"
+      },
+      "CustomReturns": []
+    }
+  ],
+  "Name": "服务端命令1"
+}

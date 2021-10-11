@@ -1,0 +1,326 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "文本:",
+    "7,6": "整数:",
+    "9,6": "小数:",
+    "11,6": "日期:",
+    "13,6": "时间:",
+    "15,6": "是_否:",
+    "17,6": "用户:",
+    "19,6": "图片:",
+    "26,6": "附件:",
+    "33,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "文本"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "整数"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "小数"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "日期"
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "时间"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "是_否"
+      }
+    },
+    "17,14": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "用户"
+      }
+    },
+    "19,14": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "图片"
+      }
+    },
+    "26,14": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
+          "ReplaceWhenOneFile": true
+        },
+        "TemplateKey": "_RS_Normal_Style2"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "附件"
+      }
+    },
+    "33,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_test_详情页面!K34"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "07a8639b-690a-4b39-9e44-186df4352aa8"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_dameng",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "c9fc5ac8-337f-408a-9cec-2f408eee57a7"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_test_详情页面!K34"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "06157b85-ac1e-44c8-a736-ea01980fc530"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_dameng",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "f01bd93d-4f2d-4d4a-a192-94e545a22348"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "33,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0,
+      "9,6": 0,
+      "11,6": 0,
+      "13,6": 0,
+      "15,6": 0,
+      "17,6": 0,
+      "19,6": 0,
+      "26,6": 0,
+      "26,14": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,14,1,6",
+    "19,14,6,6",
+    "26,14,6,6",
+    "33,10,1,4",
+    "33,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//V9Av6w628u6uIa5/2Rb9LW2Pa68/Ulp76lY8Zk5/h1U806E84OIQ1TYFUe+cfFJIqPwVwE+UupUvlXsgHK7+s5wE/s/h9l+42PvzdBiqxp26BlDSaJfJOdbg1qFPMnqVlC9v9vB3XZztHSe0ZT8ljDJOyN98Fe4HHS2djEvaj/VaNH7Nkc+J8eahWo6Sei2vr1r+6HAHjpJop3eJBf8U6CJpH4CLmboRhrvpGX7PYRctiaf+equYzVrWvfZzTCAqAld+4+yxKJpQK07ETZUMmimXuFFHd5PMbKv6X2J/Wt53eeOFX+06yN3xgF4vmkb565N4Hg13AF83GD32nabDC1sS6IYeeKp/XuPRPwlzNQ/kxG6HPmTSFQAMIfEXX25lLFEnerE4X+M5PetMiH/abe6u3lQ/ItwoJJ+wBfSJDjiEnCUiO1alcWLOdoXqmYoruwBNhKfU0aUA0zJYDUV1CczEUIAoLm97T7O+QjPcVOsB1N4bAu8LI15F/oRPaUFPQ5jmnEuGx7kFNxM/L/VhFBh4al+3z9Mxv4+6mtQksjrC5HXBwBchFDZjW5fSi6i6YFK7Iq6yKKphHANKXWPTIBi5KXiArwgnvs/nyEaitcapImG+Y8yRKtrfw1AIFabekC1Ft7S5eJI5cOQ0qpLxAx0cSp/XC1KpWGwSSdw6Pfibu54tCPYRvkqe+u5GPOlD3cSR/Z3af7+KaBEVJ/511eqC7U51Goc27JG5xYuQWOE0QlNujZoq1b6PHeqSIleD+u3qUntG+0c7/EQs2IYsALeiSVw+tMAKTTuuOYCs0RHUr+l2Tzc8yeQwSfARRuHXt9H1+FizZ29sp+PRNSGb52YQT2PZZQHFJ7JWybpZxJcNehzmsj4u/4CZTdt6fq6Hot612VSo08eULRQm0NB8Zg==|920

@@ -1,0 +1,416 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "OBJ_ID:",
+    "5,6": "COL_NO:",
+    "7,6": "SGMTCOL_NO:",
+    "9,6": "NAME:",
+    "11,6": "TYPE_NO:",
+    "13,6": "LEN:",
+    "15,6": "PRECISION:",
+    "17,6": "SCALE:",
+    "19,6": "NOT_NULL:",
+    "21,6": "PROPERTY:",
+    "23,6": "RESERVED1:",
+    "25,6": "RESERVED2:",
+    "27,6": "RESERVED3:",
+    "29,6": "RESERVED4:",
+    "31,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "OBJ_ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "COL_NO"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "SGMTCOL_NO"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "NAME"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "TYPE_NO"
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "LEN"
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "PRECISION"
+      }
+    },
+    "17,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "SCALE"
+      }
+    },
+    "19,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "NOT_NULL"
+      }
+    },
+    "21,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "PROPERTY"
+      }
+    },
+    "23,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "RESERVED1"
+      }
+    },
+    "25,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "RESERVED2"
+      }
+    },
+    "27,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "RESERVED3"
+      }
+    },
+    "29,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "_DD_COL",
+        "ColumnName": "RESERVED4"
+      }
+    },
+    "31,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=_DD_COL_详情页面!K32"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "8e4ccabf-d085-4ea7-bbfa-350d53992ca1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "_DD_COL",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "26fbcac3-c22a-40a4-ab70-3012e26bcf27"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=_DD_COL_详情页面!K32"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "40fbd55b-1e87-49cf-b16a-e02abb90ebe2"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "_DD_COL",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "d6358cc6-d90e-4550-ba13-37f8fab617ea"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "31,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "7,6": 0,
+      "9,6": 0,
+      "9,14": 1,
+      "11,6": 0,
+      "13,6": 0,
+      "15,6": 0,
+      "17,6": 0,
+      "19,6": 0,
+      "21,6": 0,
+      "23,6": 0,
+      "25,6": 0,
+      "27,6": 0,
+      "29,6": 0,
+      "29,14": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,14,1,6",
+    "19,14,1,6",
+    "21,14,1,6",
+    "23,14,1,6",
+    "25,14,1,6",
+    "27,14,1,6",
+    "29,14,1,6",
+    "31,10,1,4",
+    "31,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//V9jSa8wnjHh9h/Gw+EO6l/OJyvgjnudZUxqk8O+ODQ94CVPfTEhTiRBZilpJ9f0i8OPQSR1pPScFAFF2h2WqeqwFHzIV6GEuKAyiK16dkpV3qaQM1kLlW468EQ3ExNPfIuIeHShPbBx0a31ZAydUHNshWXUm3erLr/7HMfIeND72h5RmJl/lwkvsbsm/LJRY1f6A5eUVtcQRsJAJKEsRhaIX5nYT2G0Wg+WLFTYrahqhpVSzJoLTKBFK4Mq/uutrb0Z7yN/vJqV1K4H57z3usR1QUzkakW4aNxHIKquDqIH489QCsppeDG51uBzDlwZMfsv/7Xu9mpzfBRLD35H8TnmAAzufk6NtTTGaQ+Nqg5x6XRIBTSuxVyLz7VAlS6Fw1RHPfBnVnU/lWDZ7DIqEulJjW/U7VOjYSP5q6IYrOVuFkf5giqan6TyyWvj7yu3dtq+YwHp9OIsHS6EnbR8n7YHK1X3m1oO8gfq0d5gJyzww/0rKL8JSezfFwXex67G0X8H/RIqeOQ/ixARR0lOqwltthBCN0CXAjiF/Fk9jSpHVeoZwxlWAgNg2dt7tojwgh2hdo9fgGljcNEXzlKVXfpIdbSD3mHnGgUaxBIjb0BTEnHhVx8JDkh96llZl3mZoU5xBGObkaxXcBiOxoF2NnnTI/WwOI72euSqINGegq8Gc8TFdS4O8p5mJguDHiJgqJcnLUxFuTt5HAB+PywkUVxU2ytPzzvEfIHCN13UunqfUUdt4HKqMU3CnT+7UCrJD0rglrz+FT2G7RyKkpw+Wsbn2F3lyEL7Uq14Nmim7H3B8RJhrL2G6p0FEsfwnaJ4ch96h/4ckbGHyO0RdHfDoN+WCex49ZyIHiNbYRUwxrUvEN1yuxyeEJ3o8qRnw53tmXm4mC5ZpANyo3FkGh6hVFQ==|920

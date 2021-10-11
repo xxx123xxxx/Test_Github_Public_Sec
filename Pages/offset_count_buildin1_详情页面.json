@@ -1,0 +1,191 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "文本:",
+    "7,6": "日期:",
+    "9,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "offset_count_buildin1",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_count_buildin1",
+        "ColumnName": "文本"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_count_buildin1",
+        "ColumnName": "日期"
+      }
+    },
+    "9,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_count_buildin1_详情页面!K10"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "5bebbbaf-80b6-4833-9eec-2acc7d3ef058"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_count_buildin1",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "edb9deb3-cf94-48aa-b3de-49c48a106d71"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_count_buildin1_详情页面!K10"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "4005c507-a8d0-4311-877c-cd843bc01d11"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_count_buildin1",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "f8fd62f8-bff8-4165-b565-36d743d5631e"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "9,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "5,14": 1,
+      "7,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,10,1,4",
+    "9,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//IZTryTkfakOCQObt4Vh672BtI7zQ9QhRBG+Ge4gHQ3xLpWtNP5G8ft5gdVNAd6HtMnvqeB7s/ngbWUSgX7ZLvvJhaerjPf76k4VmAsIMD5XSlmW/pxcETzf+CDJ/zEXPN/dDnGZ/Y4miK6cnxq7idH8Q3z8OHGpfYuPJ6PwOymDJDPo0dOVN2tCW3RL+k414YdqipiNpqArcv6NjIaMEHE9ZlyEklOqSLX1k6nN4Hpw8An47M6QpsyTclNv4cu6nYqD6HDbthSQ8xlbn6MR73sIJaaP0r5kkJAZkWHwPvzx6aLOotnOgf8DZTO7mtIXJshJuXil3j47wZ/kzzeoPODByEeRDe+xCNKAUpxgd1Si6vRzB7e6NFo4FuyMnsVQk2tyic9SELZGykNw99J7+tOA7lOalX7LlAxbXsgn8Wd/szqzkY1Oe6WfJsQUlyP6C5iH4pzsu3Z/H1kdKrVS33C6BHS1vNwxAnw82IzisZ/AiBhtVP4A0mPys2l8HN0AevG+QIQ2umR3JLcL1XBe3m8v884NGzWi28+0NntuaKixE/+tT5g9P57HFLTEVwEGH/WUlwxUZ+Tl581IoLA2RJ+GowqlVAkapAFm+ZpMpj6Plj9/LCAakSPWFANpJag3mnKVv5c2zisRaa9NQEXTCsxogMNMkdfzBISvu5tyY/hWMsR/N/ZV9zAzGaklRqO0EjitYjKq97d6bcjPWR1xJ53GHQ7/vY6T+oSa8FTwkoiL1mAUuKzaZtO0Dfkr6KPcdA7ABpu77zSc6b1iI3GR5THR+xoMI1keseGy7HhyhMEt3OZFrvznZKZErFlkjMjNzQ5LvACnXZVeZaG15dLjgEMfk1+EotHDuAp+GeP0qdHsfkouv9pT7ONOoOoGJ+IwpU3+44vYFR9i76Z2NFWuDFw==|920

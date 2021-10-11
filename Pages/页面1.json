@@ -5,26 +5,612 @@
   "Cols": {
     "Count": 60
   },
-  "StyleDatas": {
-    "Types": {
-      "Strs": [
-        "Body"
-      ]
+  "Values": {
+    "1,23": "会员编号",
+    "1,28": "会员姓名",
+    "1,32": "会员性别",
+    "4,1": "服务端命令1"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "xx",
+            "TableValue": {
+              "TableName": "会员信息",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "会员信息",
+                    "ColumnName": "会员编号"
+                  },
+                  "ColumnName": "会员编号"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "会员信息",
+                    "ColumnName": "会员姓名"
+                  },
+                  "ColumnName": "会员姓名"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "会员信息",
+                    "ColumnName": "会员性别"
+                  },
+                  "ColumnName": "会员性别"
+                }
+              ],
+              "TopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=页面1!AM2"
+              },
+              "OffsetCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=页面1!AS2"
+              }
+            },
+            "ID": "20f24a453a8146dbbaada05aa1224430"
+          },
+          {
+            "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
+            "Listview": "表格2",
+            "ListviewColumnInfos": [
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!X3"
+                },
+                "PropertyName": "会员编号"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AC3"
+                },
+                "PropertyName": "会员姓名"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AG3"
+                },
+                "PropertyName": "会员性别"
+              }
+            ],
+            "SourceCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!xx"
+            }
+          }
+        ],
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "ghost.svg",
+          "Color": "Accent 1",
+          "UseCellTypeForeColor": true
+        }
+      }
     },
-    "SheetStyle": {
-      "FontFamily": 0
+    "1,8": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "offset_count_buildin1",
+        "RowIndex": 1,
+        "ColumnIndex": 8,
+        "ColumnCount": 14,
+        "RowCount": 19,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "1,23": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "RowIndex": 1,
+        "ColumnIndex": 23,
+        "ColumnCount": 13,
+        "RowCount": 19,
+        "AutoScrollSpeed": 2,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Dark11"
+      }
+    },
+    "1,38": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,44": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,8": {
+      "BindingInfo": {
+        "TableName": "offset_count_buildin1",
+        "ColumnName": "ID"
+      }
+    },
+    "2,13": {
+      "BindingInfo": {
+        "TableName": "offset_count_buildin1",
+        "ColumnName": "文本"
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "服务端命令1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AM2"
+                },
+                "ParamName": "显示行数"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AS2"
+                },
+                "ParamName": "跳过行数"
+              }
+            ],
+            "ResultMessageTo": {
+              "SerializeProperty": "xx"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
+            "Listview": "表格2",
+            "ListviewColumnInfos": [
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!X3"
+                },
+                "PropertyName": "会员编号"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AC3"
+                },
+                "PropertyName": "会员姓名"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面1!AG3"
+                },
+                "PropertyName": "会员性别"
+              }
+            ],
+            "SourceCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!xx"
+            }
+          }
+        ],
+        "Text": "服务端命令1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "21,24": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格2",
+        "PageLimitRowCount": 20,
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
     }
   },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 1
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "#b7b7b7",
+        "@",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        },
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,8": 0,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 1,
+      "1,19": 1,
+      "1,20": 1,
+      "1,21": 2,
+      "1,23": 0,
+      "1,24": 1,
+      "1,25": 1,
+      "1,26": 1,
+      "1,27": 1,
+      "1,28": 1,
+      "1,29": 1,
+      "1,30": 1,
+      "1,31": 1,
+      "1,32": 1,
+      "1,33": 1,
+      "1,34": 1,
+      "1,35": 3,
+      "1,38": 4,
+      "1,44": 4,
+      "2,8": 5,
+      "2,21": 6,
+      "2,23": 5,
+      "2,28": 7,
+      "2,29": 7,
+      "2,30": 7,
+      "2,31": 7,
+      "2,32": 7,
+      "2,33": 7,
+      "2,34": 7,
+      "2,35": 8,
+      "3,8": 5,
+      "3,21": 6,
+      "3,23": 5,
+      "3,35": 6,
+      "4,8": 5,
+      "4,21": 6,
+      "4,23": 5,
+      "4,35": 6,
+      "5,8": 5,
+      "5,21": 6,
+      "5,23": 5,
+      "5,35": 6,
+      "6,8": 5,
+      "6,21": 6,
+      "6,23": 5,
+      "6,35": 6,
+      "7,8": 5,
+      "7,21": 6,
+      "7,23": 5,
+      "7,35": 6,
+      "8,8": 5,
+      "8,21": 6,
+      "8,23": 5,
+      "8,35": 6,
+      "9,8": 5,
+      "9,21": 6,
+      "9,23": 5,
+      "9,35": 6,
+      "10,8": 5,
+      "10,21": 6,
+      "10,23": 5,
+      "10,35": 6,
+      "11,8": 5,
+      "11,21": 6,
+      "11,23": 5,
+      "11,35": 6,
+      "12,8": 5,
+      "12,21": 6,
+      "12,23": 5,
+      "12,35": 6,
+      "13,8": 5,
+      "13,21": 6,
+      "13,23": 5,
+      "13,35": 6,
+      "14,8": 5,
+      "14,21": 6,
+      "14,23": 5,
+      "14,35": 6,
+      "15,8": 5,
+      "15,21": 6,
+      "15,23": 5,
+      "15,35": 6,
+      "16,8": 5,
+      "16,21": 6,
+      "16,23": 5,
+      "16,35": 6,
+      "17,8": 5,
+      "17,21": 6,
+      "17,23": 5,
+      "17,35": 6,
+      "18,8": 5,
+      "18,21": 6,
+      "18,23": 5,
+      "18,35": 6,
+      "19,8": 9,
+      "19,9": 10,
+      "19,10": 10,
+      "19,11": 10,
+      "19,12": 10,
+      "19,13": 10,
+      "19,14": 10,
+      "19,15": 10,
+      "19,16": 10,
+      "19,17": 10,
+      "19,18": 10,
+      "19,19": 10,
+      "19,20": 10,
+      "19,21": 11,
+      "19,23": 9,
+      "19,24": 10,
+      "19,25": 10,
+      "19,26": 10,
+      "19,27": 10,
+      "19,28": 10,
+      "19,29": 10,
+      "19,30": 10,
+      "19,31": 10,
+      "19,32": 10,
+      "19,33": 10,
+      "19,34": 10,
+      "19,35": 11,
+      "21,24": 12,
+      "21,25": 12,
+      "21,26": 12,
+      "21,27": 12,
+      "21,28": 12,
+      "21,29": 12,
+      "21,30": 12,
+      "21,31": 12,
+      "21,32": 12,
+      "21,33": 12,
+      "22,24": 12,
+      "22,25": 12,
+      "22,26": 12,
+      "22,27": 12,
+      "22,28": 12,
+      "22,29": 12,
+      "22,30": 12,
+      "22,31": 12,
+      "22,32": 12,
+      "22,33": 12,
+      "23,24": 12,
+      "23,25": 12,
+      "23,26": 12,
+      "23,27": 12,
+      "23,28": 12,
+      "23,29": 12,
+      "23,30": 12,
+      "23,31": 12,
+      "23,32": 12,
+      "23,33": 12
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,2,5",
+    "2,8,1,5",
+    "2,13,1,9",
+    "3,8,17,14",
+    "3,23,17,13",
+    "2,23,1,5",
+    "1,38,2,4",
+    "1,44,2,4",
+    "2,28,1,4",
+    "2,32,1,4",
+    "4,1,2,5",
+    "21,24,3,10",
+    "1,8,1,5",
+    "1,13,1,9",
+    "1,23,1,5",
+    "1,28,1,4",
+    "1,32,1,4"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "xx",
+        "TableValue": {
+          "TableName": "会员信息",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "会员信息",
+                "ColumnName": "会员编号"
+              },
+              "ColumnName": "会员编号"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "会员信息",
+                "ColumnName": "会员姓名"
+              },
+              "ColumnName": "会员姓名"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "会员信息",
+                "ColumnName": "会员性别"
+              },
+              "ColumnName": "会员性别"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 2,
+            "ColumnBindingInfo": {
+              "TableName": "会员信息",
+              "ColumnName": "会员编号"
+            },
+            "Value": "100",
+            "Id": "70ab6159-b9a9-4f71-b8c3-08b9ae1a3e51"
+          },
+          "TopCount": "100",
+          "OffsetCount": "20",
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "会员信息",
+                  "ColumnName": "会员编号"
+                },
+                "Order": 1
+              }
+            ],
+            "Id": "23f2e43d-6c7d-44e3-ac1b-b14fd75c5c44"
+          }
+        },
+        "ID": "5fc60380ae4841b6a0a5ab928fc4294d"
+      },
+      {
+        "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
+        "Listview": "表格2",
+        "ListviewColumnInfos": [
+          {
+            "ListViewColumnCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!X3"
+            },
+            "PropertyName": "会员编号"
+          },
+          {
+            "ListViewColumnCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!AC3"
+            },
+            "PropertyName": "会员姓名"
+          },
+          {
+            "ListViewColumnCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!AG3"
+            },
+            "PropertyName": "会员性别"
+          }
+        ],
+        "SourceCell": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=页面1!xx"
+        }
+      }
+    ],
     "AuthorizeInfo": {
       "VisitMode": 2
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 4
   },
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
   }
-}//d74iqvwjYmCSCpj/VEa4mgTef28VWhnY71ilrGL/SObE8nh6Kxro9aoWxXbarN74HgOz5HIhW+hNFvCpvVAJ+dQmAGQ8sf2p4NWqjYXaK/hSQB9mn3XfOYard7scYjbhUSIs4ZjNTswKZXqyqyV36JDgaqiPBaa+QBrovYq+wcl8W/dPa/CSFHrvvR4RLKm0vLoWfV8t8/6mhNLWgr+mXHuBwjGsaCmXnayKh16ymfPRUXxAqPLKRgfWlWcLPAFb488yeMV3wQ1odBi/sn5SFlva4bjS/THyyum24Jm3rfumurwsrm+h8U9MwlDSgJWAYvoOBDlDGE3mlzgwajsPplIOdjL3fIT5yBEr+dhchx0o0+7oEmqWtzWCzEwXkEr7cOgENrJMiXQj/pGjB0iCjiYbYPGDKWc3IJWkgjywH+KwgdH4Be0GM4IzLJEjjpmIEGKB9PbhWnZLQI2/2t9UzFc+xQfnoKnap5UQN9EO+XrD8yISHiIZRsCRvRGd+OplulWz4gj2i6MJRRYv85ZZ6Wt2fg1T7Y1cZZ7w7K2lLowq1BLfb0RtRYc0FImH+fmPn9xSeMN2hGfSJDaAF83dlwiIkW3njuuyzBtx24cJI+3AZ8RsppD8MkUvpriIS8+v9JqlW/X++rYWKDBeHbj/Bx+DsePpAu7XcNmSOif82RcP7qo/8t+FyI1yYnX47bhUphg3wTY6yfgSjRGtYiqBdbyXJnP/3uVi6FARYl3wB8hyPiqtGY8+gkGku/NZnRQ10C4ZEG6gzHQkBXjy7rWYiqzwOiNuCYHwHZ1JYe3rJyA/1R9K2OZ1Pr4TZPh1FS4M5GbV9SNJDSna8MI6yxj8B/+I4Uadnd1y++XXPts6NOzK01pBn38tiGT/Jk3VJplgkQyH1XGPKQU/+1/KtOcTUw==|920
+}//zlGZ5kKGTyMa2R7aLweJg2VkvWr0g/Gd9YyuBAEYJEqWnB0z8jyfX/5aJ1e2hL82OeXWOmKsnrQgAA2Lm7/CJ7c+jeDffEcia3xDDtfq9x24y7frg5FZeHpynmF9qKSen96ykDNfY6fBMuiZTAA9pnz8208LfMOhfM98KnFlKctsjpXRLbPchiLnarn9Db1+mYtPeGKgubfEwPC/G2v84vZBL22rA880Oe2TseJGQsT2zT9yL+kpOkERBBg7X3PltKLcTLE7rxIyt8VX14vYQZ7uwDyMj0uyb1CnD2/VfvZ4CKv1AKDsSt93apyvLctQ1HBPlJJwXXQlrHC1PkFpuAX4Mp0e2Nj44v+CBF221d1mMo4JMxZKHi4d/SYjkmhW7mTKNQSTTLm+FcYNwgwZGVYxd7u7ExabmSBCogHC8hdItZqTuUNV3uIK5z+Hs8onhwzsPyTzWYzbfSnsozklopaLI9VocEwHxQ2G0Ydiz2jOuUJnibgQlfTTseB4bTFcqn7KB9i/8yUuHwc9uivigJNCGsz3ssoq8IYbndGN2JWI9ebzlQ8w8mAgGH1Sp3VoZvAB0HHn6IJtdExKJ85/Rei0HXh5tjaYyK6jzqd7HuNzBmeeOwzAoAah0g5qQ3n0oVM3eAro0rLomSu4ya24aUUo8sE8YIeZzUBQ3E6dfaJmyleq0eXinpRJeulTbzqKz6+fhGBPXUpwrCT5yH4H8DKDu1oaEzXijhLin6oT+uxRoPRd2/mlu6wbhzvR4w8VWBovYWLgjr0PU22Orq++KQGzW0j2NfesVO2pRq854NvPwsnytCwghR2yDbLm3ZiAfpfR54LVtp3v8ukYF3mHITB5/HGJvKMeER7PVSKm0OoQFA7mLYQg4SagWkw9CRl2KzO1hseGA7wUddie1ZqI2w==|920

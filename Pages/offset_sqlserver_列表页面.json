@@ -1,0 +1,300 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,11": "offset_sqlserver 列表",
+    "7,6": "添加记录",
+    "9,11": "更改",
+    "9,14": "删除"
+  },
+  "AttachInfos": {
+    "5,10": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "offset_sqlserver_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=offset_sqlserver_详情页面!K8"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "offset_sqlserver",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "ColumnCount": 11,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "offset_sqlserver",
+        "ColumnName": "整数"
+      }
+    },
+    "9,11": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "offset_sqlserver_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=offset_sqlserver_详情页面!K8"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "Text": "删除"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 0,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "DarkGray",
+        "#D8D8D8",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,11": 0,
+      "5,10": 1,
+      "7,6": 2,
+      "8,6": 3,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 5,
+      "9,6": 6,
+      "9,7": 7,
+      "9,8": 7,
+      "9,9": 7,
+      "9,10": 7,
+      "9,11": 8,
+      "9,12": 7,
+      "9,13": 7,
+      "9,14": 8,
+      "9,15": 7,
+      "9,16": 9,
+      "10,6": 10,
+      "10,16": 11,
+      "11,6": 10,
+      "11,16": 11,
+      "12,6": 10,
+      "12,16": 11,
+      "13,6": 10,
+      "13,16": 11,
+      "14,6": 10,
+      "14,16": 11,
+      "15,6": 10,
+      "15,16": 11,
+      "16,6": 10,
+      "16,16": 11,
+      "17,6": 10,
+      "17,16": 11,
+      "18,6": 10,
+      "18,16": 11,
+      "19,6": 12,
+      "19,7": 13,
+      "19,8": 13,
+      "19,9": 13,
+      "19,10": 13,
+      "19,11": 13,
+      "19,12": 13,
+      "19,13": 13,
+      "19,14": 13,
+      "19,15": 13,
+      "19,16": 14
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "5,10,1,7",
+    "10,6,10,11",
+    "9,6,1,2",
+    "9,8,1,3",
+    "9,11,1,3",
+    "9,14,1,3",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//DsUsk9IgnSdVq92GcF80niGPC6DrrqFczsE+VLIC5LVdrd2NjSUOQFet5390/KcREQ60uzuPx9ewTr3HoG2jc7NKbuXxRQAczYrX27d25DiSwKWmduXB7NXzcUsnu2aZyo7GJLe1Bs5uEVSc/vXILBj5h0E00M7J7ZEuy5Qo/oj5k2NMwCQubxL+KQFTMHRjrhh1CMAQNjM9NnpOnoSPGLjqH0ALrLrh08ivMEpuELqqFhtWxE+KrdeMo01GrMkDLBxwJvh9LE5z0Xn1Y7D5HddrEriSg8kvZWo8xGzLDEdfyxDcHOSDJ1Gt8wDrHglilYfXdIgCpzVQhNw+tPyv1QIkJERKoOHTYDtaOJxr6FNDjnzt8FHBce0Z/OuA1zuJNipRnqT9B2jYypXCiZW+lBERzG3A75IUKjVVbUc20sgl+vTGod+7YALrx9EqKh6hD0t0lqIER+A8OWsGk+wtWkb6NK30lq54i2Hp5FaDS+x45W2scOmmZH5cvdfqWRNqCP6AEjObRxSptV/ZLzL3nXG2RQ4HB7b5rLe0BFOKOdtc+dolilhX4m7eX+5Kpg8z+cnEd/3tnuIfK6rTLX5rMoFgVtwdK//0dn2worqrdTXSIu1GV2oy7FTcWPUJ7YiM94lVVxxsjR3IybqLmdh2ldT2ecTZLzduWpRNirVJNhnzrihP/zCOY60cvuHwYRNkDT5jXr/V1/Ax3xjNTGuzt2UQBsYtANg+csHw4+Y4lFk3KCdQaBi5LzBr5kJ+DWwZlITnMQIVoF4LFjoaQ4jmkLxhBAWRt8CC36t/UthVKRkFY5QTMcYYQyoIvLJSnA/eEzHTEts12hM9esV0nWdvrlf2nrocK5TSwt5USb6Cj0OHf83i5DmqaySbvHSGd6HV7+L+NRgqsa7wJDvh4OH41w==|920

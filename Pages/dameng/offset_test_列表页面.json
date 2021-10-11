@@ -1,0 +1,897 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "3,23": "offset_test 列表",
+    "7,6": "添加记录",
+    "8,43": "ID",
+    "8,44": "文本",
+    "8,45": "整数",
+    "8,46": "日期",
+    "8,47": "时间",
+    "8,48": "是否",
+    "9,35": "更改",
+    "9,38": "删除"
+  },
+  "AttachInfos": {
+    "5,34": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "offset_test_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=offset_test_详情页面!K34"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "offset_dameng",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "ColumnCount": 35,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "8,43": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "RowIndex": 8,
+        "ColumnIndex": 43,
+        "ColumnCount": 6,
+        "RowCount": 22,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "文本"
+      }
+    },
+    "9,11": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "整数"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "小数"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "日期"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "时间"
+      }
+    },
+    "9,23": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "是_否"
+      }
+    },
+    "9,26": {
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "用户"
+      }
+    },
+    "9,29": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon"
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "图片"
+      }
+    },
+    "9,32": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
+          "ReplaceWhenOneFile": true
+        }
+      },
+      "BindingInfo": {
+        "TableName": "offset_dameng",
+        "ColumnName": "附件"
+      }
+    },
+    "9,35": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "offset_test_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=offset_test_详情页面!K34"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,38": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "22,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "dameng",
+            "TableValue": {
+              "TableName": "offset_dameng",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "ID"
+                  },
+                  "ColumnName": "ID"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "文本"
+                  },
+                  "ColumnName": "文本"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "整数"
+                  },
+                  "ColumnName": "整数"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "日期"
+                  },
+                  "ColumnName": "日期"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "时间"
+                  },
+                  "ColumnName": "时间"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "offset_dameng",
+                    "ColumnName": "是_否"
+                  },
+                  "ColumnName": "是_否"
+                }
+              ],
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 3,
+                "ColumnBindingInfo": {
+                  "TableName": "offset_dameng",
+                  "ColumnName": "ID"
+                },
+                "Value": "5",
+                "Id": "d4bb67bc-8743-4bf6-9729-b1ac8baa9425"
+              },
+              "TopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=offset_test_列表页面!R23"
+              },
+              "OffsetCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=offset_test_列表页面!W23"
+              }
+            },
+            "ID": "8130dad72bf543df95331c747deb6eb2"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "count",
+            "TableValue": {
+              "TableName": "offset_dameng",
+              "TableValueType": 3,
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "offset_dameng",
+                  "ColumnName": "ID"
+                },
+                "Value": "1",
+                "Id": "ec3cf347-53dd-4908-87f3-fbfd52cfd06b"
+              },
+              "TopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=offset_test_列表页面!R23"
+              },
+              "OffsetCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=offset_test_列表页面!W23"
+              }
+            },
+            "ID": "51d43b89f7254019ab7280c9a257a45e"
+          },
+          {
+            "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
+            "Listview": "表格2",
+            "ListviewColumnInfos": [
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AW10"
+                },
+                "PropertyName": "ID"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AS10"
+                },
+                "PropertyName": "文本"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AT10"
+                },
+                "PropertyName": "整数"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AU10"
+                },
+                "PropertyName": "日期"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AV10"
+                },
+                "PropertyName": "时间"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AR10"
+                },
+                "PropertyName": "是否"
+              }
+            ],
+            "SourceCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=offset_test_列表页面!dameng"
+            }
+          },
+          {
+            "$type": "JsonDataSource.SetJsonDataToCellCommand, JsonDataSource",
+            "CellInfos": [
+              {
+                "Cell": "JDJ"
+              }
+            ],
+            "SourceCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=offset_test_列表页面!count"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!AR8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=offset_test_列表页面!count"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "22,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "22,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 4,
+        "Formatter": 5,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 4,
+        "Formatter": 5,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 4,
+        "Formatter": 5,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 0,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 4,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 4
+      },
+      {
+        "FontFamily": 4,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 7
+      },
+      {
+        "FontFamily": 4,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 4,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 4,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "DarkGray",
+        "Body",
+        "[AUTO]General",
+        "#D8D8D8",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 6
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,23": 0,
+      "5,34": 1,
+      "7,6": 2,
+      "8,6": 3,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 4,
+      "8,25": 4,
+      "8,26": 4,
+      "8,27": 4,
+      "8,28": 4,
+      "8,29": 4,
+      "8,30": 4,
+      "8,31": 4,
+      "8,32": 4,
+      "8,33": 4,
+      "8,34": 4,
+      "8,35": 4,
+      "8,36": 4,
+      "8,37": 4,
+      "8,38": 4,
+      "8,39": 4,
+      "8,40": 5,
+      "8,43": 6,
+      "8,44": 7,
+      "8,45": 7,
+      "8,46": 7,
+      "8,47": 7,
+      "8,48": 8,
+      "9,6": 9,
+      "9,7": 10,
+      "9,8": 10,
+      "9,9": 10,
+      "9,10": 10,
+      "9,11": 10,
+      "9,12": 10,
+      "9,13": 10,
+      "9,14": 10,
+      "9,15": 10,
+      "9,16": 10,
+      "9,17": 10,
+      "9,18": 10,
+      "9,19": 10,
+      "9,20": 10,
+      "9,21": 10,
+      "9,22": 10,
+      "9,23": 10,
+      "9,24": 10,
+      "9,25": 10,
+      "9,26": 10,
+      "9,27": 10,
+      "9,28": 10,
+      "9,29": 10,
+      "9,30": 10,
+      "9,31": 10,
+      "9,32": 11,
+      "9,33": 10,
+      "9,34": 10,
+      "9,35": 11,
+      "9,36": 10,
+      "9,37": 10,
+      "9,38": 11,
+      "9,39": 10,
+      "9,40": 12,
+      "9,43": 13,
+      "9,44": 14,
+      "9,45": 14,
+      "9,46": 14,
+      "9,47": 14,
+      "9,48": 15,
+      "10,6": 16,
+      "10,40": 17,
+      "10,43": 13,
+      "10,44": 14,
+      "10,45": 14,
+      "10,46": 14,
+      "10,47": 14,
+      "10,48": 15,
+      "11,6": 16,
+      "11,40": 17,
+      "11,43": 13,
+      "11,44": 14,
+      "11,45": 14,
+      "11,46": 14,
+      "11,47": 14,
+      "11,48": 15,
+      "12,6": 16,
+      "12,40": 17,
+      "12,43": 13,
+      "12,44": 14,
+      "12,45": 14,
+      "12,46": 14,
+      "12,47": 14,
+      "12,48": 15,
+      "13,6": 16,
+      "13,40": 17,
+      "13,43": 13,
+      "13,44": 14,
+      "13,45": 14,
+      "13,46": 14,
+      "13,47": 14,
+      "13,48": 15,
+      "14,6": 16,
+      "14,40": 17,
+      "14,43": 13,
+      "14,44": 14,
+      "14,45": 14,
+      "14,46": 14,
+      "14,47": 14,
+      "14,48": 15,
+      "15,6": 16,
+      "15,40": 17,
+      "15,43": 13,
+      "15,44": 14,
+      "15,45": 14,
+      "15,46": 14,
+      "15,47": 14,
+      "15,48": 15,
+      "16,6": 16,
+      "16,40": 17,
+      "16,43": 13,
+      "16,44": 14,
+      "16,45": 14,
+      "16,46": 14,
+      "16,47": 14,
+      "16,48": 15,
+      "17,6": 16,
+      "17,40": 17,
+      "17,43": 13,
+      "17,44": 14,
+      "17,45": 14,
+      "17,46": 14,
+      "17,47": 14,
+      "17,48": 15,
+      "18,6": 16,
+      "18,40": 17,
+      "18,43": 13,
+      "18,44": 14,
+      "18,45": 14,
+      "18,46": 14,
+      "18,47": 14,
+      "18,48": 15,
+      "19,6": 18,
+      "19,7": 19,
+      "19,8": 19,
+      "19,9": 19,
+      "19,10": 19,
+      "19,11": 19,
+      "19,12": 19,
+      "19,13": 19,
+      "19,14": 19,
+      "19,15": 19,
+      "19,16": 19,
+      "19,17": 19,
+      "19,18": 19,
+      "19,19": 19,
+      "19,20": 19,
+      "19,21": 19,
+      "19,22": 19,
+      "19,23": 19,
+      "19,24": 19,
+      "19,25": 19,
+      "19,26": 19,
+      "19,27": 19,
+      "19,28": 19,
+      "19,29": 19,
+      "19,30": 19,
+      "19,31": 19,
+      "19,32": 19,
+      "19,33": 19,
+      "19,34": 19,
+      "19,35": 19,
+      "19,36": 19,
+      "19,37": 19,
+      "19,38": 19,
+      "19,39": 19,
+      "19,40": 20,
+      "19,43": 13,
+      "19,44": 14,
+      "19,45": 14,
+      "19,46": 14,
+      "19,47": 14,
+      "19,48": 15,
+      "20,43": 13,
+      "20,44": 14,
+      "20,45": 14,
+      "20,46": 14,
+      "20,47": 14,
+      "20,48": 15,
+      "21,43": 13,
+      "21,44": 14,
+      "21,45": 14,
+      "21,46": 14,
+      "21,47": 14,
+      "21,48": 15,
+      "22,17": 21,
+      "22,22": 21,
+      "22,43": 13,
+      "22,44": 14,
+      "22,45": 14,
+      "22,46": 14,
+      "22,47": 14,
+      "22,48": 15,
+      "23,43": 13,
+      "23,44": 14,
+      "23,45": 14,
+      "23,46": 14,
+      "23,47": 14,
+      "23,48": 15,
+      "24,43": 13,
+      "24,44": 14,
+      "24,45": 14,
+      "24,46": 14,
+      "24,47": 14,
+      "24,48": 15,
+      "25,43": 13,
+      "25,44": 14,
+      "25,45": 14,
+      "25,46": 14,
+      "25,47": 14,
+      "25,48": 15,
+      "26,43": 13,
+      "26,44": 14,
+      "26,45": 14,
+      "26,46": 14,
+      "26,47": 14,
+      "26,48": 15,
+      "27,43": 13,
+      "27,44": 14,
+      "27,45": 14,
+      "27,46": 14,
+      "27,47": 14,
+      "27,48": 15,
+      "28,43": 13,
+      "28,44": 14,
+      "28,45": 14,
+      "28,46": 14,
+      "28,47": 14,
+      "28,48": 15,
+      "29,43": 22,
+      "29,44": 23,
+      "29,45": 23,
+      "29,46": 23,
+      "29,47": 23,
+      "29,48": 24
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "5,34,1,7",
+    "10,6,10,35",
+    "9,6,1,2",
+    "9,8,1,3",
+    "9,11,1,3",
+    "9,14,1,3",
+    "9,17,1,3",
+    "9,20,1,3",
+    "9,23,1,3",
+    "9,26,1,3",
+    "9,29,1,3",
+    "9,32,1,3",
+    "9,35,1,3",
+    "9,38,1,3",
+    "22,6,3,7",
+    "22,17,3,4",
+    "22,22,3,4",
+    "10,43,20,6",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3",
+    "8,17,1,3",
+    "8,20,1,3",
+    "8,23,1,3",
+    "8,26,1,3",
+    "8,29,1,3",
+    "8,32,1,3",
+    "8,35,1,3",
+    "8,38,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "JDJ",
+      "Formula": "offset_test_列表页面!$AR$1"
+    }
+  ]
+}//bEUyfHrbEFuMxTR6B1EzDduoEonhQFj5MvYnwL3GQNFx80X0wTp4cA5Jg2FeFbRWdzQqzAkDz3J0BqxMK8NXpwO+YATYn49peyej5VwBq43YZ4vjasFJZmCLOMyOJbXFMWmm49V+xhhVt6lJNxzh7O7Z7G9N1pLpmSgAu9N4bHWYGZx1PDtHXmGzGqzGr1mzEDRmI5+jXhObrmyMBkUReG8XwSp7DgqdS7/D4RYeYZNxF2ANFwbWJEBgzFaWGptUwz6S5Szp6CP+27ZbeBiF+Jri14iPErU/zUzSESbkx0ckEGGEMcXnmXyTavZLrgmTCB3fpepRehlW83WnsOXxu/nH0yPt9DcQssczJ3HL9paB7USv0Dyurbz4kXaG035vb0hwFHZNXN2pKa8tk8a6V5CfqeOiakB19jLjSG3PtRIRy4AqcYUZDuzBmNXbS9VMfAkyxX2WYEeIuAF2/htYqCCnc8U/WCCn5LiuTnrrI7lGIlYlBXtKIh0WLv8YdK/eSs/iBQ5tjFXvge+b0ZMEQf2NKyfjvmD0W2eeJJX4mKWKKDoM2KwPoO4jQhbrNWNKiDt2NAjVQ6KJVTJIuOmoa7CsPHLZMyTwyvPmOW0FeqOjDAjwnL1z2zwQl1cKAtDnnEoif+4Skraii+LvmP/5wcjkUVI9fSwmf3sd+hGVvuO4jz9dCwy5nJ2zvyg3VR2ohKB9hssMv07WaacHq55NcTQo8pS8TqEbgjLpkokGlhnKefszr1ag2J4DSFazdq1Jv9kw7DNJFJ9UUKpOWR+UW0EE02pmb3Z4fqvg82gHudhSM8DWcH7dQziTZJnPqhTTUCI8VBayzcxlOQXIgiQ1VPkKGt4A10bfieXCrieYiJFa38cWSsgsQsmuoKjWNurPM7mJ3pFwnzS+EDkdCtQRnw==|920

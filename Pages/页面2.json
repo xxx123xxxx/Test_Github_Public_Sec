@@ -1,0 +1,78 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "日期",
+            "TableValue": {
+              "TableName": "会员信息",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "会员信息",
+                    "ColumnName": "出生日期"
+                  },
+                  "ColumnName": "出生日期"
+                }
+              ],
+              "TopCount": "30",
+              "OffsetCount": "9"
+            },
+            "ID": "6975156d61544d73965c4231493eb470"
+          },
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "offset_count_buildin1",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [
+              {
+                "ColumnName": "日期",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=页面2!日期"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//TudVpxND4UYPF/vl1z40B3fWyJaX2oPWHFJU0JqgDT9QbKEj/j53gha+2WpnipIugrCCAzXax/oiyR3BUn5gs45wEzEI+xpYd5s0+Rm2Oy21jUhrp6OpGd2LJrl4FGVRGF7IDYaeN7JJVwhUN5hvZEEapyLEfdvQCVAphoUyIH0Fv33pUB2PreD18DGHdEQO5Iolyl4BUJYrKNSSpnNTXuDQNUWV8Qzlw9A+1OPMMWfMg5x3wuwtVzffyjaCzwOL/UkDDOqKlqzeiLFv6UdVbofWql6fmz0mkXay6lY8k2Al0tysLjHD9Rht9Fs6wkzg3pWzMKxm9rZNTIeOUHgN8Vr1QgM7ruhicUMO+9bb7mnqjLIVZ1m276UFSqittviW6NfJVCMj+VunOih6J3EW/syDJfUJs7BD/jeqr2NLDIScPqSFO+la+KKdF/9UrHUyJ7AI3CCNVPF0umLKcdZKuoQLoGHZ7oap4kXeZMSVNBXlPG1KiB+DbFYgy6GgTvhLs6e3PKAJlEc9nzpQAoHgUo2IIDYn1SyC1sWnTz/vAvear+lcborWCgbwaerfCXxGrF21n566NBVMIQQTtwWeSy0/Qwt2MbZkCPVd1/hhX20KyaEWXyGANsDieqsYQ2ZeQk4QoGgqPi8Ud0blcSeapddbHDSYFNNOvx8eXNczGm5erIlQTa0OAnbnJEyKH8qDZ9lP1hQ3rKn7P38Ya45iUGkEBrteQ+HDGDhUk3NjBwL3tt5LkvbkfjO26W3cE9avjxfosktEiyTckG9JrNFnB2cLAM+E13tWG6SzRMpioyloFejQ3/Oz15Z/wDOAPs5BFwuXmbfew/QOaRjASOQS0MPRtC5dXh5hT72+SO2wIqEZ3A3xjo3XT74roz6d4U59UH63DyP1WiDtcwuBfKzWAg==|920

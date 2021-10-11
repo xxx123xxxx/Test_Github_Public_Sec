@@ -1,0 +1,163 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "整数:",
+    "7,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "offset_sqlserver",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "offset_sqlserver",
+        "ColumnName": "整数"
+      }
+    },
+    "7,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_sqlserver_详情页面!K8"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "affcd823-8587-4a5d-a8a2-2d2eb8e968f5"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_sqlserver",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "0615b2cd-737f-4c93-bd8d-46db47a89e71"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=offset_sqlserver_详情页面!K8"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "a4026da1-2dbc-4e38-826e-58c4791c88bf"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "offset_sqlserver",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "77165482-4670-4525-8852-c06c1a51202d"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,10,1,4",
+    "7,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//rBg+eQVMMkWw0o+emaZ8ws1Wo+MkMOHkHJrdza3ZxsS15oUVYZZgfftLdfij9k2cqi++BWtO7Sfq57ORlxz09vwNtlLrkV+jwF0zouU5tjmdrnhkn6etuhPkVikzPzbcZmG91VD8R0wAy8GE5snsTj/a7nUBRW5FUVZaAvWeHb6xU1QHuH3nTjXLTglycBMWEXmobjFIVmsXRjhrWiQ20lOec+sb2s+ndPsMKzNyZh7IEswewVC9avaLY0e5f2N82wwEJnhohKILmPCv4ZBF98w75kKSZbpNOd6OKUg8IswzdeACp18xFU+lM4S0UP3YTf7l9dHW/xemZuuKBtcR19V4+DDrp1Ws43uGsdzJXvl95NgxvbBlU8TUAmVhcpq+gSOOuEijhwpMG4673eU/J7LXWL3VHzRLel37hrGH6PuQH2t7XLi0rBx2nWqF2207OHtBzYxzN8FTBzJ8RoZR0aceKRsCyGZzffQQWBysgC2epd9wffzbcLZfQBWMMOVJlA5+rprBQm1id4zpYHlkRLnxrngz6p9dmiml4JP14CRYujC0XafUZBHPUwzveJ1LzLl0THxl9ZQKHmpw5xTXZKJ9EK3EVNkuc65/UYhc+J5hqnj5GcP7WS8v3aa14bFxZOkfwM5awBOYyEkxfX2IiGxVUf3z1/Ja4X51bhRg3LG/pb49o0vDoqHfpGDPB32zWeZbwp47XZETSR4uFmr8QzAgxFh6HP++DqUVv/zQtTvbKbV21TQwG8CBc8MTRVLiy8iGio7npD0Zknm2a96CEHwoW2SzbhQnlFFMw/9Um8N/eflHyu7xv6uT4+nUMHc9zuDMMmH/epG6tUhLwdnVYB5PEuAdl6AkmZgw/zFUQnXC2waUc79Nz1aTBi5xHKBIW2uwV+9D9VpGYgVopHHXeg==|920
