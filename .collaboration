@@ -157,12 +157,6 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:23:00.3816254+08:00",
     "ModuleType": 26,
     "ToRemoveFiles": []
   },
@@ -180,12 +174,6 @@
   },
   {
     "ModuleName": "ServerCommand/buildintable",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:23:09.2444449+08:00",
     "ModuleType": 15,
     "ToRemoveFiles": [
       "ServerCommands\\nancy\\buildintable.json"
@@ -197,12 +185,6 @@
   },
   {
     "ModuleName": "PCPage/buildintable",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:20:25.1124375+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\nancy\\buildintable.json"
@@ -210,12 +192,6 @@
   },
   {
     "ModuleName": "Table/student",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T17:23:00.3816254+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\student.json",
@@ -225,12 +201,6 @@
   },
   {
     "ModuleName": "ServerCommand/buildintable1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-09T18:16:09.7590975+08:00",
     "ModuleType": 15
   },
   {
