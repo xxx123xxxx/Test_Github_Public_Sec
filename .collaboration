@@ -138,5 +138,15 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "PageReport/报表1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T15:57:03.0905103+08:00",
+    "ModuleType": 17
   }
 ]
