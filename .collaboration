@@ -241,5 +241,15 @@
     },
     "LockDateTime": "2021-10-09T18:16:09.7590975+08:00",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "Tables/Branty",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T09:51:13.1415965+08:00",
+    "ModuleType": 22
   }
 ]
