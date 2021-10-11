@@ -174,7 +174,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:33:21.5679108+08:00",
+    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -185,7 +185,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:33:21.5679108+08:00",
+    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -228,5 +228,27 @@
     },
     "LockDateTime": "2021-10-11T12:26:47.1634295+08:00",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/市区字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/店舗マスタ",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
