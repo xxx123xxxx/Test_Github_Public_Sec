@@ -300,5 +300,15 @@
     "LockDateTime": "2021-10-11T13:51:18.552867+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/offset_test",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:55:29.6846561+08:00",
+    "ModuleType": 7
   }
 ]
