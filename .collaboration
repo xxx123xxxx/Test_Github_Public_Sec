@@ -160,20 +160,37 @@
   },
   {
     "ModuleName": "Reports/文件夹1",
-    "ModuleType": 19
-  },
-  {
-    "ModuleName": "PageReport/报表1 (2)",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\CindyWu",
       "Email": "cindy.wu@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T16:39:48.456052+08:00",
+    "LockDateTime": "2021-10-11T16:40:05.2471201+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": []
+  },
+  {
+    "ModuleName": "PageReport/报表1 (2)",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:40:05.2471201+08:00",
     "ModuleType": 17,
     "ToRemoveFiles": [
       "Reports\\文件夹1\\报表1 (2).json",
       "Reports\\文件夹1\\报表1 (2).rdlx"
     ]
+  },
+  {
+    "ModuleName": "Reports/666",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:40:05.2471201+08:00",
+    "ModuleType": 19
   }
 ]
