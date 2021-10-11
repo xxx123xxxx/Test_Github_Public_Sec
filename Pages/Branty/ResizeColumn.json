@@ -60,14 +60,14 @@
     "26,48": 1
   },
   "Formulas": {
-    "5,5": "ODATA(\"ColumnType?$select=日期&$filter=ID eq \"&IF(ISBLANK(AT6),\"null\",AT6))",
+    "5,14": "IFERROR(AK6,0)",
+    "5,29": "AQ6*$G$2",
     "5,26": "$AQ6",
+    "5,36": "AQ6/AN6",
     "5,19": "IF(BG6=\"\",\"\",CONCATENATE(AV6,\"-\",AY6,\"-\",BC6))",
     "5,32": "$G$2*$S$2",
-    "5,29": "AQ6*$G$2",
-    "5,14": "IFERROR(AK6,0)",
-    "5,36": "AQ6/AN6",
-    "5,10": "VLOOKUP(AT6,AY31:BC31,3,FALSE)"
+    "5,10": "VLOOKUP(AT6,AY31:BC31,3,FALSE)",
+    "5,5": "ODATA(\"ColumnType?$select=日期&$filter=ID eq \"&IF(ISBLANK(AT6),\"null\",AT6))"
   },
   "AttachInfos": {
     "1,6": {
@@ -127,6 +127,16 @@
       }
     },
     "5,10": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      }
+    },
+    "5,19": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -1025,13 +1035,7 @@
       "5,16": 8,
       "5,17": 8,
       "5,18": 8,
-      "5,19": 9,
-      "5,20": 8,
-      "5,21": 8,
-      "5,22": 8,
-      "5,23": 8,
-      "5,24": 8,
-      "5,25": 8,
+      "5,19": 14,
       "5,26": 9,
       "5,27": 8,
       "5,28": 8,
@@ -2808,34 +2812,6 @@
     "36,46,1,9",
     "36,55,1,9",
     "1,18,1,5",
-    "3,2,1,3",
-    "4,2,1,3",
-    "4,5,1,5",
-    "4,10,1,4",
-    "4,14,1,5",
-    "4,19,1,7",
-    "5,2,1,3",
-    "5,5,1,5",
-    "5,10,1,4",
-    "5,14,1,5",
-    "5,19,1,7",
-    "3,5,1,24",
-    "3,29,1,7",
-    "3,36,1,3",
-    "3,39,1,3",
-    "3,42,1,3",
-    "4,26,1,3",
-    "4,29,1,3",
-    "4,32,1,4",
-    "4,36,1,3",
-    "4,39,1,3",
-    "4,42,1,3",
-    "5,26,1,3",
-    "5,29,1,3",
-    "5,32,1,4",
-    "5,36,1,3",
-    "5,39,1,3",
-    "5,42,1,3",
     "25,6,1,5",
     "25,11,1,4",
     "25,15,1,4",
@@ -2860,12 +2836,40 @@
     "35,42,1,4",
     "35,46,1,9",
     "35,55,1,9",
+    "3,2,1,3",
+    "3,5,1,24",
+    "3,29,1,7",
+    "3,36,1,3",
+    "3,39,1,3",
+    "3,42,1,3",
     "3,45,1,2",
     "3,47,2,3",
     "3,50,2,4",
     "3,54,2,4",
     "3,58,2,5",
+    "4,2,1,3",
+    "4,5,1,5",
+    "4,10,1,4",
+    "4,14,1,5",
+    "4,19,1,7",
+    "4,26,1,3",
+    "4,29,1,3",
+    "4,32,1,4",
+    "4,36,1,3",
+    "4,39,1,3",
+    "4,42,1,3",
     "4,45,1,2",
+    "5,2,1,3",
+    "5,5,1,5",
+    "5,10,1,4",
+    "5,14,1,5",
+    "5,19,1,7",
+    "5,26,1,3",
+    "5,29,1,3",
+    "5,32,1,4",
+    "5,36,1,3",
+    "5,39,1,3",
+    "5,42,1,3",
     "5,45,1,2",
     "5,47,1,3",
     "5,50,1,4",
@@ -2892,4 +2896,4 @@
       "Formula": "ResizeColumn!$BH$30"
     }
   ]
-}//W1BrE9R26q1956Pw8nNOD3yiH5nSKf54sMVzjXbWGCiVstJ4UQ4tQqJlnym4W1U9/MK+zijchUGo2CYCeXlOTKGnqiM0cVvDbmULVIpvjqo6jwyNV+6YXnzHxz+9m6t/6aDB1WzvwfkI6o1PhBBJWmYt2yB2i6/zY2XK3/wB1UZAW8vgLw7d2eprLFQ2d1YhERX/d05lkH+tgf+SXHLH2EtIBhCDovYws8ehZ+miHOp3y6DRIE/RR/RKyx5un4rsZgYeC2a1/hdfvSctmyPtDniRjI2EDQQQD+2sPvYepRnuRf1B3M6sbEf2rmSN3lrLy3GU/wGG2RbsH0sks1pLJD5SGbgBmU0QkCxwQFzkF/A/WKOh7u81syjZTy1tmj6j3KJWHhd7tx5bT3vrTvF7uSn4mrf4cw18uL0cOsVwaBodYDVr9Ure7gm9mUzJC6hIqaGOKNsQXjxva5sMYjQ85Kpwozjm20piMLyjfJuhrh2ern6+Fj8nXcNNH33BoF3J5ToJ9G5xQx0Ib4rMUbo6ns/TSwDSeaIDCYfJzHQT7IGE5YzAKyi60tr62tm0pG6MN5aCgdetvUi47i47gGhqfzMW+GS2tYWiRzOrfAxQsbe4pR7BU4VqQj2Z4QXy8D3iMPQM62nEbNkMQgtFOeyOLK9K7cMe8avV/heph6iVAg5MFwS1Rbhhf390mPifJqhcBWMfIGQ0X5b502TQVjA97xK29etMkXlMzrArKJ6UZeGiOl8cJb3iNEQ6pRhwQAuC4eNik6z24JkFEyUg7G51ODsygW/PuvCBujyIHSeXyn7rQGpwQboqjYUMsvY1QoAFCuWuF7zfuatlv7Vm2O9ROvJhLZi6ckMD1f7CBXqcLbgI9mnAWacoKJPx2mMX36NC+ZKAci6nYXxAMXq7fS2/5g==|920
+}//0qSrjIEDV+26xN4Kxehd7wXcbTkO81dZ2UI3znrZj1/e5QUngq1cVFQxt6NDWmA68tPcpMkvJaSGzy2oVXNSi54JULHzMEpxdkX+Xd0jDo5RYwx1QXx9dxT2IZmL6rxAbLuurMwPthT7Sp6laPN0haae0ruIuqNVvFtmAwbG+dvVcs3JC5kQLi5+GnG1ecqQWhU9dwLoIXDLzUdZraOhDLf+IITWJrEVJCnckTLwCWHZnf+88d33WgSmfQbykmySGHWmRzVOK187yW9kFZUrpsoZ2X7QzGB1tCkcP4grVWtYxia28dUkCENHCJW4ul0hw8u1dMhjpxeiM1KAG+6kBBcYIoicbBFe2zUAkD7bvtNJFN3ruTSuqqcNFws5962tkGz4hGS6Tc+JRhili5Z7JDpQkNAvZ0J7J8Q0JyjhdUhmp35gh78vRLZcCA7Y9bks/jYqUAuWPfCO0gm8UK7GqIjF9iqgjdvoLiWzACHiTsJ1D0u2KFShnUOPgDJxgREPVeWKy5bF+NuM2XkNIz2Uyz8rYsXQKWivhb5ZjI6inftV+Vcgkr6ZC8Wu/CCaepOZgCFgA/gsuehwsvnEomabVxi3A0aB+rn2yIbEY9EkAMhz1IljNdOPd511bfvCYpnMXgxQLTmeH0KJEnv99y7+O4Qti0Ka17jaT/Hn1tm2zGWiJ50OwykM/wIBaDNtuAzpjBjv3O4dbIoo0xHv6C1J5DA710o9t0aEuWRx5A37Cn/jlLZB0SOr0snpLD1EMYwURRnV2pL6N/0YxnzColrjYJ3+PETl/tOG+xBkZIaetOstf9YeiiDbEQGY+NHcmnGfCR4QR4u6/Zfcpmy+mbUii5VNI3xQ6XXmaylWb5qroLN2Z3f22J1lAyJ6S2z/XB3YckYUdsxGIxtY/A93DkOZ1A==|920

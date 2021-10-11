@@ -1,0 +1,80 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "param",
+      "TableValue": {
+        "TableName": "ColumnType",
+        "OnlyGetValue": true,
+        "TableValueType": 0,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "ColumnType",
+              "ColumnName": "文本"
+            },
+            "ColumnName": "文本"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "ColumnType",
+            "ColumnName": "ID"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=参数1"
+          },
+          "Id": "8b0dbeca-d39a-450f-b152-5261d85beaa3"
+        }
+      },
+      "ID": "4034651da7184ce682784319c6b22a06"
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "ColumnType",
+      "ShowConfirm": false,
+      "ConfirmText": "您确定要更新这行记录吗？",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "ColumnType",
+          "ColumnName": "ID"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=参数1"
+        },
+        "Id": "4805a4e1-46ec-4221-b5dc-7d1ee3f8bfaa"
+      },
+      "UpdateValues": [
+        {
+          "ColumnName": "用户",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=param"
+          }
+        }
+      ]
+    }
+  ],
+  "Name": "服务端命令1"
+}
