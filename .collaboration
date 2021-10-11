@@ -157,7 +157,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-09T11:52:45.3367934+08:00",
+    "LockDateTime": "2021-10-11T13:43:35.5767092+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet"
@@ -174,7 +174,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
+    "LockDateTime": "2021-10-11T13:43:35.5767092+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -185,7 +185,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
+    "LockDateTime": "2021-10-11T13:43:35.5767092+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -236,7 +236,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
+    "LockDateTime": "2021-10-11T13:43:35.5767092+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -289,5 +289,16 @@
     },
     "LockDateTime": "2021-10-11T13:40:42.1652282+08:00",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/POLICIES",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:43:35.5767092+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
