@@ -8059,16 +8059,6 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "TableView/GV_FILESTAT",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T16:23:48.2170502+08:00",
-    "ModuleType": 23
-  },
-  {
     "ModuleName": "TableView/GV_ENQUEUE_STAT",
     "State": 3,
     "LockedBy": {
