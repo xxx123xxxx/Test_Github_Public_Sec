@@ -174,7 +174,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
+    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -185,7 +185,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
+    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -236,18 +236,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
-    "ModuleType": 7,
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Table/店舗マスタ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T13:34:48.6624027+08:00",
+    "LockDateTime": "2021-10-11T13:35:01.663575+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
