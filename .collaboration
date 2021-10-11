@@ -174,7 +174,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:32:21.3454963+08:00",
+    "LockDateTime": "2021-10-11T13:33:21.5679108+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -185,7 +185,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-10-11T13:32:21.3454963+08:00",
+    "LockDateTime": "2021-10-11T13:33:21.5679108+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -228,36 +228,5 @@
     },
     "LockDateTime": "2021-10-11T12:26:47.1634295+08:00",
     "ModuleType": 22
-  },
-  {
-    "ModuleName": "Table/会员信息表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T13:31:52.450603+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/会员信息表1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T13:32:21.3454963+08:00",
-    "ModuleType": 7,
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Table/员工表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T13:33:06.0574739+08:00",
-    "ModuleType": 7
   }
 ]
