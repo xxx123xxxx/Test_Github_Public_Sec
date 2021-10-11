@@ -213,16 +213,7 @@
   },
   {
     "ModuleName": "PCPage/ResizeColumn",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T17:50:52.7399021+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Branty\\ResizeColumn.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommands/Branty",
