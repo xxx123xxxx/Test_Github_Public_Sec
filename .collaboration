@@ -234,6 +234,16 @@
   },
   {
     "ModuleName": "PageReport/dameng_页面报表",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T10:21:41.0540651+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\Dameng\\dameng_页面报表.json",
+      "Reports\\Dameng\\dameng_页面报表.rdlx"
+    ]
   }
 ]
