@@ -165,7 +165,16 @@
   },
   {
     "ModuleName": "Table/dameng_checkReport",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T09:23:17.5202823+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\dameng\\dameng_checkReport.json"
+    ]
   },
   {
     "ModuleName": "Tables/dameng",
