@@ -557,5 +557,25 @@
     },
     "LockDateTime": "2021-10-11T16:23:48.2170502+08:00",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "PCPage/_DD_COL_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:40:01.6583937+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/_DD_COL_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T16:40:01.6583937+08:00",
+    "ModuleType": 1
   }
 ]
