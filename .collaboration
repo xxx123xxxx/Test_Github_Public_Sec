@@ -310,5 +310,25 @@
     },
     "LockDateTime": "2021-10-11T13:55:29.6846561+08:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/offset_test_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:58:44.769387+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/offset_test_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:58:44.769387+08:00",
+    "ModuleType": 1
   }
 ]
