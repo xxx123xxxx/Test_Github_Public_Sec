@@ -109,7 +109,16 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面2.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -192,6 +201,12 @@
   },
   {
     "ModuleName": "Table/student",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\student.json",
@@ -226,5 +241,37 @@
   {
     "ModuleName": "ServerCommand/服务端命令1",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "Table/订单表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/产品",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-11T17:25:02.5216618+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
