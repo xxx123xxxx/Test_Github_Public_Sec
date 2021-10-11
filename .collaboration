@@ -259,5 +259,15 @@
     },
     "LockDateTime": "2021-10-11T13:38:56.8264097+08:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "Tables/dameng",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-11T13:39:16.1952287+08:00",
+    "ModuleType": 22
   }
 ]
