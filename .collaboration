@@ -449,36 +449,6 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "Table/表1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T15:57:19.3115203+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/班级",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T15:57:19.3115203+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/测试离线发布PostgreSQL",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-11T15:57:19.3115203+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Table/汽车销售信息",
     "State": 3,
     "LockedBy": {
