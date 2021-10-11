@@ -257,35 +257,5 @@
     "ToRemoveFiles": [
       "Pages\\Branty\\ResizeColumn.json"
     ]
-  },
-  {
-    "ModuleName": "PCPage/ColumnType_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T10:33:41.0266487+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/ColumnType_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T10:33:41.0266487+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Sheet1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-11T10:34:54.0771289+08:00",
-    "ModuleType": 1
   }
 ]
