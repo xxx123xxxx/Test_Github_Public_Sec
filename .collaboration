@@ -390,15 +390,5 @@
     },
     "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
     "ModuleType": 23
-  },
-  {
-    "ModuleName": "TableView/员工表信息视图",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 23
   }
 ]
