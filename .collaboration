@@ -372,56 +372,6 @@
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Table/会员卡状态字典表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:15:35.4780777+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/会员信息表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:15:35.4780777+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/项目字典表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/院校字典表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/销售大区",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Table/汽车销售排行榜",
     "State": 3,
     "LockedBy": {
