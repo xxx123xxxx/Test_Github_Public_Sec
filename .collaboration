@@ -1,29 +1,11 @@
 [
   {
     "ModuleName": "Table/_半覆盖_222",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:43.6047142+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\_半覆盖_222.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/视图24",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:43.6047142+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\视图24.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Pages/内建手机页面",
@@ -210,17 +192,7 @@
   },
   {
     "ModuleName": "Table/student",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:43.6047142+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\student.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -262,42 +234,16 @@
   },
   {
     "ModuleName": "Table/订单表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:43.6047142+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\订单表.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:43.6047142+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\产品.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/nancy",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\NancyYang",
-      "Email": "Nancy.yang@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T15:58:34.1191127+08:00",
     "ModuleType": 22
   }
 ]
