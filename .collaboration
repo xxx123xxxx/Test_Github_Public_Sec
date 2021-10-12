@@ -5,7 +5,16 @@
   },
   {
     "ModuleName": "TableView/视图24",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-12T15:57:58.9055879+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\视图24.json"
+    ]
   },
   {
     "ModuleName": "Pages/内建手机页面",
