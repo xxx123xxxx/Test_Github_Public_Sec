@@ -422,36 +422,6 @@
     "ModuleType": 7
   },
   {
-    "ModuleName": "Table/身份字典表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/请假表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
-    "ModuleName": "Table/证件类型字典表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T16:18:35.7417931+08:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Table/汽车销售排行榜",
     "State": 3,
     "LockedBy": {
