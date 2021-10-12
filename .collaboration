@@ -306,15 +306,5 @@
   {
     "ModuleName": "Tables/oracle",
     "ModuleType": 22
-  },
-  {
-    "ModuleName": "Tables/xxx",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T10:03:52.3500244+08:00",
-    "ModuleType": 22
   }
 ]
