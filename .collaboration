@@ -250,5 +250,15 @@
     "ModuleName": "Table/产品",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/nancy",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-12T15:58:34.1191127+08:00",
+    "ModuleType": 22
   }
 ]
