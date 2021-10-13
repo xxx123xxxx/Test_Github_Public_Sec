@@ -1,0 +1,313 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "2,3": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "计算表",
+        "RowIndex": 2,
+        "ColumnIndex": 3,
+        "ColumnCount": 30,
+        "RowCount": 20,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,5": {
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "ID"
+      }
+    },
+    "3,8": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "表格1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!U4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!I4+加法!O4"
+                }
+              }
+            ],
+            "UpdateRowType": 3
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "被加数"
+      }
+    },
+    "3,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "表格1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!U4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!I4+加法!O4"
+                }
+              }
+            ],
+            "UpdateRowType": 3
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "加数"
+      }
+    },
+    "3,20": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "表格1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!I4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=加法!U4-加法!O4"
+                }
+              }
+            ],
+            "UpdateRowType": 3
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "和"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,3": 0,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "2,28": 1,
+      "2,29": 1,
+      "2,30": 1,
+      "2,31": 1,
+      "2,32": 2,
+      "3,3": 3,
+      "3,32": 4,
+      "4,3": 3,
+      "4,32": 4,
+      "5,3": 3,
+      "5,32": 4,
+      "6,3": 3,
+      "6,32": 4,
+      "7,3": 3,
+      "7,32": 4,
+      "8,3": 3,
+      "8,32": 4,
+      "9,3": 3,
+      "9,32": 4,
+      "10,3": 3,
+      "10,32": 4,
+      "11,3": 3,
+      "11,32": 4,
+      "12,3": 3,
+      "12,32": 4,
+      "13,3": 3,
+      "13,32": 4,
+      "14,3": 3,
+      "14,32": 4,
+      "15,3": 3,
+      "15,32": 4,
+      "16,3": 3,
+      "16,32": 4,
+      "17,3": 3,
+      "17,32": 4,
+      "18,3": 3,
+      "18,32": 4,
+      "19,3": 3,
+      "19,32": 4,
+      "20,3": 3,
+      "20,32": 4,
+      "21,3": 5,
+      "21,4": 6,
+      "21,5": 6,
+      "21,6": 6,
+      "21,7": 6,
+      "21,8": 6,
+      "21,9": 6,
+      "21,10": 6,
+      "21,11": 6,
+      "21,12": 6,
+      "21,13": 6,
+      "21,14": 6,
+      "21,15": 6,
+      "21,16": 6,
+      "21,17": 6,
+      "21,18": 6,
+      "21,19": 6,
+      "21,20": 6,
+      "21,21": 6,
+      "21,22": 6,
+      "21,23": 6,
+      "21,24": 6,
+      "21,25": 6,
+      "21,26": 6,
+      "21,27": 6,
+      "21,28": 6,
+      "21,29": 6,
+      "21,30": 6,
+      "21,31": 6,
+      "21,32": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,5,1,3",
+    "3,8,1,6",
+    "3,14,1,6",
+    "3,20,1,7",
+    "4,3,18,30",
+    "2,5,1,3",
+    "2,8,1,6",
+    "2,14,1,6",
+    "2,20,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//NmxamHQPEXfZNt/oHxVZykfP/XTLBxXTwOQ+oSv3Nt84JX0goF3guWcJcaMHmEy7sD7muegKTlVhjtvLiTsDBHI1QWPQxBNB8dKTLJ96sZ2EvyaSF5g9NFNDTJ9vCjEuKg7lNB2HqzqC3d50+LVtq2kkY2h2ekLp66l1AJK9CkP3qEg4hES0XrclB5dHggky62ses0mkgjosrDVOerdUKS/gYmyiQP1CiPmVoQ1PrQ5PBa08PnfivMf19QroAGC6h0dFJXz6Hl44ZKf2ZlMJS96NY0Iy+mINtlYnUKyw8OQANKJ1wLTnT5oEeEpfxnt0f6DZ11ccV/gnHly3oDOyVg7OBjX4UNhCXx8fmvUQVQUkArog874W/k/ulNn7lJ0tPVvUobOFl6W8Kwt/dy6UKcyxhvgz7PcpLUeInf2OEP3G4AaR2TQ0nZ0/nQmgNsgy/zAg7zWKmBw/8Tw9P7IPbtC8cNFNS9DbhXcTjClz7dcGt3KlJHXp+cM83x+ACIVeZCKfrb5BarGDLkfatFD5wRGlCz+FTTnZeMKn/ilzlynDdPQAP7nvriITY03oIyXwEdbi+L4MrN7OTAT6zO1eaXPMJgEqHpI9t/1wrSHbqersvwBHHTzodmyYX8qc7Oz48yaEhsJwJc2YPs4Vaf4IVgNCjRSdo+EwPIILcaeSABHbrdZXcbq8qPdWFcmX5++gNvQQdC/BcfGezogjhXpCwooAyvC72n6nZIMM7a5uKZYf2QSQmGdqT0uFRj5AkX0Wlts28p9xrO8TDkpoZAswAIwfAIz2bPpQENiU88VyAQ/Rr3UhHEyBZcDhE5Ucp1SVC6Y9+GLPiZNByqo56xZRa8x+9/Ca4Y1+2nEZ2hmhLZbNpd0jSBnEAjdZxj8LfB6rC15eMd3jdIP9kNzpsiBdpw==|920

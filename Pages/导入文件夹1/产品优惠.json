@@ -1,0 +1,531 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "2,41": "价格",
+    "3,15": 1
+  },
+  "Formulas": {
+    "0,4": "ODATA(\"产品表(\"&IF(ISBLANK(I4),\"null\",I4)&\")/价格/$value\")",
+    "3,21": "P4*AP4",
+    "3,41": "ODATA(\"产品表(\"&IF(ISBLANK(I4),\"null\",I4)&\")/价格/$value\")"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "计算量",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "ColumnCount": 45,
+        "RowCount": 20,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "CommitType": 1,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,4": {
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "ID"
+      }
+    },
+    "3,8": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "产品表",
+        "ValueColumnBindingInfo": {
+          "TableName": "产品表",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "产品表",
+          "ColumnName": "物品"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "产品"
+      }
+    },
+    "3,15": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "CellDefaultValue": 1
+      },
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "个数"
+      }
+    },
+    "3,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=产品优惠!V4"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=产品优惠!P4*产品优惠!AP4"
+                  },
+                  "compareType": 1,
+                  "Id": "68861dc5-31de-4214-bf73-8364a08432ee"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "表格1",
+                    "UpdateValues": [
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!AB4"
+                        },
+                        "Value": "优惠"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4"
+                        }
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!AI4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4/产品优惠!P4"
+                        }
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!I4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!I4"
+                        }
+                      }
+                    ],
+                    "UpdateRowType": 3
+                  }
+                ],
+                "ID": "e3f5432b-cb0b-4ab7-b77e-f8367be57a0a"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "表格1",
+                    "UpdateValues": [
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4"
+                        }
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!AB4"
+                        }
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!AI4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!V4/产品优惠!P4"
+                        }
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!I4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=产品优惠!I4"
+                        }
+                      }
+                    ],
+                    "UpdateRowType": 3
+                  }
+                ],
+                "ID": "40001839-5490-48a5-b563-a26a50010c55"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 3,
+            "ListviewName": "表格1"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "总价"
+      }
+    },
+    "3,27": {
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "描述"
+      }
+    },
+    "3,34": {
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "优惠价"
+      }
+    },
+    "3,41": {
+      "BindingInfo": {
+        "TableName": "计算量",
+        "ColumnName": "产品"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "#b7b7b7",
+        "@",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        },
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "2,28": 1,
+      "2,29": 1,
+      "2,30": 1,
+      "2,31": 1,
+      "2,32": 1,
+      "2,33": 2,
+      "2,34": 3,
+      "2,35": 3,
+      "2,36": 3,
+      "2,37": 3,
+      "2,38": 3,
+      "2,39": 3,
+      "2,40": 3,
+      "2,41": 3,
+      "2,42": 3,
+      "2,43": 3,
+      "2,44": 3,
+      "2,45": 3,
+      "2,46": 4,
+      "3,2": 5,
+      "3,21": 6,
+      "3,27": 7,
+      "3,28": 7,
+      "3,29": 7,
+      "3,30": 7,
+      "3,31": 7,
+      "3,32": 7,
+      "3,33": 7,
+      "3,46": 7,
+      "4,2": 5,
+      "4,36": 8,
+      "4,46": 8,
+      "5,2": 5,
+      "5,36": 8,
+      "5,46": 8,
+      "6,2": 5,
+      "6,36": 8,
+      "6,46": 8,
+      "7,2": 5,
+      "7,36": 8,
+      "7,46": 8,
+      "8,2": 5,
+      "8,36": 8,
+      "8,46": 8,
+      "9,2": 5,
+      "9,36": 8,
+      "9,46": 8,
+      "10,2": 5,
+      "10,36": 8,
+      "10,46": 8,
+      "11,2": 5,
+      "11,36": 8,
+      "11,46": 8,
+      "12,2": 5,
+      "12,36": 8,
+      "12,46": 8,
+      "13,2": 5,
+      "13,36": 8,
+      "13,46": 8,
+      "14,2": 5,
+      "14,36": 8,
+      "14,46": 8,
+      "15,2": 5,
+      "15,36": 8,
+      "15,46": 8,
+      "16,2": 5,
+      "16,36": 8,
+      "16,46": 8,
+      "17,2": 5,
+      "17,36": 8,
+      "17,46": 8,
+      "18,2": 5,
+      "18,36": 8,
+      "18,46": 8,
+      "19,2": 5,
+      "19,36": 8,
+      "19,46": 8,
+      "20,2": 5,
+      "20,36": 8,
+      "20,46": 8,
+      "21,2": 9,
+      "21,3": 10,
+      "21,4": 10,
+      "21,5": 10,
+      "21,6": 10,
+      "21,7": 10,
+      "21,8": 10,
+      "21,9": 10,
+      "21,10": 10,
+      "21,11": 10,
+      "21,12": 10,
+      "21,13": 10,
+      "21,14": 10,
+      "21,15": 10,
+      "21,16": 10,
+      "21,17": 10,
+      "21,18": 10,
+      "21,19": 10,
+      "21,20": 10,
+      "21,21": 10,
+      "21,22": 10,
+      "21,23": 10,
+      "21,24": 10,
+      "21,25": 10,
+      "21,26": 10,
+      "21,27": 10,
+      "21,28": 10,
+      "21,29": 10,
+      "21,30": 10,
+      "21,31": 10,
+      "21,32": 10,
+      "21,33": 10,
+      "21,34": 10,
+      "21,35": 10,
+      "21,36": 11,
+      "21,37": 10,
+      "21,38": 10,
+      "21,39": 10,
+      "21,40": 10,
+      "21,41": 10,
+      "21,42": 10,
+      "21,43": 10,
+      "21,44": 10,
+      "21,45": 10,
+      "21,46": 11
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,4,1,4",
+    "3,8,1,7",
+    "3,15,1,6",
+    "3,21,1,6",
+    "3,27,1,7",
+    "3,34,1,7",
+    "3,41,1,5",
+    "4,2,18,45",
+    "2,4,1,4",
+    "2,8,1,7",
+    "2,15,1,6",
+    "2,21,1,6",
+    "2,27,1,7",
+    "2,34,1,7",
+    "2,41,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//19U7GFjLRlt72uClOzgO/GkiHW+Rpk5e29Z3ja35GK/EoT9B/qCG4lAZK8CfmOgukg0pTgp0SVAF2TC+Yepzl1DxmAMtW88vEl/iIh1Vd5e5YakZcOgAUod54c6PnDt8qTLU7qCczlvo4V2HAQh0THpZRdn97tc00NqQLC0IO1HBJe6+aHZQsaL0Xy8JH9RtZwL0qkhl7F3csxJD3PzSzlsTNh5+rno653ITa4bV+4eCOLCSv/MHZbnEd+3iZNBUNe/wbOz2uGIklTflJ1cRyEFfgfxVVMw1tiLjWitRnuOO52aQrGoR99W77ip5swX92K12mcZ1MTKGlTAizOBO3YgQmZTJ5zpYSipOTqUYjvDCGTxbs7xEEUgRO50V8YvTUd55yaV/bZdWMRMX9S/e2PoY3cnzrwl9m3jqsTi/hSqjb5DODXIwpu6cZ5CDFVr1pnm4/hc3dd7pc+3lzh4uoDdirmVk0tBMV48M6rG5+vi+j/urA9UsVyYEzwQ5WZ4OsUcfK5gE6+ky3R8KCF3LEhfjLiTMVogTlQsJC/9aMSiDchJeBRnuIuPtwz5J1e+5v9g7jsb7omX2yjab2nAdtqmVq9Cz1Ua3REZlw0FWF4s01NoYQYm+pVPRQ0k/IHX7CiN/jOFI+arBSAyePBFSX6Wwu91gE/eaa7k4sHJPkvj0LE8/vkkU+azm2FcabOIssWoHImcSppEx+uXhgpVOjbGe2/APhlO1Pe9fJYLN+88P9Y/hw7unpH8XuxlJd903pUKdDHokpjyMDInrc8UTw6Ke/j/Abgiyt6YugcPcbkuz6xRd/735pyGuaKFM/J8ik6SDaVagRFiu1PaA3Of/B4NdSwkhAhAy1i9uBhEMEbMOBmUitDDW6LUNAC5YmjNzk3wEDD6A6etpzPgY0TAktw==|920
