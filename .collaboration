@@ -189,7 +189,17 @@
   },
   {
     "ModuleName": "Table/built_checkReport",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7885524+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\内建\\built_checkReport.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -239,5 +249,88 @@
   {
     "ModuleName": "PageReport/报表2",
     "ModuleType": 17
+  },
+  {
+    "ModuleName": "PCPage/产品优惠",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7855832+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7855832+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/加法",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7855832+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/计算表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7875813+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7875813+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/产品表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7875813+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1/产品优惠",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7875813+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/计算量",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:26:30.7875813+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
