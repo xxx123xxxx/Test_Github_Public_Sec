@@ -1,0 +1,886 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,25": "汽车销售排行榜 列表",
+    "7,6": "添加记录",
+    "9,38": "更改",
+    "9,41": "删除"
+  },
+  "AttachInfos": {
+    "5,37": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "汽车销售排行榜_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=汽车销售排行榜_详情页面!K24"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "汽车销售排行榜",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "ColumnCount": 38,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "ID1"
+      }
+    },
+    "9,11": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "车型"
+      }
+    },
+    "9,14": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "品牌"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "企业信息"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "系别"
+      }
+    },
+    "9,23": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "类别"
+      }
+    },
+    "9,26": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "_2015销量"
+      }
+    },
+    "9,29": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "_2014销量"
+      }
+    },
+    "9,32": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "_201512销量"
+      }
+    },
+    "9,35": {
+      "BindingInfo": {
+        "TableName": "汽车销售排行榜",
+        "ColumnName": "_201412销量"
+      }
+    },
+    "9,38": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "汽车销售排行榜_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=汽车销售排行榜_详情页面!K24"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,41": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？",
+            "UpdateValues": []
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "21,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "oracle",
+            "TableValue": {
+              "TableName": "汽车销售排行榜",
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "ID1"
+                  },
+                  "ColumnName": "ID"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "车型"
+                  },
+                  "ColumnName": "车型"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "品牌"
+                  },
+                  "ColumnName": "品牌"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "企业信息"
+                  },
+                  "ColumnName": "企业信息"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "系别"
+                  },
+                  "ColumnName": "系别"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "类别"
+                  },
+                  "ColumnName": "类别"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "_2015销量"
+                  },
+                  "ColumnName": "_2015销量"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "_2014销量"
+                  },
+                  "ColumnName": "_2014销量"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "_201512销量"
+                  },
+                  "ColumnName": "_201512销量"
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "汽车销售排行榜",
+                    "ColumnName": "_201412销量"
+                  },
+                  "ColumnName": "_201412销量"
+                }
+              ],
+              "TopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=汽车销售排行榜_列表页面!M22"
+              },
+              "OffsetCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=汽车销售排行榜_列表页面!Q22"
+              }
+            },
+            "ID": "fe154e7745df4446bc38b910370111a2"
+          },
+          {
+            "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
+            "Listview": "表格2",
+            "ListviewColumnInfos": [
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!I26"
+                },
+                "PropertyName": "ID"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!L26"
+                },
+                "PropertyName": "车型"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!O26"
+                },
+                "PropertyName": "品牌"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!R26"
+                },
+                "PropertyName": "企业信息"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!U26"
+                },
+                "PropertyName": "类别"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!X26"
+                },
+                "PropertyName": "_2015销量"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!AA26"
+                },
+                "PropertyName": "_2014销量"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!AD26"
+                },
+                "PropertyName": "_201512销量"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!AG26"
+                },
+                "PropertyName": "_201412销量"
+              },
+              {
+                "ListViewColumnCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!AJ26"
+                }
+              }
+            ],
+            "SourceCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=汽车销售排行榜_列表页面!oracle"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "count",
+            "TableValue": {
+              "TableName": "汽车销售排行榜",
+              "TableValueType": 3,
+              "TopCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=汽车销售排行榜_列表页面!M22"
+              },
+              "OffsetCount": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=汽车销售排行榜_列表页面!Q22"
+              }
+            },
+            "ID": "d42b6189acce463c8baa1276a866e54a"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!U22"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=汽车销售排行榜_列表页面!count"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "21,12": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "21,16": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "24,6": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "RowIndex": 24,
+        "ColumnIndex": 6,
+        "ColumnCount": 32,
+        "RowCount": 21,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格2",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 0,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 5
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 2
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "DarkGray",
+        "#D8D8D8",
+        "@",
+        "#b7b7b7",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 4
+        },
+        {
+          "Color": 6
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,25": 0,
+      "5,37": 1,
+      "7,6": 2,
+      "8,6": 3,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 4,
+      "8,25": 4,
+      "8,26": 4,
+      "8,27": 4,
+      "8,28": 4,
+      "8,29": 4,
+      "8,30": 4,
+      "8,31": 4,
+      "8,32": 4,
+      "8,33": 4,
+      "8,34": 4,
+      "8,35": 4,
+      "8,36": 4,
+      "8,37": 4,
+      "8,38": 4,
+      "8,39": 4,
+      "8,40": 4,
+      "8,41": 4,
+      "8,42": 4,
+      "8,43": 5,
+      "9,6": 6,
+      "9,7": 7,
+      "9,8": 7,
+      "9,9": 7,
+      "9,10": 7,
+      "9,11": 7,
+      "9,12": 7,
+      "9,13": 7,
+      "9,14": 7,
+      "9,15": 7,
+      "9,16": 7,
+      "9,17": 7,
+      "9,18": 7,
+      "9,19": 7,
+      "9,20": 7,
+      "9,21": 7,
+      "9,22": 7,
+      "9,23": 7,
+      "9,24": 7,
+      "9,25": 7,
+      "9,26": 7,
+      "9,27": 7,
+      "9,28": 7,
+      "9,29": 7,
+      "9,30": 7,
+      "9,31": 7,
+      "9,32": 7,
+      "9,33": 7,
+      "9,34": 7,
+      "9,35": 7,
+      "9,36": 7,
+      "9,37": 7,
+      "9,38": 8,
+      "9,39": 7,
+      "9,40": 7,
+      "9,41": 8,
+      "9,42": 7,
+      "9,43": 9,
+      "10,6": 10,
+      "10,43": 11,
+      "11,6": 10,
+      "11,43": 11,
+      "12,6": 10,
+      "12,43": 11,
+      "13,6": 10,
+      "13,43": 11,
+      "14,6": 10,
+      "14,43": 11,
+      "15,6": 10,
+      "15,43": 11,
+      "16,6": 10,
+      "16,43": 11,
+      "17,6": 10,
+      "17,43": 11,
+      "18,6": 10,
+      "18,43": 11,
+      "19,6": 12,
+      "19,7": 13,
+      "19,8": 13,
+      "19,9": 13,
+      "19,10": 13,
+      "19,11": 13,
+      "19,12": 13,
+      "19,13": 13,
+      "19,14": 13,
+      "19,15": 13,
+      "19,16": 13,
+      "19,17": 13,
+      "19,18": 13,
+      "19,19": 13,
+      "19,20": 13,
+      "19,21": 13,
+      "19,22": 13,
+      "19,23": 13,
+      "19,24": 13,
+      "19,25": 13,
+      "19,26": 13,
+      "19,27": 13,
+      "19,28": 13,
+      "19,29": 13,
+      "19,30": 13,
+      "19,31": 13,
+      "19,32": 13,
+      "19,33": 13,
+      "19,34": 13,
+      "19,35": 13,
+      "19,36": 13,
+      "19,37": 13,
+      "19,38": 13,
+      "19,39": 13,
+      "19,40": 13,
+      "19,41": 13,
+      "19,42": 13,
+      "19,43": 14,
+      "21,12": 15,
+      "21,16": 15,
+      "24,6": 3,
+      "24,7": 4,
+      "24,8": 4,
+      "24,9": 4,
+      "24,10": 4,
+      "24,11": 4,
+      "24,12": 4,
+      "24,13": 4,
+      "24,14": 4,
+      "24,15": 4,
+      "24,16": 4,
+      "24,17": 4,
+      "24,18": 4,
+      "24,19": 4,
+      "24,20": 4,
+      "24,21": 4,
+      "24,22": 4,
+      "24,23": 4,
+      "24,24": 4,
+      "24,25": 4,
+      "24,26": 4,
+      "24,27": 4,
+      "24,28": 4,
+      "24,29": 4,
+      "24,30": 4,
+      "24,31": 4,
+      "24,32": 4,
+      "24,33": 4,
+      "24,34": 4,
+      "24,35": 4,
+      "24,36": 4,
+      "24,37": 16,
+      "25,6": 17,
+      "25,7": 18,
+      "25,8": 18,
+      "25,9": 18,
+      "25,10": 18,
+      "25,11": 18,
+      "25,12": 18,
+      "25,13": 18,
+      "25,14": 18,
+      "25,15": 18,
+      "25,16": 18,
+      "25,17": 18,
+      "25,18": 18,
+      "25,19": 18,
+      "25,20": 18,
+      "25,21": 18,
+      "25,22": 18,
+      "25,23": 18,
+      "25,24": 18,
+      "25,25": 18,
+      "25,26": 18,
+      "25,27": 18,
+      "25,28": 18,
+      "25,29": 18,
+      "25,30": 18,
+      "25,31": 18,
+      "25,32": 18,
+      "25,33": 18,
+      "25,34": 18,
+      "25,35": 18,
+      "25,36": 18,
+      "25,37": 19,
+      "26,6": 10,
+      "26,37": 11,
+      "27,6": 10,
+      "27,37": 11,
+      "28,6": 10,
+      "28,37": 11,
+      "29,6": 10,
+      "29,37": 11,
+      "30,6": 10,
+      "30,37": 11,
+      "31,6": 10,
+      "31,37": 11,
+      "32,6": 10,
+      "32,37": 11,
+      "33,6": 10,
+      "33,37": 11,
+      "34,6": 10,
+      "34,37": 11,
+      "35,6": 10,
+      "35,37": 11,
+      "36,6": 10,
+      "36,37": 11,
+      "37,6": 10,
+      "37,37": 11,
+      "38,6": 10,
+      "38,37": 11,
+      "39,6": 10,
+      "39,37": 11,
+      "40,6": 10,
+      "40,37": 11,
+      "41,6": 10,
+      "41,37": 11,
+      "42,6": 10,
+      "42,37": 11,
+      "43,6": 10,
+      "43,37": 11,
+      "44,6": 12,
+      "44,7": 13,
+      "44,8": 13,
+      "44,9": 13,
+      "44,10": 13,
+      "44,11": 13,
+      "44,12": 13,
+      "44,13": 13,
+      "44,14": 13,
+      "44,15": 13,
+      "44,16": 13,
+      "44,17": 13,
+      "44,18": 13,
+      "44,19": 13,
+      "44,20": 13,
+      "44,21": 13,
+      "44,22": 13,
+      "44,23": 13,
+      "44,24": 13,
+      "44,25": 13,
+      "44,26": 13,
+      "44,27": 13,
+      "44,28": 13,
+      "44,29": 13,
+      "44,30": 13,
+      "44,31": 13,
+      "44,32": 13,
+      "44,33": 13,
+      "44,34": 13,
+      "44,35": 13,
+      "44,36": 13,
+      "44,37": 14
+    },
+    "SheetStyle": {
+      "FontFamily": 7
+    }
+  },
+  "Spans": [
+    "5,37,1,7",
+    "10,6,10,38",
+    "9,6,1,2",
+    "9,8,1,3",
+    "9,11,1,3",
+    "9,14,1,3",
+    "9,17,1,3",
+    "9,20,1,3",
+    "9,23,1,3",
+    "9,26,1,3",
+    "9,29,1,3",
+    "9,32,1,3",
+    "9,35,1,3",
+    "9,38,1,3",
+    "9,41,1,3",
+    "21,6,2,5",
+    "26,6,19,32",
+    "25,6,1,2",
+    "25,8,1,3",
+    "25,11,1,3",
+    "25,14,1,3",
+    "25,17,1,3",
+    "25,20,1,3",
+    "25,23,1,3",
+    "25,26,1,3",
+    "25,29,1,3",
+    "25,32,1,3",
+    "25,35,1,3",
+    "21,12,2,3",
+    "21,16,2,3",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3",
+    "8,17,1,3",
+    "8,20,1,3",
+    "8,23,1,3",
+    "8,26,1,3",
+    "8,29,1,3",
+    "8,32,1,3",
+    "8,35,1,3",
+    "8,38,1,3",
+    "8,41,1,3",
+    "24,6,1,2",
+    "24,8,1,3",
+    "24,11,1,3",
+    "24,14,1,3",
+    "24,17,1,3",
+    "24,20,1,3",
+    "24,23,1,3",
+    "24,26,1,3",
+    "24,29,1,3",
+    "24,32,1,3",
+    "24,35,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//a2w4pg1zf7J9FPCgkCMUFqpuYrTNV70G5KrbRdUYpiQsm8FaY7njoJia522FV7bKr4fk72QQdY1sC+xPja1nvhzPqycZfLBaX7a86QiSD8Ev+ukHp4kdYj3uWiFu4lW7RZ94CwajiBkTkLbmp5govG9fLBT3fZz21avlRrAkhwoDjVoRUt1GOg4XuF9wFS86PUjf3rGh89Mb/qQqagnUJgnz/bbHtw0SeSDdD+ZGclUNSer2uEeWAzYUgZGSRGuF7aixGH5lb2NYgi9fqfsk2/lihMkHbQc+IA3j1qnp1l6aj1wpwNWfwPcPqPo47Zlw8df839DZzKJxfUxg/5Urm59s5ZUhLK/cSQKTUJmhJDFhC/t37wcXehT9oTVcWOpqF3pll9kmlpJ7lqX3fH/AyKoAnWg7JNLi5Blc+66XJbwTj33BmepV9V5aE2NMqIPiz7jO5Y/oay4hQJX21Ibts5/0MKfEQeAH+1IYbG7wvt0cFVCEoJgjA35tHA82XC9Cfx0JYsvnk0XvcLE1AZS8wurZZSUcqdH2OesE70XBCdid22oi+z79LSfkJ/um3lR02vXIWal11FGUEdXeHhg0RmMdTnmNsUzzLVfh1/P9m6rN6xtgHlF9dH5Ewvr8jWpy9iv4SqK00ZP7Pn6ftlCCt/ygal5KlUO2aan+OSZaCGrarJqfh1oBrc2LrAjRfRt1drUxr1vOXV7sVQtidtqikSqQvMPeK+GqSLTAOf5uNo0UzCwaXXSvbFbiCC3SowXTA6br+F6oSjj7hjeMu3cfTzfMgFfnWLuiWO1rtwXBfjAaGJ1zL9/aClC8ZpfCcioaSINg/4Emv7m8GWveDRJ53x1JvfUlmWQwRO/R8247uHXCtFqOtrnepvpNjJBDmj4/iVQX0DKGalZH2tBa1BtT3A==|920

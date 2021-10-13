@@ -3,67 +3,85 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fS14O12;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
-    <EConnectionString>8IxZy4ie6KS6r3c0coG0ReuJXzsV0Jn4ILKd97Tyugszb0QkpmihU2kMBZbh5nLQmGfqnYvbPKH5v2ybXZV8UdLPaezE1C4d+RckqpZFiePB0dfIMjaqs1iFmrtioDDCcrILXbzBgx4Tkmag9DEh+h8sKyiOoRC+4dajHNr3XsU=</EConnectionString>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhUKB46XqU8CYOOpZg9S3kIRq+2hBGGvstKi+xXDd2K4LLWWVIgrK388zEsggTFxrdOkDXHaFrDZf2pCIFA4Xm+BdFI0UC3GPt7Ba7I+rGkox71Mwo851yNG0NcWACsmy9UG0lagW3kWyU+3KZIWa6Yc=</EConnectionString>
     <ID>759c2f2f-043a-4498-89b3-021c568146c0</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-S08r2O10;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
-    <EConnectionString>8IxZy4ie6KS6r3c0coG0RXsrPP7zxZKgTxsZH00nidX1XlGt+GUem0To/KNFx/r/cxduJ+8MnmHZThkFCMGaQAN8yUn2vk9yJvs6jJGzV7kb8eD6BXuTnqNx7Oa1X6/GMHEn+cYDUp4n6OlapwjipiO46Vsnyr/D0UTpuBduj1I=</EConnectionString>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhWRSVfYdX0a0VZt4M2Gcav0u89AlFRuVqAQg6TkhU7ojHDkw5+UI9M+jwl+6jZ2o38sBvDgK0DrUmbhHOlm78P6sy8ROat1Rtul+F5QImI74hdtUAH1rA0f/WpLer0bMaPriuo6slage2lbx6jy1l3o=</EConnectionString>
     <ID>c31acd17-986c-40cb-b755-1bbe2599be22</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Provider=tbprov.Tbprov.6;Password=tibero;User ID=sys;datasource=10.32.9.195,30629,tibero;schema=SYS</ConnectionString>
     <DataBaseType>TiberoOledb</DataBaseType>
-    <EConnectionString>RUXgBIgAwPbE2RbMzU2atYWi2LlYxgmWxsP27uVWecPpGle+c9MaLWxf1LQKDhKgoUuIf/KKSWK2ZVURQaISS6L6epthrBPH1SQ7k8frgEOeUtSra6Pfrwg0vlRdgyXPK+0MuKC6VCBI+OOqVdK5Hg==</EConnectionString>
+    <EConnectionString>tAckLeOppCcc2dJqTuWWBAg2R3dJqinXg1q/MpQn+Gebhz9TJQYieRTAe/riVgTnL77op3vIigGkJ4r4wBMCMeoT7MCz3tgGSqUfTJk1lTPBJRP9HCUEqPEVcwI6fSn4W87MdFS1CPEbIIGCocuaPg==</EConnectionString>
     <ID>e56573a8-552d-4fef-b7ea-97d37ae2cc8f</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=xa-dd3-fS17Ms57;User Id=MySqlTest;Password=xA123456;Database=testdatabase</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>Ne/jgqQUvhWt3Jsi/cu2JqH0LYcJx5i31DQTxKatwCae4tdC2O+aYvjrTowETNojt1+T0c07dna7MOwk64uq/pEFF1GYAkM4F4S00APCb28i/F+tpZnrTO99bZvyLaQl</EConnectionString>
+    <EConnectionString>sAglrnaLB7LvtRIPDmybR4KK7G063NCgscXNoLR+Q5AvLmmExjahmRJQaX+Do2kfB/pnNizjZ1AacwDchr+GV0NHY4W1ggwIgQkggauUWJVa9gE7JXKTg601ABErjK0e</EConnectionString>
     <ID>eb5113e6-b4b4-4ca9-a7fa-fe3b63ecbb9e</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Server=xa-dd3-fs16ms8;User Id=mysqltest;Password=xA123456;Database=testdb</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
-    <EConnectionString>rrl1wfa+CmygfhRSzRFxIJ7/rUhdpYP7coQM3/cB39ZVavquFu1P12uhYltIiws+J4nUfd2Qq49wyN9MHdUUjDGTop16xH1wpzE3g7OCXic=</EConnectionString>
+    <EConnectionString>ojVXLIGKFtYVhSXLJ9j4UzLSXaidpn9jTwJzM2b+fmbWN25CYD+xKFophYXiIYeAiZFyow6hWYQFyhY7QlQYdYFV1vTctPdtajKkiLS3g0I=</EConnectionString>
     <ID>fa164460-4ca5-4870-9c09-2ee46b0a7448</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=xa-dd3-fS14O12;Username=postgres;Password=xA20200326;Port=5468;Database=TestDB(ForTesting)</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
-    <EConnectionString>T6ED5Ye3FOaZ03pUAT6g/9R8TPml1btcBjVxvQCEhnhB9Urr7AQTpXUyN+TnGj1l9wCLFOdcyTRx3CXXTPr4A24CITsNQ3V1K9XdDXrv7MXv/Mh3H+EY/u46apytOUeP</EConnectionString>
+    <EConnectionString>6O1gLUk1rnw1UsjlGhec22f8Z8NZmk8KHHGHtPDD5gFhcGeBm0xrJna5nfsTmVA4oBtbDR14ixx6J+Ye2RetuuyO2pf1+oocZBCyHIs6LAF9LHjY8Y/B9ObZOJWMZPff</EConnectionString>
     <ID>5b578b9f-9633-4304-86d5-229e904c57c5</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=10.32.9.195;Username=postgres;Password=xA123456;Port=30003;Database=postgres</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
-    <EConnectionString>15mQ8PNX8ks57q04Z8GenieEJTi0apoQQeNUJnMnBJM5ikTifbrQSQv45zqYwa77K1eaW8Idqhap8auv3vVIPRVJLwqfYh8mlaWc+FemwR9kiYBXEvupzY3AKkFvGq6F</EConnectionString>
+    <EConnectionString>+ARncbQXXvahdd6jAyUgXLLZBqqOPzKy8nYSUVYGyOJ3QOzr9pUDtW7n03QC59w8aedyId2f05zMVxF8D54IDEK4zlgR58x7wur1TFEhlpKGviv/QHbgyokwn6x5173Z</EConnectionString>
     <ID>c2176807-7b16-408b-bfdb-7429ea621677</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>server=10.32.9.195;user=SYSDBA;password=SYSDBA;schema=SYS;port=30236</ConnectionString>
     <DataBaseType>DaMeng</DataBaseType>
-    <EConnectionString>ar0e+HPB9zPdfSnivlF3cpI0VAgsyRfQjHMah4Ms08VtzotuAouKPSwBSZxdz4eIzZOmD6j4EHucbxrOpCRAoOJpncRSu+E2HPOQUJaESXk=</EConnectionString>
+    <EConnectionString>WEw7/pM9SZcXZ2TNoBR0PlxrQx9PKZsYbShZbblxt0R2QCQh8MUjt8ATdXdnle/ekXHG2AsHXCKdad952hWiKlQ0zbXxBrM9iGUcdBDCBSE=</EConnectionString>
     <ID>22853396-46ca-4d85-b0a9-217eee403788</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>server=10.32.9.195;port=30236;user=SYSDBA;password=SYSDBA;schema=SYS</ConnectionString>
     <DataBaseType>DaMeng</DataBaseType>
-    <EConnectionString>ar0e+HPB9zPdfSnivlF3cj+G/XwGF5YKwTe3MSG4ORiQCrs0zZZ/D9RCPCn8dvoqwJo4UbWuBBxnvNe799eLatu3lFlRqCDXOLxHZv2kOM8=</EConnectionString>
+    <EConnectionString>WEw7/pM9SZcXZ2TNoBR0Poki0FH3ew22PS+uE+V000eq0PUW1tcFgaHtuZv3fKWjCoUb6Vo+3Ap/HKQ0UWagr3MmJnxCVIdQZHO3qViljlg=</EConnectionString>
     <ID>d0766b4c-ab06-45e4-a716-0f9154d92475</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>server=10.32.9.195;port=30236;user=SYSDBA;password=SYSDBA;schema=SYSDBA</ConnectionString>
     <DataBaseType>DaMeng</DataBaseType>
-    <EConnectionString>ar0e+HPB9zPdfSnivlF3cj+G/XwGF5YKwTe3MSG4ORiQCrs0zZZ/D9RCPCn8dvoqwJo4UbWuBBxnvNe799eLaog+h3JJ8zvzm8VlhoXgT3M=</EConnectionString>
+    <EConnectionString>WEw7/pM9SZcXZ2TNoBR0Poki0FH3ew22PS+uE+V000eq0PUW1tcFgaHtuZv3fKWjCoUb6Vo+3Ap/HKQ0UWagr54zW1zgufluOfJjxxOUlTk=</EConnectionString>
     <ID>c14a0aa4-4ea5-4117-a678-614df8d0d906</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Port=5468;Host=xa-dd3-fS14O12;Username=postgres;Password=xA20200326;Database=TestDB(ForTesting)</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
-    <EConnectionString>hDRs0Bq1zojs64RqF7MMdhE/G916jIOp9cvtsHZx/BOPdICs0hjUfcc4ujbrm8sfi1s6KSDqVGbMx6+hUeZ9aECCkF9g/SI4pSYXjF/MSnV07x9qXvEQyQsQjjQNbULP</EConnectionString>
+    <EConnectionString>R1w+VwQr6uLntVNxn78O0eAT4EfUNRHblDtpbA734oyUQWYX4iTyx9b6QQFHzbHUdmVNME835u4O2RVOl+1aoFU3I48Fq6AyluPeMeqGCZPp5hX/yz7GftVGJgXqaEvq</EConnectionString>
     <ID>faa0a168-50e3-4c06-aa69-528b3f24fbd8</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fS14O12;Persist Security Info=True;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhfe7r3ZhWFNYjf3Tkqr7pQBhLK1AuEAPMDlvhLlRFe2fPyTxwyuWRoGmYSvq4zp/vGcz9g0UosMV5Gwx/HBq9+FyhE/Dyq0L8p3xzeTPhg++wFTFxWbEcVR9i89Q0gULZg==</EConnectionString>
+    <ID>16064a0d-ce24-49bd-be0b-2f0ab9b1e1c3</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fS12O11;Persist Security Info=True;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhShuVtaIsknAZ/XL5f18bi5uCmEbk9zi4vDhhexen19OrcNE3KoHgesgWl0rTOBAcQ33QkfNndcCcw6vt5ZT1tYSWIe6Px2NtzLWRlLPpWVH52R/i5obBHcWuDcef7a9Bw==</EConnectionString>
+    <ID>69413065-59ba-4475-8fbc-5770aa27cd07</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fSs19O19;Persist Security Info=True;User ID=C##OracleTest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+    <EConnectionString>0UTCBUoaUYt5Ztt2BshEhSKrSZNpByvm0hX6pRWT2woX96+Rcu3CMt6ej4DJ3WeKMg63rXLQDC4be8o6926d46NZivNeteQmTHZ3NI1ovTR1keXGPdwash04bHdHE8DFvIJRm6SrAWbSJ9NlmGMj7A==</EConnectionString>
+    <ID>cd5496cf-a5d5-4999-a353-9b7a64c1505a</ID>
   </Item>
 </DataConnectionSet>
