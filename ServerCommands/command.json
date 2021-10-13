@@ -1,0 +1,46 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "参数1"
+        },
+        {
+          "Name": "ttt"
+        },
+        {
+          "Name": "xxxx"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+      "From": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=参数1"
+      },
+      "Subject": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=xxxx"
+      },
+      "Content": "x",
+      "EnhancedRecipient": {
+        "CommonValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=ttt"
+        }
+      },
+      "ID": "e4a47395faa041e3983e2491926cc435"
+    }
+  ],
+  "Name": "command"
+}
