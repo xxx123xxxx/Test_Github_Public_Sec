@@ -277,16 +277,7 @@
   },
   {
     "ModuleName": "PCPage/页面4",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T13:39:00.8827189+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\导入文件夹1\\页面4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommand/等待命令",
