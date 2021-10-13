@@ -27,11 +27,11 @@
               "TopCount": "30",
               "OffsetCount": "9"
             },
-            "ID": "309e9c6172954ce28ff18be7baf50483"
+            "ID": "d3515ad0424a48bd9aa71b606c07f929"
           },
           {
             "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "offset_count_buildin1",
+            "TableName": "a",
             "UpdateType": "add",
             "ShowConfirm": false,
             "ConfirmText": "您确定添加这条记录?",
@@ -75,4 +75,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//XckmMf6P2JdKmCo+7NmAekrrLODgyLUaXH3J9sDb2iDtDk+huR0uPAVUHMJUW23g5qVdRi3ZtZ/VC1S7sFPtZLl0foM8qmcgGZYQ4HVvuZGSr3ahFydXNxrMg64fPiyzmVDg5C5tMjOiW28/jGpzU2ND/triFHp50pNovbknDsEd1EURm6rxElp+OYTsO/bCCcXey0wx2PUhXQRe5XdwtOu2xbKqGaejvsuI0UE07JRP6i0mgPubryQt8W3tz/jnD/9L72o/W+sDNwAWNg9O7FoIC5tV0KdqyexkguoaY5lZK1q0GRx8kFtvRmKq56u62rVvjA6fdmp4Hhdfh4rO/rjquus3SQ07/3G2OC5OT4bxjWkAWJKEj07TQ60fhY+DBATI3VaDPap9RQCL6UHT6jcpShUTEvAHeFNJoTVS1FfU1YPjhOBC/jA3uL14DK+/C/ax2TNReNjc54c8q/DdyFOWrm8cTGsGv3x8OSabnH3LMjjsHT695hZp5khlsAsfl4kybbm1GNE7OJc4BP2gqBec0Rs0j6p0tD7uEYVa3ipcz5o0tVI1eD4j9i8AKFXsPaSUpd+A+BXHSEKS9QFh98BjRGNQxK63pKD7fQf/p9F2Lu7+JEsk1MCVVGRWEBuIhNwJNs5sGheERzQJy+xKAF2uAcyFV3H1nlNN9XvC2CL8Zv72J5KpVVAfsh34FnwDHV2A0aQ6QCKn0wnSRzGZ6TX31AmFX22m+w24WxMLB/jTf7A+NXKVCPzm2VEsD8RsKhRvueso/reJ6bhio3SGsSfmfM6sANogwVQcBEolsY0aFO/Cp72fbUKNYVF+n605GMJPMpCLws3QFbsH3oK1Id97EttC21r9tspNCvHCUCMHtmtLc2bwvd1CaRxLHxT66+X1bcdfuIryHpXiKlGKUA==|920
+}//ebOaJDqZgH5hMkFzk2xCDv0fdrsXWCsjLT+HPiThs6U9gOnTTI5Uwnxn5c3MC5tTpwPhkOKKmhZehzoMHpgoZTFWjEHKr5CN6dpCFxRvjVEsAiMKBIOPQVbaZer/PAHZpDQpo6sL1+k5tL61o30yBF8XOUrSNVdeQcDnxHDOjNy0qm2wd8qBheYmEbecHez8H0WexlDOIBvka/3CgvTFoZZF42w0heRT7wz/uC74IskHbaO1aD4N8VzndGMBB3RxQZdIjy7jJyPVgG4gHoltzQTeGZ9DMPaCOuqPoc2O/K+rA6uF20k/IJOcbUWsHluO88z5RvRJhOegKsvPJgKBCGnzQ26krl2dtCuSHJhdumu+8AaYDDwX5AfWisTZK8X7nybD8VD8DDcS2b5ogjJTvr+fH79e9l4DvruyITIXM4gQwghnwn3r2Z1P5ThT8w+py/r7tWacKBI0pmp4QHW7fYrFlhX7LJNRKWk/5dz4FVnEz5KhcA2TffbGxN5ysHkylgwfL8iWqdusI2ZgPC491i8isxP16G4IVoB0q/upcb/DwOsY5ZwfvsiZKvWiOGeEKGmGYPFW+0Q83tXFPeYp+c+NpsgSKamFnjAx2w79fS16f74+kBzoO66fRcVVzkp9yV3uPLU4OQ64+AXA1UvPza4zvWGB4fFhoS90ve8VQlH6Wk3BEiLjcvUzvkODmAontd3Rp9VO5MtVwfrnKhCFWpzXjsSTKT1r9LBAmib81MlMTPC+dKW+RPrKd/SeDTr20GEKGGt2yJ6Ve6mK+0vUXqimOr7H2jp/VxZ+6NDWL6T93JeM36j46mfPgzU+FSOjyLQ0lP7RwgWUA/CT/Dn+zIBnIEXpAL86cXuoC47GB99H32NX/kYwQuKreSgdZ0ZDaMU0gEbKCgqYqix1GAsqJQ==|920

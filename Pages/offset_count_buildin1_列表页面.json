@@ -89,7 +89,7 @@
     "8,6": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "RowIndex": 8,
         "ColumnIndex": 6,
         "ColumnCount": 14,
@@ -122,13 +122,13 @@
     },
     "9,8": {
       "BindingInfo": {
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "ColumnName": "文本"
       }
     },
     "9,11": {
       "BindingInfo": {
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "ColumnName": "日期"
       }
     },
@@ -174,25 +174,25 @@
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
             "ParameterName": "buildin",
             "TableValue": {
-              "TableName": "offset_count_buildin1",
+              "TableName": "a",
               "BindingInfos": [
                 {
                   "BindingInfo": {
-                    "TableName": "offset_count_buildin1",
+                    "TableName": "a",
                     "ColumnName": "ID"
                   },
                   "ColumnName": "ID"
                 },
                 {
                   "BindingInfo": {
-                    "TableName": "offset_count_buildin1",
+                    "TableName": "a",
                     "ColumnName": "文本"
                   },
                   "ColumnName": "文本"
                 },
                 {
                   "BindingInfo": {
-                    "TableName": "offset_count_buildin1",
+                    "TableName": "a",
                     "ColumnName": "日期"
                   },
                   "ColumnName": "日期"
@@ -207,13 +207,13 @@
                 "SerializeProperty": "=offset_count_buildin1_列表页面!P22"
               }
             },
-            "ID": "a845aa1ecb414c328e9e240cee26b52d"
+            "ID": "3a70a69fc8fc44038e41a72fc1acaca6"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
             "ParameterName": "count",
             "TableValue": {
-              "TableName": "offset_count_buildin1",
+              "TableName": "a",
               "TableValueType": 3,
               "TopCount": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -224,7 +224,7 @@
                 "SerializeProperty": "=offset_count_buildin1_列表页面!P22"
               }
             },
-            "ID": "0d44b75d301749428054bd06e1d7a925"
+            "ID": "a9b8e36e97654ff2868f665c11de3514"
           },
           {
             "$type": "JsonDataSource.ImportJsonDataToListviewCommand, JsonDataSource",
@@ -515,4 +515,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//q6uZNbwwrl+2kBXOrKZLfgNf284kvFZR54g+QR89FLChTp0KMpWZAyKApQvhBavD1fYAVuYssyxMqpHUZLpzunPImSNYuzKBa7HPIfdkmeJu15J6Dk2gApWjdiTrLl2vUngaZNq/UxoerXgGrJpPHdt2QnASn2YUZHFXNlmKmns+IaiH4EpbOyYNNncpEShjAGqKQw1r40ctjvQXquC/kH7/MkpiatoS+9frSZ3MObg1n/85266oiIE68mAkvOCx4NqKlbdIq2WkNqkc+bHKahGajaKUbnPYsBfhgzwyQQPFfk54NnldSeRgnMKqL2lupB5s8+EncYNiVtgjR/usrMCCEDH9MRZtQa0AhZvRlbkH3NVrts2+it8Fkyoc4aNgoYINI5f+FyW08z9hL/EjbZTnhWcG4GGR/yRi9Y8renZyHQPV468jnXKdIOsgGBQ/mwV/xjo+pFcM3FOsOrLd27HXjesrEqxWMezVsVWnm5pJgQPZhWZaBZ602/d2SY+MG5bcZqpDPSv2KFaExDwxUsw82mmujw+FITZm3LWsZIK5tgV7I1zb0PDV2VVTqL7AAyU7VkkPuZHQa4eDIu7xygFDZBYQagqP/e2/ejyyZccmIb1L2cCUtNblpBDXUDaHywCcTl9UxZ/D54AlR5rhEB5+eLsGpx/wy9MycxEtEYE+wCidM15NjFpfGiuLgaRugRHUCEgkCCcKIrNqVOAV0VqiMwQ7qMEMhEdqg1jw/Hc8khb6EYvdgi8GQrdg1A8K1fnjpIDcZn0K67pJuMYUwdaj5hcaouGtbSVQsnMlW4ZMwL3235sVlbVITi2kwPkv3CM/latPTDuPaUzde9G2lanlESCcpzCGY66Fg355DrQI01pQS15CC2wPAmW7eqj2hkSz+6n/pAnJqhSFAI8HSQ==|920
+}//pwSBKdSZpU7UWsZaGi9eMDfsqv+BFtyu7ywGVcDuvsA9kNMlZOkekEIPK8hmIQ7ubBpASc9/WrsoU7UslwRpJd9veniStkcZe5PT39xbuOa2tsl82btSZTxe36jz1L3ommPmWaqLoadQ+ne7CkGg4WwDJcJrhUAZNFwf8XSduS0au6ERJS/osm0KAs9iF/LFZ5BDO1+GHPTooAGmf2IuXGT0eHVluYuLEdrd4yE57iA+411iELjIbh2fEjRrKQYqzUs8LjIyLL7LlLHwtOZNwNXYNBJNztOMgCFDhO8wykBpzdZg+dMZAZnegiaHOPVLpkea1JMqh4Fy4thrWRMcA8dec1NEJVr0p3ebOfxI/CyR6QgrE5wXDpGILzBoGpkMET0Hpz4G3R617bkHFhIxGObprNsPMSiVN1VbEPm5eB0x6KfrH6etBVl5lpr8pX03IoSxlavb4HXEt/7DBGB63PiVtgyRw0OzYxVUCjS2ErFSeY1qhunv6YdVSsqjlxKicXc9OQn5vEdtFU4/QCqu9NCwrLTQ5D0QeRnHaLntgYpVKFk6fwITxA7XeV16AYfqW60BCc4EQ+i7gzvLsURPcUTmvgPNEz3zCuzUqrZgnXOSKQM0CvMzvvSq9Guuqmw1gqqO7JYM1Uz22qF9iTJ4GdriIVxMtjcviI77R6ZjisTzcnUgzbuqG8NfbojptfmYkyzSqceRCzkzdKomqbxNaHRhLeG3zCfjIkKzfrVEfoI++x74o1qLPNF0gCRq2Red6ynCOwW+9nNSf0mD8GGAPva5jxE0EtLHCftaaJWFtdR9TfbmDcWfLt4F0kyFRGWr5U2LksRt8nTQpd4CgdeH7dlCbY0rAh8emVsaxVjHvgJ9dapTV5Y9Ram5P2X/iJ1bBWNWDen54pKpgWzqQ0081w==|920

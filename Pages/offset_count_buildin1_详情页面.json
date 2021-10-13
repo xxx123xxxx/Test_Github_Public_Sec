@@ -31,7 +31,7 @@
   "AttachInfos": {
     "3,14": {
       "BindingInfo": {
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "ColumnName": "ID"
       }
     },
@@ -46,7 +46,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "ColumnName": "文本"
       }
     },
@@ -56,7 +56,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "offset_count_buildin1",
+        "TableName": "a",
         "ColumnName": "日期"
       }
     },
@@ -79,18 +79,18 @@
                     ]
                   },
                   "value": "添加",
-                  "Id": "22b375b3-b9e9-44c8-a8ba-03cd58ed8cc4"
+                  "Id": "44344b29-4ace-4257-8f51-b045adb7b065"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "offset_count_buildin1",
+                    "TableName": "a",
                     "UpdateType": "add",
                     "ConfirmText": "您确定添加这条记录?",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "4858cb71-8832-4faa-a62c-b147a7e82607"
+                "ID": "7011cdd4-03ee-4e2c-a577-2d8e0e750a7e"
               },
               {
                 "Condition": {
@@ -104,17 +104,17 @@
                     ]
                   },
                   "value": "更改",
-                  "Id": "f7d54362-5e87-496a-a150-257a3b4bdf39"
+                  "Id": "e06ac894-010e-4220-99a7-fce535eb2279"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "offset_count_buildin1",
+                    "TableName": "a",
                     "ConfirmText": "您确定要更新这行记录吗？",
                     "UpdateValues": []
                   }
                 ],
-                "ID": "e7bceaec-87c0-4657-bb36-34cd1564b22a"
+                "ID": "d1411d69-3c3d-4891-bb3a-ab5d08d5dc43"
               }
             ]
           },
@@ -188,4 +188,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//+36e/ZAdPXZwJN7aPhaBNmgvtDgBLJPYTnW8fG8QWFaQJ8x3o1z8ZB883F4WEo20eIeM1O08od1bI+GYkDQWUa4z3JCYYN7kvHQhj4N3AN9149H18Xgk6nyQoPtb9U+wMV7ykBIlAXr2pE3yYm3pLN4qEqJJqr8isZmoydoH6yKST6dUm34oZOZffWcHmYkxVYvkPwFwpiQzLv4Bs3k5cJq/SAy/HLm81/+oT30GtDy5KUL39szBTlMwPF9ZOaGoQ3TsDFIoQ5LPvwbYLVxx0cc7sU7dvPg734BoSKwww0Cdz35xjKRspjh23MIQdXPqsPiRkpl2ULbcjV4KNoUWgEER5ZmFmQ2SpI6NZaYsQxFeKgW0KeJ63H4dzETOGng0zuxzVvpA9Bf5di6FqgiawraTMa4TajwFXtDW/KuG0b6sBL1KMq8rP73qapzBVQFh2kIo29VFdK6CsPbbYJv2HILWtY1A/tP2TZE/k58zh5o7BGIZ9AzYAVU3nfOlHHelGCQoQAOeGZJ+1fbWRyvKMl4jXoFR06Ina1v/Z0RL9mUk7n2vGqtxwVpHDNDj30650QyLLQUTCRMAnEGxkpjZEgeb7x8YZBcXjgYAEedJht+v8nVzSv3SitA5xw5HT8Mk2pG+u41NatBejUlARf9LMUBmqXozN3O4r5DScJAPZ/oYJrlDIzDHpeDH86XBBsh4xp01R4dp/wUrzbxVc0tZFXStQcICT963XGSY2A324ZtWTeO5TMMQKNSDcCqPQAad0flxe+popp9mGewl3I7PT7ue8v/byJ66p8OQPWJuEAOaC48XrWfoze4PpEWrGlHqeFX46gaTfpyu3xUprh35AvX7avFO9AXRsa/4v0157IivD4OUlI5g5ph7VybxDvXhCXTQ5Hlemz5+tsDS3MT9lw==|920
+}//6jlfK2+xl3kfsSHVlgUtWpL9cVeB/Nys2cwYQYGgwII+OlHAF8ILmd5Steg58V38lkilMG4EIa49ePDHSj4FyWECt2boLG7nLwJ/ewgJ5Lmh0Hl3li5RXG25AFFbU0mAxAuh9nD4iZxOfemiAlGbsJWTAp52irYyCLTGzbp3BGrTdgfgXSW6zqNoiP+i9Vy9eSLUnyEcTiIPAWQCu7kSj/al2Mb8NR0xexrNpDto7okZKED/MDqT9ZiYf+hFHRL5rMd0S9XfpxusCjdmQd8mOemHv84S6QNsTJwU8WsEdE3WUnF1zkzcU5JOVZ7jlK4AV7plJdXKuJkRdRuZbzF/f+4uG/p2RKv6PXvULC51hkVpXCqCbfbNVDEM/8rTEcLNd7HakqKYhFh7q6h3KlTHKFw6xC26wos/k76dWAv4v/iO7ADOB0BbUiuC2NGTSd+dN6hx5PelXzhVvql/Za0C8b+0S7R+LyHhYeuY4Nlgt40HbXPqNe3Lsp+E1FwC1MI5mbNqi7vio0euHQJfPIRkRf9mwyteJSsGZQAr+1C8r1VS7NYFrkUjqTkxDiALp37N1Ab5JLH4rR8wWPSjFveLSJHv5NfVoCZLjENPe7n2w6Lo10mpVg52m4uypWWx8+EQLd2a9Xtle0ghUkR2DZmv/PZ6kt/PNglU/k678U70QpaoE94i3WwbrmxVX7gwHqKCYjPHSsY8wsjd+QIFgrP1OT1cHWJyMT73R8EzXHsUl36Z9g9jhjkNed734632FYVzQ46Ezy7IMXyoTrYVhfql8A2UjMglW1XT8Sr65qM/0JXXWVRM2e54KraM/GWkgd8IeD/hQ6udpoJxdJl7QUMk/2alp+ykmkCpCf4L3IJOhIBjMNJ8KyyS2r0ItVzLmQFPFflhz0Hcbo1xKiRQ2Hnr3Q==|920
