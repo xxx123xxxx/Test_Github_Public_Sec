@@ -165,16 +165,7 @@
   },
   {
     "ModuleName": "Table/dameng_checkReport",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T13:50:53.3342548+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\dameng\\dameng_checkReport.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Tables/dameng",
@@ -198,17 +189,7 @@
   },
   {
     "ModuleName": "Table/built_checkReport",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:20:09.9735022+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\内建\\built_checkReport.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -273,17 +254,7 @@
   },
   {
     "ModuleName": "Table/计算表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:20:09.9735022+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\计算表.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -292,17 +263,7 @@
   },
   {
     "ModuleName": "Table/产品表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:20:09.9735022+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\产品优惠\\产品表.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -311,31 +272,12 @@
   },
   {
     "ModuleName": "Table/计算量",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:20:09.9735022+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\导入文件夹1\\产品优惠\\计算量.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "PCPage/页面4",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T13:40:00.5996784+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面4.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommand/等待命令",
@@ -343,53 +285,23 @@
   },
   {
     "ModuleName": "Pages/导入文件夹1/值传递",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:19:05.7154268+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/主页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:19:33.7508734+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/子页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:19:44.882395+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/随手日记",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:20:09.9735022+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "PCPage/页面5",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T14:59:15.9713018+08:00",
     "ModuleType": 1
   }
 ]

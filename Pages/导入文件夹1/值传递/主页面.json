@@ -1,0 +1,344 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "2,3": "子页面",
+    "2,19": "导出",
+    "2,25": "导入"
+  },
+  "AttachInfos": {
+    "2,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "子页面",
+            "PassValues": [
+              {
+                "Source": "aaa",
+                "TargetCell": {
+                  "SerializeProperty": "=子页面!N4"
+                }
+              },
+              {
+                "Source": "bbb",
+                "TargetCell": {
+                  "SerializeProperty": "=子页面!U4"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "子页面",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ImportExportCSV.ImportExportCSV, ImportExportCSV",
+            "ImportExportInfo": {
+              "AlertMessage": "CSV文件导入成功！",
+              "CSVOperation": 1,
+              "ListViewName": "表格1",
+              "Columns": [
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!F7"
+                  },
+                  "CSVColumnName": "ID",
+                  "CSVColumnIndex": 1
+                },
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!J7"
+                  },
+                  "CSVColumnName": "文本",
+                  "CSVColumnIndex": 2
+                },
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!P7"
+                  },
+                  "CSVColumnName": "文本1",
+                  "CSVColumnIndex": 3
+                }
+              ],
+              "ColumnDelimiter": ",",
+              "EncodingType": "UTF-8",
+              "TextQualifier": "\"",
+              "FilePath": "Documents\\example.csv"
+            }
+          }
+        ],
+        "Text": "导出",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ImportExportCSV.ImportExportCSV, ImportExportCSV",
+            "ImportExportInfo": {
+              "AlertMessage": "CSV文件导入成功！",
+              "ListViewName": "表格1",
+              "ImportMode": 2,
+              "Columns": [
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!F7"
+                  },
+                  "CSVColumnName": "ID",
+                  "CSVColumnIndex": 1,
+                  "IsPrimaryKey": true
+                },
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!J7"
+                  },
+                  "CSVColumnName": "文本",
+                  "CSVColumnIndex": 2
+                },
+                {
+                  "ListViewColumnCell": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=主页面!P7"
+                  },
+                  "CSVColumnName": "文本1",
+                  "CSVColumnIndex": 3
+                }
+              ],
+              "ColumnDelimiter": ",",
+              "EncodingType": "UTF-8",
+              "TextQualifier": "\"",
+              "FilePath": "Documents\\example.csv"
+            }
+          }
+        ],
+        "Text": "导入",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,3": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "随手日记",
+        "RowIndex": 5,
+        "ColumnIndex": 3,
+        "ColumnCount": 23,
+        "RowCount": 14,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "TableLoadOnDemandInfo": {
+          "IsEnabled": true,
+          "DemandedRowCount": 1
+        },
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "6,5": {
+      "BindingInfo": {
+        "TableName": "随手日记",
+        "ColumnName": "ID"
+      }
+    },
+    "6,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "alert(\"aaa\");",
+            "ID": "ea682eac32e64b9ca3139913e17260bd"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "随手日记",
+        "ColumnName": "文本"
+      }
+    },
+    "6,15": {
+      "BindingInfo": {
+        "TableName": "随手日记",
+        "ColumnName": "文本1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "@",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "5,18": 1,
+      "5,19": 1,
+      "5,20": 1,
+      "5,21": 1,
+      "5,22": 1,
+      "5,23": 1,
+      "5,24": 1,
+      "5,25": 2,
+      "6,3": 3,
+      "6,9": 4,
+      "6,25": 5,
+      "7,3": 3,
+      "7,25": 5,
+      "8,3": 3,
+      "8,25": 5,
+      "9,3": 3,
+      "9,25": 5,
+      "10,3": 3,
+      "10,25": 5,
+      "11,3": 3,
+      "11,25": 5,
+      "12,3": 3,
+      "12,25": 5,
+      "13,3": 3,
+      "13,25": 5,
+      "14,3": 3,
+      "14,25": 5,
+      "15,3": 3,
+      "15,25": 5,
+      "16,3": 3,
+      "16,25": 5,
+      "17,3": 3,
+      "17,25": 5,
+      "18,3": 6,
+      "18,4": 7,
+      "18,5": 7,
+      "18,6": 7,
+      "18,7": 7,
+      "18,8": 7,
+      "18,9": 7,
+      "18,10": 7,
+      "18,11": 7,
+      "18,12": 7,
+      "18,13": 7,
+      "18,14": 7,
+      "18,15": 7,
+      "18,16": 7,
+      "18,17": 7,
+      "18,18": 7,
+      "18,19": 7,
+      "18,20": 7,
+      "18,21": 7,
+      "18,22": 7,
+      "18,23": 7,
+      "18,24": 7,
+      "18,25": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "2,3,2,6",
+    "7,3,12,23",
+    "6,5,1,4",
+    "5,5,1,4",
+    "6,15,1,6",
+    "5,15,1,6",
+    "6,9,1,6",
+    "5,9,1,6",
+    "2,19,2,4",
+    "2,25,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//7VxiaKWut+2+Pg8lgGNgnpRNV3J2kOnVczgwn4lIndz4cAST9cBk6BvLe9olUhJYeKR2VZcyXIO43Kw3eGhsweY4FYMnZ+V7O5gJ550UO969TfIYzGlEUV+1I5XouxPjthoSRIoDiPSLtNkJHsex95CjLEbkA5A4H2p1QbMip4byk+wQtVzOb3wg9lX7rm/SVtVS2IH8kmIzlM1dsPjoQ/2d/gSTs8fcS2Rwq1CSkI1584UVi0zq3xt42gVQjiALkXndQ/PMHvSyhcBKVyJQU6Vz4HVzZXgVIXQyx9+zX4h0N2is4+KvrAVLhMsALKafmSXuD4zQGaE0uGIMbA5ZziKMzK6inuCECbgAbVPyjdXpA+7IJ9xIstkwm/mWD6ne/jr1tYn9xfGhxnwuZCJ1QgnwE37ezxzrdus16BZ6rf3fGQMftKkMoLrfxtWGi7zop7nidgBwqHHA0eeonruc6iNo/d8OE9whP6ZSiIU28VX0nzW4ZrDDXxOsfaFUA6UjQSvPfBrxfm2J4V2xTDdRZUSvWn5g5xoF54y+sQ1hyrIuNJUKhAiHkRb7VsRkAF8XjAQq+Kg2O6YX2EgU0ovqSaFmEcWiQazDfjkGKt79i9mJKSDaaUsrRn3S7QPQYEyF7gXO5RSi1V03vCzN6L0MDtJ84YM7aHAMiTFBdBV1OPv3aYio+4/Do2Rq6eeekg+kSywwiHuTeFbyVY/SdqZ2G+3biLg8nmFr/on8HzhrjZb0FrZNsgnXZGGsrg+i2vG+s9R1nmNylXFTTcKJMtZIBfD73DZaXYqde2IdFQfUiWlaReiOYwyMVeNZaWhX3E6qQYHv6YqW7a/f7EWy4IipcVnQQFCfvEgLFlwv5ElLrpVS8HXPolv4GHjxhBWLZreqBniIbhXpZcE+lQqbRlpGZw==|920
