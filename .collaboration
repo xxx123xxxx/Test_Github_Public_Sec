@@ -193,7 +193,16 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令1",
-    "ModuleType": 15
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T10:51:40.1952318+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\服务端命令1.json"
+    ]
   },
   {
     "ModuleName": "Tables/sqlserver",
@@ -428,15 +437,5 @@
     },
     "LockDateTime": "2021-10-12T16:20:27.4306259+08:00",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "ServerCommand/服务端命令2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-10-12T18:00:47.4477648+08:00",
-    "ModuleType": 15
   }
 ]
