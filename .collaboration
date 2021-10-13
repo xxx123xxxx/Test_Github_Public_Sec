@@ -322,5 +322,15 @@
     },
     "LockDateTime": "2021-10-13T10:48:50.029741+08:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "ServerCommand/服务端命令2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T11:05:46.8956839+08:00",
+    "ModuleType": 15
   }
 ]
