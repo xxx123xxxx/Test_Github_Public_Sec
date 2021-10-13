@@ -97,7 +97,16 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4696582+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面1.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -141,17 +150,46 @@
   },
   {
     "ModuleName": "Table/offset_count_buildin1",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4686593+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\offset_count_buildin1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/会员信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4696582+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\会员信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "PCPage/页面2",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4696582+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面2.json"
+    ]
   },
   {
     "ModuleName": "Tables/sqlserver",
@@ -163,7 +201,17 @@
   },
   {
     "ModuleName": "Table/市区字典表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4696582+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mysql\\市区字典表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -229,11 +277,29 @@
   },
   {
     "ModuleName": "PCPage/offset_count_buildin1_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4696582+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\offset_count_buildin1_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/offset_count_buildin1_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4686593+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\offset_count_buildin1_列表页面.json"
+    ]
   },
   {
     "ModuleName": "Table/offset_sqlserver",
@@ -339,5 +405,16 @@
   {
     "ModuleName": "ServerCommand/command",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "Table/a",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:39:46.4686593+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
