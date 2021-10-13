@@ -1,0 +1,1778 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 37
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      56
+    ],
+    "Count": 57
+  },
+  "Formulas": {
+    "3,56": "ODATA(\"mobile_员工/$count?$filter=职位 eq '部门经理'\")",
+    "2,56": "ODATA(\"mobile_员工/$count?$filter=职位 eq '职能经理'\")",
+    "1,56": "ODATA(\"mobile_员工/$count?$filter=职位 eq '管理层'\")",
+    "0,56": "ODATA(\"mobile_员工/$count?$filter=在职状态 eq '在职'\")"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_dark.png"
+      }
+    },
+    "1,46": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "6,12": {
+      "IsPlaceHolderCell": true
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "IsSingleExpand": true,
+        "TemplateKey": "样式1",
+        "Items": [
+          {
+            "Value": "功能示例",
+            "Text": "功能示例",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "Excel表格类",
+                "Text": "Excel表格类",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【不固定列】月度店铺管理评分表",
+                    "Text": "【不固定列】月度店铺管理评分表",
+                    "SelectedIconColor": "Background 1",
+                    "IsDefaultItem": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "11a1852c-d062-48b6-9810-a2534161a15b",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【不固定列】月度店铺管理评分表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【单元格内数据预警】生产进度报告",
+                    "Text": "【单元格内数据预警】生产进度报告",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "041dcda5-f00a-4775-9128-dbc2b390f256",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【单元格内数据预警】生产进度报告"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【表角斜线】小学课程表",
+                    "Text": "【表角斜线】小学课程表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "ca9a74f7-822c-453b-871a-d7b6c8fe0b0d",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【表角斜线】小学课程表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "Word文档类",
+                "Text": "Word文档类",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【不规则合并】加工样品单-BOM明细单",
+                    "Text": "【不规则合并】加工样品单-BOM明细单",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "597b0a1f-3fc9-4d87-8a8e-d21c0f9a4cb5",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【不规则合并】加工样品单-BOM明细单"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【不规则表格】商品质检报告书",
+                    "Text": "【不规则表格】商品质检报告书",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "f1de97f0-6622-44ed-8813-bad47f0fbec8",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【不规则表格】商品质检报告书"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【多表格与文字条款】xx商贸报价单",
+                    "Text": "【多表格与文字条款】xx商贸报价单",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "7aefd298-6b73-4215-aad3-69a5b506081c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【多表格与文字条款】xx商贸报价单"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【表单印章】干部任免审批表",
+                    "Text": "【表单印章】干部任免审批表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "37c98e45-b9a6-4816-b057-38fd5b0beca3",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【表单印章】干部任免审批表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "交叉分析表",
+                "Text": "交叉分析表",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【复杂交叉表】财政教育经费投入情况表",
+                    "Text": "【复杂交叉表】财政教育经费投入情况表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "3deb57e1-74a2-4ab6-b4fa-3d3343a562f5",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【复杂交叉表】财政教育经费投入情况表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【多维度交叉分析】全国销售运营统计报表",
+                    "Text": "【多维度交叉分析】全国销售运营统计报表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "c5361a68-7ef9-4455-8f42-e5f1b7fbb647",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【多维度交叉分析】全国销售运营统计报表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "分组与重复表头",
+                "Text": "分组与重复表头",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "分栏报表",
+                    "Text": "分栏报表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "61d6832d-ff54-4704-b35e-ca29043271c6",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "分栏报表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "分组头每页重复",
+                    "Text": "分组头每页重复",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "14f44b07-84f8-491d-8aff-14bdb961c1d5",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "分组头每页重复"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "单级分组",
+                    "Text": "单级分组",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "fa01146a-0341-4fe7-a43c-c46a4b09f29c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "单级分组"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "动态自定义表格",
+                "Text": "动态自定义表格",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "动态生成报表列",
+                    "Text": "动态生成报表列",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "bca731ab-1433-4111-8b81-b57ff56838ed",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "动态生成报表列"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "用户自定报表列",
+                    "Text": "用户自定报表列",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "36757378-7cb0-4cc9-ad54-97e91098dee0",
+                        "OpenReportName": "用户自定报表列"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "可选参数",
+                "Text": "可选参数",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "参数为空显示全部",
+                    "Text": "参数为空显示全部",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "43d7b672-6f14-403c-bfa2-f3058adf9977",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "参数为空显示全部"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "同比环比",
+                "Text": "同比环比",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "同比环比",
+                    "Text": "同比环比",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "d52de848-3a1d-4ea6-9f84-cca1d6c6896d",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "同比环比"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "图表",
+                "Text": "图表",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "双Y轴组合图表",
+                    "Text": "双Y轴组合图表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "a6b18219-bb7a-4dc2-8d61-32452859cac9",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "双Y轴组合图表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "图表排序",
+                    "Text": "图表排序",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "641e5c56-4803-44bb-8193-dc6ba55f0927",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "图表排序"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "图表混排",
+                    "Text": "图表混排",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "d8363a1f-78e5-460e-9120-50cbf342d3ee",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "图表混排"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "多种图表",
+                    "Text": "多种图表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "733921e6-8654-4ba4-ad3b-44d41ae97b79",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "多种图表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "统计分析散点图",
+                    "Text": "统计分析散点图",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "6bf21725-a0c6-4be9-a529-23786d4c81f0",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "统计分析散点图"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "展开与折叠",
+                "Text": "展开与折叠",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【多层分组统计】电力设备生产数据表",
+                    "Text": "【多层分组统计】电力设备生产数据表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "3c019e91-8407-4617-9a43-5128ea59c938",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【多层分组统计】电力设备生产数据表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【多维透视表】商品销售及搭赠比例表",
+                    "Text": "【多维透视表】商品销售及搭赠比例表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "f4d1ada0-e4d0-4572-bdf4-1f37142690b4",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【多维透视表】商品销售及搭赠比例表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【树形结构】项目施工进度报告",
+                    "Text": "【树形结构】项目施工进度报告",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "859c3c83-7e6e-4ac4-8eaf-7995f662ab33",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【树形结构】项目施工进度报告"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "报表套打",
+                "Text": "报表套打",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "客户订单套打",
+                    "Text": "客户订单套打",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "b4c63091-9509-4fdf-8e27-99d5835baec7",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "客户订单套打"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "快递单套打",
+                    "Text": "快递单套打",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "6dbaa2f8-56f4-4ca8-95a7-4e1f8ee07cbf",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "快递单套打"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "数据可视化",
+                "Text": "数据可视化",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【正负值预警】财年预算决算表",
+                    "Text": "【正负值预警】财年预算决算表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "3a052977-5026-4d46-893c-69b3e4721363",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【正负值预警】财年预算决算表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【迷你图】销售数据统计表",
+                    "Text": "【迷你图】销售数据统计表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "face41ef-fcf8-4ec2-8591-80ca4ee41a1b",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【迷你图】销售数据统计表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "条形码",
+                "Text": "条形码",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "36种条形码",
+                    "Text": "36种条形码",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "7fcb38b2-d910-46b7-a182-6b1a88972133",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "36种条形码"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "商品发货条码",
+                    "Text": "商品发货条码",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "e5af2b39-a7b5-412f-91f2-cfd736db9e69",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "商品发货条码"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "国航机票",
+                    "Text": "国航机票",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "91a8f555-10fd-438b-a161-10949a9f0546",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "国航机票"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "移动端报表",
+                "Text": "移动端报表",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "M1.客户分析",
+                    "Text": "M1.客户分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "9679afa1-e808-4138-b61d-045ecd8690f0",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M1.客户分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M2.员工",
+                    "Text": "M2.员工",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "c116fa71-51a3-427b-963c-53da6b10ef8e",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M2.员工"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M3.历史账单",
+                    "Text": "M3.历史账单",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "d7e6dc57-f7e0-4c5f-adf2-204bc600903e",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M3.历史账单"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M4.市场营销",
+                    "Text": "M4.市场营销",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "409723cf-caad-4547-b675-7e45907fa8e2",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M4.市场营销"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M5.销售",
+                    "Text": "M5.销售",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "267d9238-dbcb-492c-b785-57577505bdbf",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M5.销售"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M6.利润分析",
+                    "Text": "M6.利润分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "762b20e3-a427-45bd-bc27-f5316aa0f836",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M6.利润分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "M7.发票信息",
+                    "Text": "M7.发票信息",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "6b24853b-2954-42f7-bb95-949623c6b22b",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "M7.发票信息"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "自动合并",
+                "Text": "自动合并",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【中间列合并】销售明细表",
+                    "Text": "【中间列合并】销售明细表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "7cc07f83-8580-495d-b70b-669fc972c498",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【中间列合并】销售明细表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "表达式",
+                "Text": "表达式",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "表达式1-作用域",
+                    "Text": "表达式1-作用域",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "3d2524a2-5286-40f9-baa2-c36b5205653c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式1-作用域"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式2-条件格式化",
+                    "Text": "表达式2-条件格式化",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "f08006ca-d571-48ba-b67a-2d95363da8f9",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式2-条件格式化"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式3-判断",
+                    "Text": "表达式3-判断",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "cc6058c7-40d9-451e-9929-65ef6071b416",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式3-判断"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式4-Lookup",
+                    "Text": "表达式4-Lookup",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "f4d734d3-7603-4a99-a1c0-4e529dfd3554",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式4-Lookup"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式5-行号",
+                    "Text": "表达式5-行号",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "ee7698be-53a6-410a-ae27-4b36c31b21b5",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式5-行号"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式6-SplitJoin",
+                    "Text": "表达式6-SplitJoin",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "0989e28c-4e67-4eec-aee4-5cddf1fe14fb",
+                        "OpenReportName": "表达式6-SplitJoin"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "表达式7-ReportItems",
+                    "Text": "表达式7-ReportItems",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "8c3889d1-8fe5-4916-b78f-b0eec01cacec",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "表达式7-ReportItems"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "钻取联动",
+                "Text": "钻取联动",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "【报表联动】大区省份销售分析",
+                    "Text": "【报表联动】大区省份销售分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "e0355808-58f8-4226-90e5-04c2559e5100",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【报表联动】大区省份销售分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【钻取主报表】全国销售分析",
+                    "Text": "【钻取主报表】全国销售分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "c8222bd2-b4cf-4c3c-aa3d-a3091ea023d9",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【钻取主报表】全国销售分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "【钻取子报表】大区销售分析",
+                    "Text": "【钻取子报表】大区销售分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "9f25f051-6870-41d2-9cc7-fb48f66f497d",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "【钻取子报表】大区销售分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "行业案例",
+            "Text": "行业案例",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "交通运输",
+                "Text": "交通运输",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "交通事故大数据分析-受害人",
+                    "Text": "交通事故大数据分析-受害人",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "555d1b7c-6a7d-4bf0-a1d2-056d7446836c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "交通事故大数据分析-受害人"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "交通事故大数据分析-车辆",
+                    "Text": "交通事故大数据分析-车辆",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "7e3c2fc6-3e9e-4c16-addb-4f392e59e799",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "交通事故大数据分析-车辆"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仓库-库存准确率",
+                    "Text": "仓库-库存准确率",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "4dcc634f-4938-4ac2-8a60-d05ac01415ff",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "仓库-库存准确率"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "入库能力监控",
+                    "Text": "入库能力监控",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "a141771b-01ad-4553-8733-8f30ca902b8c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "入库能力监控"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "监控中心—TMS",
+                    "Text": "监控中心—TMS",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "06a54014-4c30-4be0-835f-49324ba8d86f",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "监控中心—TMS"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "运输车队分析-车队本身",
+                    "Text": "运输车队分析-车队本身",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "a7754de5-38e1-4841-a8c0-ef722df41a0c",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "运输车队分析-车队本身"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "学校教育",
+                "Text": "学校教育",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "学校收入分摊汇总表（NC分析）",
+                    "Text": "学校收入分摊汇总表（NC分析）",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "bef8bcbb-62bd-4c0f-b170-8d72b9ce5814",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "学校收入分摊汇总表（NC分析）"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "学校综合业绩表",
+                    "Text": "学校综合业绩表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "7e625f9d-2c45-46a7-b802-d253d9e1b2f7",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "学校综合业绩表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "财政教育经费统计",
+                    "Text": "财政教育经费统计",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "ddebcf01-7663-4470-8fd4-8db2063348e2",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "财政教育经费统计"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "房地产",
+                "Text": "房地产",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "媒体效果统计图",
+                    "Text": "媒体效果统计图",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "d8270a01-2253-4b79-9073-b8556a775e12",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "媒体效果统计图"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "客户特征分析",
+                    "Text": "客户特征分析",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "69599c11-8caa-4ec8-8ba2-da2362f22bd0",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "客户特征分析"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "房地产-管理驾驶舱",
+                    "Text": "房地产-管理驾驶舱",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "4389cdbc-fa90-4cb7-88d9-db16feaa7259",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "房地产-管理驾驶舱"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "来访客户分析表",
+                    "Text": "来访客户分析表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "9b13bf30-0bcc-49d5-a8b1-2a279c3e44f6",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "来访客户分析表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "每周(月)来访客户分析表",
+                    "Text": "每周(月)来访客户分析表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "6e4dbbed-aa07-4eb6-9e79-2318f40409ea",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "每周(月)来访客户分析表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "销售日报表",
+                    "Text": "销售日报表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "322dfa7d-df8b-4578-b859-1fbb94a10b62",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "销售日报表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "项目存量统计表",
+                    "Text": "项目存量统计表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "9a9345a3-82b0-43e9-8012-d9569750a013",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "项目存量统计表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "项目现金流量表",
+                    "Text": "项目现金流量表",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "842daf6f-4c9b-4f1e-ad5b-812a574e089f",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "项目现金流量表"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "生产制造",
+                "Text": "生产制造",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "SMT生产看板",
+                    "Text": "SMT生产看板",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "194068a9-007c-42f8-9720-81387967589b",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "SMT生产看板"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "SMT车间看板",
+                    "Text": "SMT车间看板",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "8356eb1d-70bb-4bda-9064-b4bf1325d380",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "SMT车间看板"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "产能 DashBoard",
+                    "Text": "产能 DashBoard",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "10af99c7-dd05-4f3b-a359-cbab98fc28c1",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "产能 DashBoard"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "加工样品单-BOM明细单",
+                    "Text": "加工样品单-BOM明细单",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "5e8105e4-1ce7-4fe3-9d15-36b1b3f20b16",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "加工样品单-BOM明细单"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "服装制造_生产工艺单",
+                    "Text": "服装制造_生产工艺单",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "625fcbb5-0abf-4419-94fe-5c32c6c58a16",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "服装制造_生产工艺单"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "钣金制造设备效率 OEE - OEE 分解",
+                    "Text": "钣金制造设备效率 OEE - OEE 分解",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "babe93af-cbc4-4ab2-96f0-d58f92a8b883",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "钣金制造设备效率 OEE - OEE 分解"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "钣金制造设备效率 OEE - 周宕机及打卡对照",
+                    "Text": "钣金制造设备效率 OEE - 周宕机及打卡对照",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "18ebf9e9-ab7d-4db0-b48f-17ac926e4724",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "钣金制造设备效率 OEE - 周宕机及打卡对照"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "钣金制造设备效率 OEE - 宕机及生产率",
+                    "Text": "钣金制造设备效率 OEE - 宕机及生产率",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "2e75f234-73d8-489b-b75b-27b39be56037",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "钣金制造设备效率 OEE - 宕机及生产率"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "钣金制造设备效率 OEE - 班次",
+                    "Text": "钣金制造设备效率 OEE - 班次",
+                    "SelectedIconColor": "Background 1",
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                        "SessionGuid": "fb2a906d-1d7b-4be8-ae84-98661ecf520e",
+                        "SideBarPosition": 0,
+                        "OpenReportName": "钣金制造设备效率 OEE - 班次"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.333333333333332,
+            "Height": 45.0,
+            "Width": 240.0,
+            "IconHeight": 20.0,
+            "IconWidth": 20.0
+          },
+          {
+            "FontSize": 14.666666666666666,
+            "Height": 40.0,
+            "Width": 240.0,
+            "IconHeight": 20.0,
+            "IconWidth": 20.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Height": 40.0,
+            "Width": 240.0,
+            "IconHeight": 20.0,
+            "IconWidth": 20.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 1
+      },
+      {
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 2 0"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,46": 1,
+      "1,47": 0,
+      "1,48": 0,
+      "1,49": 0,
+      "1,50": 0,
+      "1,51": 0,
+      "1,52": 0,
+      "1,53": 0,
+      "1,54": 0,
+      "1,55": 0,
+      "2,46": 0,
+      "2,47": 0,
+      "2,48": 0,
+      "2,49": 0,
+      "2,50": 0,
+      "2,51": 0,
+      "2,52": 0,
+      "2,53": 0,
+      "2,54": 0,
+      "2,55": 0,
+      "2,56": 2,
+      "3,46": 0,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,50": 0,
+      "3,51": 0,
+      "3,52": 0,
+      "3,53": 0,
+      "3,54": 0,
+      "3,55": 0,
+      "3,56": 2,
+      "4,56": 2,
+      "7,0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,5,8",
+    "7,0,30,12",
+    "1,46,3,8",
+    "6,12,31,44"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "4a62ea1a-d23b-40a0-9998-5a0ccec145a4.png",
+      "Size": "20,50"
+    },
+    {
+      "FitToBrowserHeight": true,
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "820787c0-93b5-4966-90a8-9ceadda6abdc.png",
+      "Size": "240,50"
+    },
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "4d1a9efb-4e62-413b-ade4-3961d4b9a16c.png",
+      "Location": "240,50",
+      "Size": "880,620"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "在职员工数量",
+      "Formula": "母版页1!$BE$1"
+    },
+    {
+      "Name": "管理层人数",
+      "Formula": "母版页1!$BE$2"
+    },
+    {
+      "Name": "职能经理人数",
+      "Formula": "母版页1!$BE$3"
+    },
+    {
+      "Name": "部门经理",
+      "Formula": "母版页1!$BE$4"
+    }
+  ]
+}//gowlBGLq6xCZw0Yf4bcMCywI9zRK8BdZ7Qqo5go62zII+Q4VhhLJJKUtx928FMg79l2plgNz3VTZkYEXTnWLeGtbNQf077/KIcAb82NwLpxXW1sx/P6fPuqXMrfMTD1bHHzO3dVAISWQB2XW8QmkYjSS2UsAacoPeGu89XIb0tMqvp2jTdwGUsFwvKbENjiWa/d2dy1O1r9HgZL+l/s+uQFbcm9VHxYmMkFY8a9+oqBIX9W9PaGjnbzH06NBu17fgQcVxWYYQbfHE0Kjowu9vSrxOGqk/OnVOIxd0GLmbVhhseTrxaVeZ4+6ZZrKjXxoUbES3tZ22vudo2J7UuwR8W07Y3/sryKxFa2cb7Iry4QQpjV6e6IiYZmbO0wWEDot50C4vCIXK991CdN8QMFWlJutn3VPMBYltIAcGbII84n0kZzA6fUOceoDVXTusDWxT3J4Ezexz6Ok0JNytlu8i2FoR+gyXIJArPgIB8p7+fR6rXVdgm0u+WyL122uShf/W1BzbOMJ05hx0qUZM3BUawoHEa/8I1xzMBA1Nj7ChOq9RPYHF7wcdo43ueyQXkC43e04SbhOs7rWevJf8WzN9avEvnjGauKfP5JZMjDpWrCrno3LL/U6R8D2DsSoQwuAMkZwVYcN0CHet1kht6ErKLbkUX2AfY1x77MfbgFgtxknb0e2bH5bk+4NleWw9MPNI4MBEPA5iCAwDjBhHwbWF8+I4QkTB/cWSI/oxlBqzJJ/rh5vEua0GW8WaGC6GOn3GMeXd14T9L6OC/qu2mzVqJ86NzGat8PM7Vbq5pM4moilAYTW3uopBz5ZfERpfvs0s+iwEVqog4JO5tIhFCBN6lyROzkHfqQLPCcBgjlfMx702e82CYVMYLTvhz6G6aMkVGZ12QakCbHEWxt5j3eX7g==|920
