@@ -274,7 +274,16 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令2",
-    "ModuleType": 15
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T13:46:11.9377398+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\nancy\\服务端命令2.json"
+    ]
   },
   {
     "ModuleName": "PCPage/页面3",
@@ -289,5 +298,15 @@
     },
     "LockDateTime": "2021-10-13T13:42:14.098668+08:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "ServerCommand/dameng",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\NancyYang",
+      "Email": "Nancy.yang@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T13:46:11.9377398+08:00",
+    "ModuleType": 15
   }
 ]
