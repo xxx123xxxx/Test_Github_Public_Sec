@@ -1,2 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.ReturnCommand" assembly="ServerDesignerCommon">
+        <ErrorCode type="System.String">
+          <Value>0</Value>
+        </ErrorCode>
+        <Message type="System.String">
+          <Value>error</Value>
+        </Message>
+      </Item>
+    </Commands>
+    <ID>70f5923d-8197-4e0a-a11a-17225706667e</ID>
+    <Name>模板命令1</Name>
+  </Item>
+</ShareCommand>

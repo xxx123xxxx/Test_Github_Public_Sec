@@ -3,6 +3,10 @@
   <IntegrateWithOtherApplication>
     <Password>(n9OL^#lDzoi</Password>
   </IntegrateWithOtherApplication>
+  <LoadingIndicatorSettings>
+    <CSSColor>Accent 6 80</CSSColor>
+    <CSSLoading>AtomLoading</CSSLoading>
+  </LoadingIndicatorSettings>
   <StartDateFiscalYear>1</StartDateFiscalYear>
   <UserServicePort>11879</UserServicePort>
   <WebSitePort>20965</WebSitePort>

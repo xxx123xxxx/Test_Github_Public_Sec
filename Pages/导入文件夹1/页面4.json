@@ -1,0 +1,295 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "计算表",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "ColumnCount": 33,
+        "RowCount": 19,
+        "IsRowHeaderVisible": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "CommitType": 1,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "2,36": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "aaasa"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,4": {
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "ID"
+      }
+    },
+    "3,7": {
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "被加数"
+      }
+    },
+    "3,12": {
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "加数"
+      }
+    },
+    "3,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingText": "start",
+            "LoadingTextColor": "Accent 6 60"
+          },
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "等待命令",
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "err"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true,
+            "Disabled": true
+          },
+          {
+            "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "计算表",
+        "ColumnName": "和"
+      }
+    },
+    "6,36": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "等待命令",
+            "CheckDataValidation": true,
+            "Disabled": true
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "@",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "2,28": 1,
+      "2,29": 1,
+      "2,30": 1,
+      "2,31": 1,
+      "2,32": 1,
+      "2,33": 1,
+      "2,34": 2,
+      "3,2": 3,
+      "3,17": 4,
+      "3,34": 5,
+      "4,2": 3,
+      "4,34": 5,
+      "5,2": 3,
+      "5,34": 5,
+      "6,2": 3,
+      "6,34": 5,
+      "7,2": 3,
+      "7,34": 5,
+      "8,2": 3,
+      "8,34": 5,
+      "9,2": 3,
+      "9,34": 5,
+      "10,2": 3,
+      "10,34": 5,
+      "11,2": 3,
+      "11,34": 5,
+      "12,2": 3,
+      "12,34": 5,
+      "13,2": 3,
+      "13,34": 5,
+      "14,2": 3,
+      "14,34": 5,
+      "15,2": 3,
+      "15,34": 5,
+      "16,2": 3,
+      "16,34": 5,
+      "17,2": 3,
+      "17,34": 5,
+      "18,2": 3,
+      "18,34": 5,
+      "19,2": 3,
+      "19,34": 5,
+      "20,2": 6,
+      "20,3": 7,
+      "20,4": 7,
+      "20,5": 7,
+      "20,6": 7,
+      "20,7": 7,
+      "20,8": 7,
+      "20,9": 7,
+      "20,10": 7,
+      "20,11": 7,
+      "20,12": 7,
+      "20,13": 7,
+      "20,14": 7,
+      "20,15": 7,
+      "20,16": 7,
+      "20,17": 7,
+      "20,18": 7,
+      "20,19": 7,
+      "20,20": 7,
+      "20,21": 7,
+      "20,22": 7,
+      "20,23": 7,
+      "20,24": 7,
+      "20,25": 7,
+      "20,26": 7,
+      "20,27": 7,
+      "20,28": 7,
+      "20,29": 7,
+      "20,30": 7,
+      "20,31": 7,
+      "20,32": 7,
+      "20,33": 7,
+      "20,34": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "4,2,17,33",
+    "3,4,1,3",
+    "3,7,1,5",
+    "3,12,1,5",
+    "3,17,1,5",
+    "2,36,2,7",
+    "6,36,2,7",
+    "2,4,1,3",
+    "2,7,1,5",
+    "2,12,1,5",
+    "2,17,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "alert1",
+      "Formula": "页面4!$AK$3"
+    }
+  ]
+}//hKVlyCbIF8HZk0p1gJyaV+nC9Nt2jnahYBq88tDpoAn/DzMyXBktWzC3vmV1RtQWOrz3OEth+rAhLR0iKR1AGBPk2ek2tNoTpW3wb4guTrX6JWCG31v9nfUZ2V1rbFqABzkuDnKKKpMmpotZJfNssq6np5sKMQVRNweffoCrCHwX4G/iaBzBVa9i0QOMZvynUgNbkDSUjF4l2L1iBNjTnxzlvVKS8IBKcMaSifd6aXHq10A8kW76C5jiUDifT+mph+78mY/5PEfL5CvcF2rQItXmEhwQztb6QiGjC/obdVrPOHQcnlzQCPRbgpvlOSIsrHP2p1I5O0dYCpN99YPQDtJZbiLukcpBTNP25jvrPCW+C43qLK2GmDTOMQbBExiouuwgXtUmN9/89tC8tiv+hmqBzH3j1XmBfvjQIW+7wqJprHjCDbOFrRxbOW/QBC8BVD2URCt1UDp2BQn2k01JINXPZ6mAbq1DgeJ6bniyMA88+YU4BTlKGaTUCIleFZAW0ghM6jqivaz5N3ivuWa/5w/7ps8IEYbC8UaCsjZ21GXbsLywp1jGUubU2tQsYAQxF4fiZXMKXSpgQqRZyXD080MktsESg7lWJ8MCV4lzHsG6AZLoZmGz3P8m1HP7nKrmaFOHAIc5JslgCdD6crpc1MhVpEY46TdpqXuVeUQsLg3lRv6OD4s/a6BLdt0BYbM7/n+DywcO4gdLrwviWYprOlhj7dZ2ejSRHioZvSyCuzLqGbOK5BAIgfbouymfe0KEvTx0MC93oFFmyG7S9HqJyTiPowr7ZrQZBWavgJXFbepHit44i4YEuDRd9HgEg4PBAPsn2NgaIRH9LCqPBOJko8oiH29u3d8YDaNk89ickcYfVAD3GTQXvcuY3+tdXgcX4X08HNerXnBBz1uDT5SDUg==|920
