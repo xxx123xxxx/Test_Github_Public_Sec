@@ -1,0 +1,42 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "id",
+          "TestData": "bbbbb"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "ba611b02-4053-40fa-9626-0573d809741e",
+      "Params": {
+        "aaa": {
+          "Item1": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=id"
+          },
+          "Item2": 24
+        }
+      },
+      "SqlStatement": "SELECT \"CHAR\" from \"(test)\".\"textColumn_table\" WHERE \"CHARACTER\"=:aaa\r\n\r\n",
+      "ReturnsName": "result",
+      "TestingParameters": {},
+      "ID": "83ea80fe32d2439cac2f9c8a5f1683f2"
+    }
+  ],
+  "Name": "服务端命令2"
+}

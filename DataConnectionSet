@@ -3,11 +3,19 @@
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Data Source=xa-dd3-fS14O12;Initial Catalog=TestDB;Persist Security Info=True;User ID=forguncytest;Password=xA123456</ConnectionString>
     <DataBaseType>SqlServer</DataBaseType>
+    <EConnectionString>gJ9oF8L5shZpbYErGsjfOF6v/Rd4xklTWVERPc2wZv8axpSKAiRAZyE0JgLKBhGulRJz7Zbnaz3CaouBB2uMIsXt2g4MQHBosBO1EQHG0LBL+7VCPDC2Mf0hWtmqPojqp58qyao0+InDxpTNQQJ2pUroUIRT4naUW60AiaTwO04=</EConnectionString>
     <ID>16871126-0091-4ee1-82c7-8565652b3ec8</ID>
   </Item>
   <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
     <ConnectionString>Host=xa-dd3-fgcp13d8;Username=postgres;Password=xA20200326;Database=brantytest</ConnectionString>
     <DataBaseType>PostgreSQL</DataBaseType>
+    <EConnectionString>vh68U45LZeuDNb6eBkufVbfaekkuRdC77urY58BUw00lI6Etmw1UlwsOWWJ4xCCCmAme9ngKEZIGfmFVzY9er933zPdesDYh1uFmZfYBUR8=</EConnectionString>
     <ID>71793db1-374a-4d2f-94a2-18aa79ad906d</ID>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>server=xa-dd3-fgcp13d8;user=sysdba;password=xA20200326;schema=(test)</ConnectionString>
+    <DataBaseType>DaMeng</DataBaseType>
+    <EConnectionString>AYXkJTHJ1Dlos3bTZ27DsjgFHhlXa2eoJYs9kuN+JlfY2eoRLxMP3SbadEasosDftZf0DsQVKwpekzRuMpFFjo/mke0xjpJr5WBVqFciW9A=</EConnectionString>
+    <ID>ba611b02-4053-40fa-9626-0573d809741e</ID>
   </Item>
 </DataConnectionSet>
