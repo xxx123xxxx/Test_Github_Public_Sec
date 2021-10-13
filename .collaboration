@@ -134,7 +134,17 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-13T16:32:11.4495908+08:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "Theme",
