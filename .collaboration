@@ -1150,7 +1150,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5328669+08:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "Upload",
@@ -1167,5 +1176,75 @@
   {
     "ModuleName": "PCPage/报表功能演示 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/テーブル94",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル93",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル92",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル91",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル90",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル9",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/テーブル89",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T16:55:31.5358663+08:00",
+    "ModuleType": 7
   }
 ]
