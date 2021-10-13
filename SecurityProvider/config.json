@@ -1,0 +1,9 @@
+﻿{
+  // eg: givenname,title,postalcode,countrycode,streetaddress,description,l,c,telephonenumber
+  "userProperties": [ "description", "title", "telephonenumber" ],
+  "groupSettings": {
+    // all, distributionGroup, securityGroup
+    "supportGroupType": "distributionGroup",
+    "groupFilter": [] //[ "biztrip", "Tool-Order-CN" ]
+  }
+}
