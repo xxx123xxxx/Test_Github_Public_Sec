@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DataConnectionSet />
+<DataConnectionSet>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
+    <ConnectionString>Data Source=xa-dd3-fs14o12;Initial Catalog=AutoTest;Persist Security Info=True;User ID=sa;Password=xA20200326</ConnectionString>
+    <DataBaseType>SqlServer</DataBaseType>
+    <ID>478d4e0d-96f2-4212-a04b-806fd5996157</ID>
+  </Item>
+</DataConnectionSet>
