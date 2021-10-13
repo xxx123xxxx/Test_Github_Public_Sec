@@ -141,12 +141,32 @@
   },
   {
     "ModuleName": "Table/offset_count_buildin1",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\offset_count_buildin1.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/会员信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\会员信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -155,36 +175,99 @@
   },
   {
     "ModuleName": "Tables/sqlserver",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Tables/mysql",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/市区字典表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mysql\\市区字典表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/市区字典表1",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mysql\\市区字典表1.json"
+    ]
   },
   {
     "ModuleName": "Table/会员信息1",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\会员信息1.json"
+    ]
   },
   {
     "ModuleName": "Tables/dameng",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Tables/postgre",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Tables/tibero",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/TABLE_NAME",
@@ -193,7 +276,16 @@
   },
   {
     "ModuleName": "Table/offset_dameng",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\dameng\\offset_dameng.json"
+    ]
   },
   {
     "ModuleName": "PCPage/offset_test_详情页面",
@@ -221,11 +313,29 @@
   },
   {
     "ModuleName": "Table/区域列表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\区域列表.json"
+    ]
   },
   {
     "ModuleName": "Table/会员职业",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\会员职业.json"
+    ]
   },
   {
     "ModuleName": "PCPage/offset_count_buildin1_详情页面",
@@ -237,7 +347,16 @@
   },
   {
     "ModuleName": "Table/offset_sqlserver",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\offset_sqlserver.json"
+    ]
   },
   {
     "ModuleName": "PCPage/offset_sqlserver_详情页面",
@@ -249,19 +368,55 @@
   },
   {
     "ModuleName": "Table/汽车销售信息",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\postgre\\汽车销售信息.json"
+    ]
   },
   {
     "ModuleName": "Table/汽车企业信息",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\postgre\\汽车企业信息.json"
+    ]
   },
   {
     "ModuleName": "TableView/OrderBy视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\postgre\\OrderBy视图.json"
+    ]
   },
   {
     "ModuleName": "TableView/GroupBy系别",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\postgre\\GroupBy系别.json"
+    ]
   },
   {
     "ModuleName": "PCPage/汽车销售信息_详情页面",
@@ -273,23 +428,68 @@
   },
   {
     "ModuleName": "Table/_DD_COLLECTION",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tibero\\_DD_COLLECTION.json"
+    ]
   },
   {
     "ModuleName": "Table/_DD_COL",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tibero\\_DD_COL.json"
+    ]
   },
   {
     "ModuleName": "TableView/GV_LATCH",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\tibero\\GV_LATCH.json"
+    ]
   },
   {
     "ModuleName": "TableView/GV_ENQUEUE_STAT",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\tibero\\GV_ENQUEUE_STAT.json"
+    ]
   },
   {
     "ModuleName": "TableView/GV_BG_SESSTAT",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\tibero\\GV_BG_SESSTAT.json"
+    ]
   },
   {
     "ModuleName": "PCPage/_DD_COL_详情页面",
@@ -309,7 +509,14 @@
   },
   {
     "ModuleName": "Tables/ora",
-    "ModuleType": 22
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/ZZ",
@@ -318,11 +525,29 @@
   },
   {
     "ModuleName": "Table/汽车销售排行榜",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ora\\汽车销售排行榜.json"
+    ]
   },
   {
     "ModuleName": "TableView/轿车信息视图",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:37:29.8935296+08:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ora\\轿车信息视图.json"
+    ]
   },
   {
     "ModuleName": "PCPage/汽车销售排行榜_详情页面",
