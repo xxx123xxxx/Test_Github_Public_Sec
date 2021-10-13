@@ -350,5 +350,15 @@
     },
     "LockDateTime": "2021-10-13T14:19:05.7154268+08:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/主页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T14:19:33.7508734+08:00",
+    "ModuleType": 1
   }
 ]
