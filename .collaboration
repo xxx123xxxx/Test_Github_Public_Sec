@@ -101,7 +101,16 @@
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:29:42.1157397+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\FGC_母版页.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
