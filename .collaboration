@@ -109,16 +109,7 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-12T16:50:06.5538544+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Branty\\页面2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -154,16 +145,7 @@
   },
   {
     "ModuleName": "ShareCommand",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-12T17:47:39.8079725+08:00",
-    "ModuleType": 13,
-    "ToRemoveFiles": [
-      "ShareCommand"
-    ]
+    "ModuleType": 13
   },
   {
     "ModuleName": "MapJsonFile",
@@ -231,16 +213,7 @@
   },
   {
     "ModuleName": "PCPage/ResizeColumn",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-12T08:56:50.2366795+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Branty\\ResizeColumn.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommands/Branty",

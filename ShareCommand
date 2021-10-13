@@ -1,2 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.NavigateCommand" assembly="ServerDesignerCommon">
+        <PageName>页面2</PageName>
+        <PassValues>
+          <Item class="Forguncy.Model.PassValue" assembly="ServerDesignerCommon">
+            <Source class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>=参数1</SerializeProperty>
+            </Source>
+            <TargetCell>
+              <SerializeProperty>=参数2</SerializeProperty>
+            </TargetCell>
+          </Item>
+        </PassValues>
+      </Item>
+    </Commands>
+    <ID>31c7136c-23b2-4d75-b4f6-64b33fd984bb</ID>
+    <Name>模板命令1</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>359bd46f-cde0-4bb6-b419-453ee5681213</ID>
+        <Name>参数1</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>b68822ba-c974-4c7b-b8da-a979c227b70a</ID>
+        <Name>参数2</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>
