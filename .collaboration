@@ -141,7 +141,17 @@
   },
   {
     "ModuleName": "Table/会员信息",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:42:52.8320297+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\sqlserver\\会员信息.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -158,7 +168,17 @@
   },
   {
     "ModuleName": "Table/市区字典表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:42:52.8320297+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mysql\\市区字典表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -337,7 +357,17 @@
   },
   {
     "ModuleName": "Table/b",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T15:42:52.8320297+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\b.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   }
 ]
