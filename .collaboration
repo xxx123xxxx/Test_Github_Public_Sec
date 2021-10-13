@@ -340,5 +340,15 @@
   {
     "ModuleName": "ServerCommand/等待命令",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/值传递",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-13T14:19:05.7154268+08:00",
+    "ModuleType": 6
   }
 ]
