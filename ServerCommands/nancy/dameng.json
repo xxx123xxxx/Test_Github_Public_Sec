@@ -27,7 +27,7 @@
         "aaa": {
           "Item1": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=id"
+            "SerializeProperty": "=para1"
           },
           "Item2": 24
         }
@@ -35,8 +35,8 @@
       "SqlStatement": "SELECT \"CHAR\" from \"(test)\".\"textColumn_table\" WHERE \"CHARACTER\"=:aaa\r\n\r\n",
       "ReturnsName": "result",
       "TestingParameters": {},
-      "ID": "83ea80fe32d2439cac2f9c8a5f1683f2"
+      "ID": "290854c124c14e91a82398b9c59f0b12"
     }
   ],
-  "Name": "服务端命令2"
+  "Name": "dameng"
 }
