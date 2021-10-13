@@ -1158,22 +1158,10 @@
   },
   {
     "ModuleName": "MasterPages/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T16:14:12.754112+08:00",
     "ModuleType": 24
   },
   {
     "ModuleName": "MasterPCPage/母版页2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\CindyWu",
-      "Email": "cindy.wu@grapecity.com"
-    },
-    "LockDateTime": "2021-10-13T16:14:38.7491088+08:00",
     "ModuleType": 3
   }
 ]
