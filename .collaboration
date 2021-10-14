@@ -308,12 +308,6 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-14T19:02:03.2783677+08:00",
     "ModuleType": 15
   }
 ]
