@@ -312,5 +312,15 @@
   {
     "ModuleName": "PCPage/页面5",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/JS页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T11:16:58.3528535+08:00",
+    "ModuleType": 1
   }
 ]
