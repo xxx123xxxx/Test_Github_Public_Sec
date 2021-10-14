@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
-  <AuthenticationMode>SecurityProvider</AuthenticationMode>
   <IntegrateWithOtherApplication>
     <Password>(n9OL^#lDzoi</Password>
   </IntegrateWithOtherApplication>
   <StartDateFiscalYear>1</StartDateFiscalYear>
-  <SuppressedWarningMessages />
   <UserServicePort>11879</UserServicePort>
   <WebSitePort>20965</WebSitePort>
 </ApplicationSettings>
