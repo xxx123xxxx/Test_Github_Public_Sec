@@ -349,7 +349,16 @@
   },
   {
     "ModuleName": "ServerCommand/服务端命令1",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:15:27.0775664+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\服务端命令1.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/command",
