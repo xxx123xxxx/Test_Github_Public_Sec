@@ -289,5 +289,15 @@
     "ModuleName": "Table/Test",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/外连视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-14T18:10:11.1589997+08:00",
+    "ModuleType": 23
   }
 ]
