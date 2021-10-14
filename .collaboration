@@ -118,7 +118,16 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-FGCPM\\forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T17:54:12.7196476+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Branty\\页面2.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
