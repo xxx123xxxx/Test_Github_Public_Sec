@@ -250,7 +250,16 @@
   },
   {
     "ModuleName": "PCPage/加法",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\CindyWu",
+      "Email": "cindy.wu@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T13:50:14.5029076+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\加法.json"
+    ]
   },
   {
     "ModuleName": "Table/计算表",
