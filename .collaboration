@@ -201,7 +201,17 @@
   },
   {
     "ModuleName": "Table/student",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:02:26.4008917+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\nancy\\student.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -234,12 +244,32 @@
   },
   {
     "ModuleName": "Table/订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:02:26.4008917+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:02:26.4008917+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\产品.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -269,5 +299,16 @@
   {
     "ModuleName": "Table/员工表",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "TableView/产品_视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:02:26.4008917+08:00",
+    "ModuleType": 23,
+    "ExclusiveType": 0
   }
 ]
