@@ -299,5 +299,15 @@
     },
     "LockDateTime": "2021-10-14T18:10:11.1589997+08:00",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "Table/表1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-14T18:10:39.544121+08:00",
+    "ModuleType": 7
   }
 ]
