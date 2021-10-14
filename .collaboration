@@ -353,7 +353,16 @@
   },
   {
     "ModuleName": "ServerCommand/command",
-    "ModuleType": 15
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:14:13.886206+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\command.json"
+    ]
   },
   {
     "ModuleName": "Table/b",
