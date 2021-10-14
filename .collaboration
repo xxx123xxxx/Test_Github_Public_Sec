@@ -268,12 +268,6 @@
   },
   {
     "ModuleName": "Table/员工表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-14T18:00:51.3926847+08:00",
     "ModuleType": 7
   }
 ]
