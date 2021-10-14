@@ -306,5 +306,25 @@
   {
     "ModuleName": "Table/外联表_____aaa",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/外连视图_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:36:03.4709336+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/外连视图_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-14T18:36:03.4709336+08:00",
+    "ModuleType": 1
   }
 ]
