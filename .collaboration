@@ -304,6 +304,15 @@
   },
   {
     "ModuleName": "PCPage/外连视图_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-14T18:41:04.7407826+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Branty\\外连视图_列表页面.json"
+    ]
   }
 ]
