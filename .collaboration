@@ -314,25 +314,5 @@
   {
     "ModuleName": "PCPage/外连视图_列表页面",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/外连视图_详情页面 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-14T18:36:37.8644538+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/外连视图_列表页面 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-14T18:36:37.8644538+08:00",
-    "ModuleType": 1
   }
 ]
