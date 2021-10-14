@@ -309,10 +309,28 @@
   },
   {
     "ModuleName": "PCPage/外连视图_详情页面",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-14T18:38:01.4687066+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\外连视图_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/外连视图_列表页面",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-14T18:38:01.4684744+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\外连视图_列表页面.json"
+    ]
   }
 ]
