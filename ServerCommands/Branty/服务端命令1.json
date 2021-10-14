@@ -1,4 +1,5 @@
 {
+  "Description": "asa",
   "Enabled": true,
   "Triggers": [
     {
@@ -42,10 +43,10 @@
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=参数1"
           },
-          "Id": "8b0dbeca-d39a-450f-b152-5261d85beaa3"
+          "Id": "2170da1e-b372-4f30-81c2-c3ce77cd72c1"
         }
       },
-      "ID": "4034651da7184ce682784319c6b22a06"
+      "ID": "5ac92654c7604eb19f8e662f3cd543c9"
     },
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -63,7 +64,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=参数1"
         },
-        "Id": "4805a4e1-46ec-4221-b5dc-7d1ee3f8bfaa"
+        "Id": "23b9fbac-73e3-4684-98c5-70a347644508"
       },
       "UpdateValues": [
         {
