@@ -319,12 +319,6 @@
   },
   {
     "ModuleName": "TableView/视图1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T13:46:59.7168042+08:00",
     "ModuleType": 23
   }
 ]
