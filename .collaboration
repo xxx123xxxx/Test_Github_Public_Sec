@@ -267,7 +267,16 @@
   },
   {
     "ModuleName": "Table/员工表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:51:15.2805979+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\员工表.json"
+    ]
   },
   {
     "ModuleName": "TableView/产品_视图",
