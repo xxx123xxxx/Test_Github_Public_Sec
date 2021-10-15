@@ -118,16 +118,7 @@
   },
   {
     "ModuleName": "PCPage/页面2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:03:38.1867725+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Branty\\页面2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
@@ -328,15 +319,6 @@
   },
   {
     "ModuleName": "TableView/视图1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:03:38.1867725+08:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\视图1.json"
-    ]
+    "ModuleType": 23
   }
 ]
