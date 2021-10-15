@@ -160,16 +160,7 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0190397+08:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": [
-      "Upload\\83e897e5-0c8e-4014-ab2d-7416869d5788_checkbox_check.png"
-    ]
+    "ModuleType": 26
   },
   {
     "ModuleName": "Reports/Cindy",
@@ -203,17 +194,7 @@
   },
   {
     "ModuleName": "Table/student",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\nancy\\student.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -246,32 +227,12 @@
   },
   {
     "ModuleName": "Table/订单表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\订单表.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\产品.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -304,62 +265,22 @@
   },
   {
     "ModuleName": "TableView/产品_视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\产品_视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/用户信息视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\用户信息视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/订单表_工作流历史视图",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\订单表_工作流历史视图.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Test",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\Test.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -400,63 +321,27 @@
   },
   {
     "ModuleName": "MasterPCPage/母版页1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 3
   },
   {
     "ModuleName": "MasterPages/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 24
   },
   {
     "ModuleName": "PCPage/Hyperlink",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Pages/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "Table/表1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Tables/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:38:34.0200397+08:00",
     "ModuleType": 22
   }
 ]

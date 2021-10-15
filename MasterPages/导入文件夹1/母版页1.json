@@ -1,0 +1,503 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 64
+  },
+  "Values": {
+    "2,15": "excel-当前页",
+    "2,22": "pdf-当前页"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "2,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "excel-当前页",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "pdf-当前页",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,54": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "Hyperlink",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Hyperlink",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "listview",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "listview",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "Button",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Button",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "Attachment",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Attachment",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "容器单元格",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "content",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "content",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "tab",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "tab",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "tab manager",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "tab manager",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "repeater",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "repeater",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "PDF",
+            "IconPath": "Navigation/183_table_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "Hyperlink",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "TargetPageName": "Hyperlink",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Button",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "TargetPageName": "Button",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Attachment",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "TargetPageName": "Attachment",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "listview",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "TargetPageName": "listview",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "Excel",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "Hyperlink",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "TargetPageName": "Hyperlink",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Button",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "TargetPageName": "Button",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Attachment",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "TargetPageName": "Attachment",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "listview",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "TargetPageName": "listview",
+                    "NewOtherName": ""
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "Height": 32.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "7,12": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Text 2 0"
+      ]
+    },
+    "CellStyles": {
+      "2,22": 0,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "2,54": 2,
+      "3,22": 1,
+      "3,23": 1,
+      "3,24": 1,
+      "3,25": 1,
+      "3,26": 1,
+      "3,27": 1,
+      "4,22": 1,
+      "4,23": 1,
+      "4,24": 1,
+      "4,25": 1,
+      "4,26": 1,
+      "4,27": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,5,10",
+    "2,15,3,6",
+    "2,22,3,6",
+    "2,54,3,10",
+    "7,0,29,12",
+    "7,12,29,52"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 2,
+      "Name": "71186e1c-8255-44b2-8cd6-7f4127ff16da",
+      "Size": "200,210"
+    },
+    {
+      "DisplayName": "背景图2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "68b6142f-e0e1-4d44-bcf3-a94996f1ad73",
+      "Size": "1280,100"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//ghedDbodtR1H2MIMdWpm6eIC7LA44tnKtHLfuCJ2a9fuVLYQlRVE0G7R9noa5/9xd0Ri7rzEq0SkIdn+3ntgLMes3Ag28IM7h+KBu8ks86HTy8QSECD2ueBwXaD5FB6hzMoLAiwB8Y7MKHzGmV5wceiJGXogGs/L6gOdVfkMzXDM9ZUDXdYlSoTbcm4o3cZ12pukBLzzuERAU5HrssXDEFdh5QZMdClVtHGsULpg1jyZ6uQvKuR28R7GO15N36ZS4mEyCy4jIeyl3aa3K0MUZL4gddogc1DnE/OHEg2AM2ihAJec0HjwWPWCkxXVPC198twvY3Mb7boJzzMZzU/xvLssTkTA0TBBnoFDgjBoZ6SYej4mJFLFwSSpnuHPt4VuPVW5b1LaTpz6gu3YV3pl1mQcRmInJBjsg2RmmpyMeq5/AYOTAg8/i95C1eUZfLo/b5rJ2D+NRfn1t2Ju+Frn2OoTsbTLlo2rhAN/IrL/dqdVtebapbTDunLQ4FBEp9Li5ajDr3bVTsCzoYtr7YkqsALY/qus3JYHRLcM99lO4UNKD0u0mJNmwr1MLqI/XitZbyADBo7YxK08BORLghzoNiA+xk3uOU6TOTYvmrkU2NSt14JXL0wnMEKHiMjMKDvFJSdX1ZlVrPgNufJjcXuJ8O8YmV4GDIzqeCV/3/lCJ4HkuKOf/vxnENmdWA6J+uVPGlmUuz/xViT3Qnx6DXXrLTvYEQg1076po+8cI8rAsrUZtYVdmSUo3A4vwd2yXO+X1Up8uWI71gm2ho41IMHxpS9jqvdNAAd4qG3eSt4EiVYqA96lb8hAStCphJpkYNDM8kOKaiEZv+Ex3WQCUUZIdUIJSmuXQXeyySqVrP4WcfJkvt7HEbVK50x+DKlpoIaNbZVAQshaZLATLBzuoasq6A==|920
