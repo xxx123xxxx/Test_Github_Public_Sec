@@ -17,7 +17,7 @@
       </Item>
     </Commands>
     <ID>31c7136c-23b2-4d75-b4f6-64b33fd984bb</ID>
-    <Name>模板命令1</Name>
+    <Name>模板命令2</Name>
     <Params>
       <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
         <ID>359bd46f-cde0-4bb6-b419-453ee5681213</ID>

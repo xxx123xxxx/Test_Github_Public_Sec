@@ -148,16 +148,7 @@
   },
   {
     "ModuleName": "ShareCommand",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:57:01.8349123+08:00",
-    "ModuleType": 13,
-    "ToRemoveFiles": [
-      "ShareCommand"
-    ]
+    "ModuleType": 13
   },
   {
     "ModuleName": "MapJsonFile",
