@@ -323,6 +323,15 @@
   },
   {
     "ModuleName": "Table/表63",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:17:28.9362331+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\表63.json"
+    ]
   }
 ]
