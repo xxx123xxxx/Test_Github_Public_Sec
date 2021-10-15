@@ -333,26 +333,7 @@
     "ModuleType": 4
   },
   {
-    "ModuleName": "ServerCommandPrivate/新建出入库表",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:47:25.0258891+08:00",
-    "ModuleType": 27,
-    "ToRemoveFiles": [
-      "ServerCommands\\新建出入库表.json"
-    ]
-  },
-  {
     "ModuleName": "ServerCommandPrivate/新建出入库单",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:47:25.0258891+08:00",
     "ModuleType": 27
   }
 ]

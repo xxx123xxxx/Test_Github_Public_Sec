@@ -5,5 +5,5 @@
       "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon"
     }
   ],
-  "Name": "新建出入库表"
+  "Name": "新建出入库单"
 }
