@@ -330,12 +330,6 @@
   },
   {
     "ModuleName": "MasterMobilePage/通用母版页",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:00:36.36899+08:00",
     "ModuleType": 4
   }
 ]
