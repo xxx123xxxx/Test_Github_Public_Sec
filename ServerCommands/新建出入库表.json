@@ -1,0 +1,9 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon"
+    }
+  ],
+  "Name": "新建出入库表"
+}
