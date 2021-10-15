@@ -2,7 +2,12 @@
   "Enabled": true,
   "Triggers": [
     {
-      "$type": "Forguncy.ServerCommands.Models.InvokeTrigger, ServerDesignerCommon"
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
     }
   ],
   "Name": "新建出入库单"
