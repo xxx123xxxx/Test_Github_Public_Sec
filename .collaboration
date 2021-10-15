@@ -338,12 +338,6 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:50:40.2687758+08:00",
     "ModuleType": 16
   }
 ]
