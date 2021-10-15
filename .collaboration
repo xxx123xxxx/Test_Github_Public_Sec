@@ -162,16 +162,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:09:42.8411155+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -325,15 +316,5 @@
   {
     "ModuleName": "Tables/Branty/文件夹1",
     "ModuleType": 22
-  },
-  {
-    "ModuleName": "TableView/视图1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:09:42.8411155+08:00",
-    "ModuleType": 23
   }
 ]
