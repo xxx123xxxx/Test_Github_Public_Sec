@@ -305,7 +305,16 @@
   },
   {
     "ModuleName": "Table/外联表_____aaa",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T11:15:00.8408171+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\外联表_____aaa.json"
+    ]
   },
   {
     "ModuleName": "PCPage/外连视图_详情页面",
