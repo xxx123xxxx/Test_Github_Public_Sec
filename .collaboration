@@ -333,7 +333,14 @@
   },
   {
     "ModuleName": "Tables/Branty/文件夹1",
-    "ModuleType": 22
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:50:01.4999343+08:00",
+    "ModuleType": 22,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/_table_",
