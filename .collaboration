@@ -308,5 +308,15 @@
   {
     "ModuleName": "Table/外联表",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "ServerCommand/删列",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T11:41:44.1037277+08:00",
+    "ModuleType": 15
   }
 ]
