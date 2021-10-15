@@ -335,5 +335,25 @@
   {
     "ModuleName": "MasterMobilePage/报表母版页",
     "ModuleType": 4
+  },
+  {
+    "ModuleName": "MasterPCPage/报表母版页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T16:21:49.906925+08:00",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T16:21:49.906925+08:00",
+    "ModuleType": 24
   }
 ]
