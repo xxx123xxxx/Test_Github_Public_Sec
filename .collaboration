@@ -213,16 +213,7 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:49:52.4226082+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\文件夹1\\ColumnType.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/Branty",
@@ -276,16 +267,7 @@
   },
   {
     "ModuleName": "Table/员工表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:49:52.4226082+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\文件夹1\\员工表.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/产品_视图",
@@ -330,17 +312,6 @@
   {
     "ModuleName": "ServerCommand/删表",
     "ModuleType": 15
-  },
-  {
-    "ModuleName": "Tables/Branty/文件夹1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:50:01.4999343+08:00",
-    "ModuleType": 22,
-    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/_table_",
