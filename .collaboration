@@ -343,15 +343,5 @@
   {
     "ModuleName": "PageReport/aaaa",
     "ModuleType": 17
-  },
-  {
-    "ModuleName": "MasterMobilePage/导出用母版页",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:54:08.6378428+08:00",
-    "ModuleType": 4
   }
 ]
