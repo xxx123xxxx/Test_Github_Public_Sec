@@ -319,15 +319,6 @@
   },
   {
     "ModuleName": "Table/_table_",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:46:55.1573993+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\_table_.json"
-    ]
+    "ModuleType": 7
   }
 ]
