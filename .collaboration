@@ -312,15 +312,5 @@
   {
     "ModuleName": "ServerCommand/删表",
     "ModuleType": 15
-  },
-  {
-    "ModuleName": "Tables/Branty/文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T13:37:54.24428+08:00",
-    "ModuleType": 22
   }
 ]
