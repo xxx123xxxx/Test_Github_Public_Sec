@@ -342,12 +342,6 @@
   },
   {
     "ModuleName": "PageReport/aaaa",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:52:18.6292592+08:00",
     "ModuleType": 17
   }
 ]
