@@ -213,7 +213,16 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T13:40:54.9095695+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\ColumnType.json"
+    ]
   },
   {
     "ModuleName": "Pages/Branty",
