@@ -321,7 +321,16 @@
   },
   {
     "ModuleName": "MasterPCPage/母版页1",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:42:57.6225637+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\导入文件夹1\\母版页1.json"
+    ]
   },
   {
     "ModuleName": "MasterPages/导入文件夹1",
@@ -329,7 +338,16 @@
   },
   {
     "ModuleName": "PCPage/Hyperlink",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:42:57.6225637+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\导入文件夹1\\Hyperlink.json"
+    ]
   },
   {
     "ModuleName": "Pages/导入文件夹1",
