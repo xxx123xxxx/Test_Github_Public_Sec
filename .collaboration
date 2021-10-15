@@ -132,20 +132,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:39:20.862866+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "C:\\Users\\brantyyan\\Documents\\ForguncyCollaboration\\Test_Github_Public_Sec-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
@@ -342,16 +329,7 @@
   },
   {
     "ModuleName": "PCPage/Hyperlink",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:39:20.862866+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\导入文件夹1\\Hyperlink.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/导入文件夹1",
