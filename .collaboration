@@ -331,5 +331,15 @@
   {
     "ModuleName": "MasterMobilePage/通用母版页",
     "ModuleType": 4
+  },
+  {
+    "ModuleName": "MasterMobilePage/报表母版页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T16:21:21.3972727+08:00",
+    "ModuleType": 4
   }
 ]
