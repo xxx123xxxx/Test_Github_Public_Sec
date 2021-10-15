@@ -319,12 +319,6 @@
   },
   {
     "ModuleName": "Table/_table_",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:28:27.4643104+08:00",
     "ModuleType": 7
   }
 ]
