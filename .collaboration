@@ -214,16 +214,7 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T11:14:21.4491166+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\ColumnType.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/Branty",
@@ -305,16 +296,7 @@
   },
   {
     "ModuleName": "Table/外联表_____aaa",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T11:17:49.8928739+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\外联表_____aaa.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "PCPage/外连视图_详情页面",
