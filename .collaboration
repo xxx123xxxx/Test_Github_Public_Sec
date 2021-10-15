@@ -323,12 +323,6 @@
   },
   {
     "ModuleName": "Table/表63",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:15:58.6359624+08:00",
     "ModuleType": 7
   }
 ]
