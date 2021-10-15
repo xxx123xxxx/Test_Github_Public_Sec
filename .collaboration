@@ -248,7 +248,16 @@
   },
   {
     "ModuleName": "PCPage/offset_count_buildin1_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T09:45:35.3596497+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\offset_count_buildin1_列表页面.json"
+    ]
   },
   {
     "ModuleName": "Table/offset_sqlserver",
