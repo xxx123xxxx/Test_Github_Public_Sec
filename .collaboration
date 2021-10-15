@@ -319,7 +319,16 @@
   },
   {
     "ModuleName": "Table/测试",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:18:50.374225+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\测试.json"
+    ]
   },
   {
     "ModuleName": "Table/表63",
