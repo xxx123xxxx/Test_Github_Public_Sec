@@ -351,7 +351,14 @@
   },
   {
     "ModuleName": "Pages/导入文件夹1",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:43:07.3074659+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Table/表1",
