@@ -1,0 +1,24 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "1B77D134-B2AA-4867-AD46-053B8AD0D7E6",
+      "Params": {},
+      "SqlStatement": "DROP TABLE \"产品\" ",
+      "TestingParameters": {},
+      "ID": "364a36e8b9854bca8f8eb5a89f654c90"
+    }
+  ],
+  "Name": "删表"
+}
