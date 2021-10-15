@@ -331,5 +331,15 @@
   {
     "ModuleName": "MasterMobilePage/通用母版页",
     "ModuleType": 4
+  },
+  {
+    "ModuleName": "ServerCommand/新建出入库表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "forguncytester",
+      "Email": "Branty.Yan@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T16:46:38.6083797+08:00",
+    "ModuleType": 15
   }
 ]
