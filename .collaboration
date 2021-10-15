@@ -265,7 +265,16 @@
   },
   {
     "ModuleName": "PCPage/offset_sqlserver_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T10:00:21.3609943+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\offset_sqlserver_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/offset_sqlserver_列表页面",
