@@ -213,16 +213,7 @@
   },
   {
     "ModuleName": "Table/ColumnType",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T14:55:38.3993424+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Branty\\ColumnType.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/Branty",
