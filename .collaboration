@@ -307,7 +307,16 @@
   },
   {
     "ModuleName": "Table/外联表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:57:15.7355202+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\外联表.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/删表",
