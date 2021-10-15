@@ -356,16 +356,7 @@
   },
   {
     "ModuleName": "ServerCommand/新建出入库单",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T17:15:32.7540664+08:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\新建出入库单.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
