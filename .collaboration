@@ -331,18 +331,5 @@
   {
     "ModuleName": "MasterMobilePage/通用母版页",
     "ModuleType": 4
-  },
-  {
-    "ModuleName": "MobilePage/首页",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T16:38:00.1383712+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\首页.json"
-    ]
   }
 ]
