@@ -380,7 +380,16 @@
   },
   {
     "ModuleName": "PCPage/_DD_COL_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T11:47:08.3378792+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\_DD_COL_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/_DD_COL_列表页面",
