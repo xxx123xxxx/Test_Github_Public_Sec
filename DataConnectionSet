@@ -15,9 +15,4 @@
     <DataBaseType>DaMeng</DataBaseType>
     <ID>ba611b02-4053-40fa-9626-0573d809741e</ID>
   </Item>
-  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="ServerDesignerCommon">
-    <ConnectionString>Server=xa-dd3-fs16ms8;User Id=root;Password=xA20200326;Database=xa-dd3-branty</ConnectionString>
-    <DataBaseType>MySql</DataBaseType>
-    <ID>d272f73b-5806-4844-ba73-cd3311ad4e84</ID>
-  </Item>
 </DataConnectionSet>
