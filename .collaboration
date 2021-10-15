@@ -334,7 +334,16 @@
   },
   {
     "ModuleName": "PCPage/汽车销售信息_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-10-15T10:02:24.4429526+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\汽车销售信息_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/汽车销售信息_列表页面",
