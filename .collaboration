@@ -323,12 +323,6 @@
   },
   {
     "ModuleName": "Table/runoob_tbl",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:20:46.9676092+08:00",
     "ModuleType": 7
   }
 ]
