@@ -334,10 +334,26 @@
   },
   {
     "ModuleName": "MasterPCPage/通用母版页",
-    "ModuleType": 3
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T16:18:57.1122226+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\导入文件夹1\\通用母版页.json"
+    ]
   },
   {
     "ModuleName": "MasterPages/导入文件夹1",
-    "ModuleType": 24
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T16:18:57.1122226+08:00",
+    "ModuleType": 24,
+    "ToRemoveFiles": []
   }
 ]
