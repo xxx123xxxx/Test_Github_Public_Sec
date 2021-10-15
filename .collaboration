@@ -331,18 +331,5 @@
   {
     "ModuleName": "MasterMobilePage/通用母版页",
     "ModuleType": 4
-  },
-  {
-    "ModuleName": "PCPage/首页",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "forguncytester",
-      "Email": "Branty.Yan@grapecity.com"
-    },
-    "LockDateTime": "2021-10-15T16:32:56.1996187+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\首页.json"
-    ]
   }
 ]
