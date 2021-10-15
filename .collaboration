@@ -315,41 +315,14 @@
   },
   {
     "ModuleName": "Table/_table_",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:26:52.4193806+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\_table_.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/测试",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:26:52.4193806+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\测试.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/runoob_tbl",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Yan Lin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2021-10-15T15:26:52.4193806+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\runoob_tbl.json"
-    ]
+    "ModuleType": 7
   }
 ]
