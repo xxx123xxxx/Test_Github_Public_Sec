@@ -176,6 +176,9 @@
         "ColumnIndex": 22,
         "ColumnCount": 27,
         "RowCount": 14,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
         "ColumnOperation": 2,
         "ShowGridLine": true,
         "ShowEditStatusIcon": true,
@@ -197,7 +200,7 @@
         "ColumnName": "AutoID"
       }
     },
-    "19,31": {
+    "19,33": {
       "BindingInfo": {
         "TableName": "外联表",
         "ColumnName": "___"
@@ -328,11 +331,23 @@
         "BorderTop": 0
       },
       {
+        "FontFamily": 1,
+        "BorderTop": 0
+      },
+      {
         "BorderTop": 0,
         "BorderRight": 0
       },
       {
         "BorderLeft": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1
       },
       {
         "BorderRight": 0
@@ -476,7 +491,7 @@
       "18,30": 15,
       "18,31": 15,
       "18,32": 15,
-      "18,33": 15,
+      "18,33": 16,
       "18,34": 15,
       "18,35": 15,
       "18,36": 15,
@@ -491,9 +506,18 @@
       "18,45": 15,
       "18,46": 15,
       "18,47": 15,
-      "18,48": 16,
-      "19,22": 17,
-      "19,48": 18,
+      "18,48": 17,
+      "19,22": 18,
+      "19,25": 19,
+      "19,26": 19,
+      "19,27": 19,
+      "19,28": 19,
+      "19,29": 19,
+      "19,30": 19,
+      "19,31": 19,
+      "19,32": 19,
+      "19,33": 20,
+      "19,48": 21,
       "20,22": 6,
       "20,23": 7,
       "20,24": 7,
@@ -889,18 +913,18 @@
     "5,36,2,4",
     "20,22,12,27",
     "19,22,1,3",
-    "19,25,1,6",
-    "19,31,1,5",
     "2,2,1,4",
     "2,6,1,6",
     "2,12,1,6",
     "2,18,1,5",
     "2,23,1,6",
     "18,22,1,3",
-    "18,25,1,6",
-    "18,31,1,5",
     "21,2,1,5",
-    "21,7,1,6"
+    "21,7,1,6",
+    "19,25,1,8",
+    "18,25,1,8",
+    "19,33,1,5",
+    "18,33,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -914,4 +938,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//c8STLOv4TUTuZil9kD+Fmu34Wqy6KB1Zlq4OdOXAFUEVDDWPMmTQwpHEFT6VxoJ16cJdIUxMu8RDvfRt4DqxHJK8nbjyvDxi+UG/+P36Vp3rX/ZpjJNWD0M5lIjLFmVwgIcGgRqqnncHdDlNCeb0yvPgdgjWqfAMN2+8RoNjxVKQT6kBWPuuJJ5XkqNOhcQ8OrkhxgOq+WuropZs3tDopWha2Dda+nBaWT4Adt+WfQxQco5KMqdK8ANDFICyHmvDAL3PDBtGKRsQR84i4ExzlmgtCe754D0G+yOZomTlByHLKm4An6u8ZUdZgOu6VOiGC+Fv8sE0gKVEPVA92wBIoJ4qNe3r9kP7Gi2D+GiAOKEe5JfbrxP+wob6DQ+LvU0gdBN2mabcF2SXEGSjOfpVl0oSnxUiczbKH2RJRFBqFLFAO4U7mWGbZ0oruXNia1iLTiHAw50TTSse+H6FxaKwpCYe2SR8/94zjk3sJE07pq1ggqezeCT/3U9Iv/LLuIsIcZgM/V0IpD4oXVqpQkQVzue/72XAF0FYvexQ3bXIc9t1xL3OfGK9Xis/shidPprMywbFT19q68/TYzdhfPKtfKAbvAU7sI1q4DaHJp5YKPZPNxq9RGCL6lH9vGW9gIfcWrjyJfAkEo1240DtVLh4QtoD5eWA7KUKftYUNNLFUnxs5Pc/hdMa0s1ptr5bOEXHhLlhYt8O6aHNDrs1LHG4Z6tmwpEPzNO2Gt/xurkB5YEAHZaqbU9Qgk9/C//B/xERanZJqyOS5qzs5g3cjMWdDBi2Q61MdfSQe/YzYiUkDpyR+S9idy32sqnVJ0CIFirrDh3c3sIajxxpvBa7LKOdkLHPSCJltuCNrga/sh+4q5QpOvAzlFMoIo//63/Xu1GmE5kYn1XYZ8s/hSVruR+9Ug==|920
+}//QNS0ZByY8dNNKH3ynXxPMp49+vs+jm0j6HswdhUjpPOmV3cezdfEBNQCsITlW+0VcZEgIac2IsssBxHtlYKpgIaq0w1jTQszR4s50PutJ5LYa57gxtP30qi03lt/h6MdaTZaa2HK+5fzZb6WEuNNiFN2LM69znClmUOHgmDW2VpR7AOo4Zj91PI6Pf2lfvkR0McJow9gd8RHWmTHJryygQLIU145o6p5QA8DlEPL7CIZy4zV0hsPKxLbJ9aJGU34JTO7+3wVdgPGKUD2Z0lcTwgwolshiUYex832+l7jy+WmNG81dDisestvIbqX1Q80VTy7D9ZwoS4S6K/OK3NbIhLAuKSN5jxSZVI4R9oEBz56O9fB0wNvjrQhq8xsRkqCloouGVwo2o2ILUzTh2nqrRvkksJb5hUcm50Jhi+Po0qcpu1xcH3AOqQxkjIu10DE7F7CaWGG+LhfGWvfl84zWneJB5tX6BZgf5FcHIOkPdXtJ5yTdopg+xZ0OnnZtv4uWgM3bZ5WOtEOye6BTQxI5uqYPuQUdz7/wfucCEcaGfYNZbT5oX4oTY2vC1n3nYf4LCE917h2kpZSKeETama0vDL30Cvj5zbBTmt/bGu/T4z/QjxcmyFDyqrKiSsBTPbE464pZVO70v8/mpUbXDjCsBGashy4w7R2VtGOZdbkO9yo/+cTTfT1cDVCIIfFHNXD5ugO/g2/fGV4A6NKncM9VEH2guOhXcjfObsTWoQ8bTCgig8a95xCuCBbGsNyvW8msR6aK+U18vYtPw9OE+3VwI5Slw236F4qlmT5FeW35/U9SACuqUWfZ9DfD1Tgo1ffOCPrJikWB4DNVHy+tFsixROTlFDGA0Axmn5X/L8ipRCQZwnfsK84vcg6ZRH+fkMN4LBgPAab12Iao88M90iRyQ==|920
