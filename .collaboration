@@ -334,6 +334,15 @@
   },
   {
     "ModuleName": "MasterMobilePage/报表母版页",
-    "ModuleType": 4
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T16:28:15.0928798+08:00",
+    "ModuleType": 4,
+    "ToRemoveFiles": [
+      "MasterPages\\报表母版页.json"
+    ]
   }
 ]
