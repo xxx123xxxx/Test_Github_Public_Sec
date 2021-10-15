@@ -200,7 +200,17 @@
   },
   {
     "ModuleName": "Table/student",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.85161+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\nancy\\student.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -233,12 +243,32 @@
   },
   {
     "ModuleName": "Table/订单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8505862+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\订单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/产品",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8505862+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\产品.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -271,22 +301,62 @@
   },
   {
     "ModuleName": "TableView/产品_视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8505862+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\产品_视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/用户信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.85161+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\用户信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/订单表_工作流历史视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8505862+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\订单表_工作流历史视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Test",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.85161+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Branty\\Test.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -295,7 +365,16 @@
   },
   {
     "ModuleName": "PCPage/外连视图_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8486163+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Branty\\外连视图_详情页面.json"
+    ]
   },
   {
     "ModuleName": "PCPage/外连视图_列表页面",
@@ -316,5 +395,26 @@
   {
     "ModuleName": "Tables/Branty/文件夹1",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "PCPage/外连视图_详情页面表_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8486163+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/外连视图_详情页面表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T14:11:13.8486163+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
