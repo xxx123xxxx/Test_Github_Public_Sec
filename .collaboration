@@ -343,5 +343,35 @@
   {
     "ModuleName": "Tables/导入文件夹1",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "ServerCommand/新建出入库单",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:42:13.4235068+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:42:13.4235068+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/导入文件夹1/出入库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Yan Lin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2021-10-15T15:42:13.4235068+08:00",
+    "ModuleType": 20
   }
 ]
